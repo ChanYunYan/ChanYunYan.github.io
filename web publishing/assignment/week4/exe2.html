@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2 - Navigation Bar</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+
+    <style>
+        #nav {
+            display: flex;
+
+        }
+
+        #nav div {
+            display: flex;
+            justify-content: center;
+            margin-right: 30px;
+
+        }
+
+        a {
+            text-decoration: none;
+
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: white;
+            text-align: center;
+            color: darkgrey;
+            font-family: Avenir;
+            font-size: 20px;
+            padding: 13px;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 5px;
+        }
+
+        button.Callnow {
+            background-color: #a044fc;
+            color: white;
+            border: white;
+            border-radius: 20px;
+            font-size: 17px;
+            padding: 2px;
+            padding-left: 25px;
+            padding-right: 25px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div><img src="image/facebook.png" height="40px" /></div>
+        <div id="nav">
+            <div><a href="https://google.com">Home</a></div>
+            <div>Services</div>
+            <div>About</div>
+            <div>Testimonials</div>
+            <div>Clients</div>
+            <div>Contact</div>
+            <button class="Callnow">Call Now</button>
+        </div>
+    </header>
+</body>
+
+</html>
