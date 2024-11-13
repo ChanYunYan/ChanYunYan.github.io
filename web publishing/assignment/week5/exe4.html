@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 4 - Personal Page</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
+        rel="stylesheet">
+
+    <style>
+        .navigationbar {
+            display: flex;
+            background-color: #C5D3E8;
+            padding: 18px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navlogo {
+            color: white;
+            font-size: 30px;
+            font-family: "Pixelify Sans", sans-serif;
+        }
+
+        .navsocialmedia {
+            display: flex;
+            gap: 25px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            filter: brightness(0) invert(1);
+            gap: 17px;
+            margin-right: 10px;
+        }
+
+
+        .body {
+            background-image: url("image/image.png");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 550px;
+            justify-content: center;
+            display: flex;
+        }
+
+        .topcontainer {
+            display: flex-start;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 20pt;
+        }
+
+        .profilephoto {
+            width: 230px;
+            height: 230px;
+            border-radius: 50%;
+            object-fit: cover;
+            overflow: hidden;
+            display: inline-block;
+        }
+
+        .footer {
+            display: flex;
+            background-color: #FFF8DE;
+            padding: 8px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+
+        }
+
+        .footersocial {
+            display: flex;
+            gap: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 9px;
+            margin-right: 10px;
+        }
+
+        .footertext {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Pixelify Sans", sans-serif;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navigationbar">
+            <div class="navlogo">
+                <div>Logo</div>
+            </div>
+            <div class="navsocialmedia">
+                <a href="https://www.instagram.com/cheyannecyy/" class="instagram" target="_blank">
+                    <img src="image/instagram.png" height="25" style="margin-left:10px" />
+                </a>
+                <a href="https://www.facebook.com/cheyanne.cyy.16" class="facebook" target="_blank">
+                    <img src="image/facebook.png" height="25" />
+                </a>
+                <a href="https://www.pinterest.com/yunyan233144/" class="pinterest" target="_blank">
+                    <img src="image/pinterest.png" height="25" />
+                </a>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="body">
+        <div class="topcontainer">
+            <p>
+            <div class="profilephoto">
+                <img src="image/profilephoto.jpg" alt="profile" height="250" />
+            </div>
+            </p>
+
+            <div>Chan Yun Yan</div>
+            <div style="font-size:15pt" font-weight: light; align-items: center; justify-content:center;>Web Publishing
+            </div>
+
+
+        </div>
+    </div>
+
+    <div>
+        <div class="footer">
+            <div class="footersocial">
+                <a href="https://www.instagram.com/cheyannecyy/" class="instagram" target="_blank">
+                    <img src="image/instagram.png" height="25" />
+                </a>
+                <a href="https://www.facebook.com/cheyanne.cyy.16" class="facebook" target="_blank">
+                    <img src="image/facebook.png" height="25" />
+                </a>
+                <a href="https://www.pinterest.com/yunyan233144/" class="pinterest" target="_blank">
+                    <img src="image/pinterest.png" height="25" />
+                </a>
+            </div>
+            <div class="footertext">
+                @2024 Chan Yun Yan. All rights reserved.
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
