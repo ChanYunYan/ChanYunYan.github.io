@@ -92,6 +92,7 @@
             font-size: 18pt;
             font-weight: 100pt;
             margin-top: 7px;
+            line-height: 1.5;
         }
 
         .secondcontainer {
@@ -127,6 +128,7 @@
             flex-grow: 0;
             justify-content: center;
             align-items: center;
+            flex-direction: column
         }
 
         .secondrowcolumn {
@@ -140,7 +142,7 @@
             margin-top: 1px;
             margin-bottom: 10px;
             flex-basis: 2170px;
-
+            flex-direction: column
         }
 
         .week {
@@ -154,6 +156,7 @@
             gap: 20px;
             padding-bottom: 10px;
             border-bottom: 3px solid grey;
+            margin-bottom: 10px;
         }
 
         .icon {
@@ -168,15 +171,20 @@
             margin-top: 10px;
         }
 
-        .exercise {
-            font-family: "Pixelify Sans", sans-serif;
-            font-size: 18pt;
-            font-weight: 200;
+        .exercises {
+            margin-top: 10px;
             margin-left: 10px;
             margin-right: 10px;
             display: flex;
-            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            text-align: center;
+        }
 
+        .exercise {
+            font-family: "Pixelify Sans", sans-serif;
+            font-size: 22pt;
+            font-weight: 400;
         }
 
         .footer {
@@ -242,9 +250,9 @@
             <div class="subject">Web Publishing</div>
             <div class="introduction">
                 <p>
-                    Hello! My name's Yan, a professional multimedia designer <br>
-                    , I'm enthusiastic about using interactive and visual media to bring ideas to life and introducing
-                    <br>
+                    Hello! My name's Yan, a professional multimedia designer
+                    , I'm enthusiastic about using interactive and visual media <br>
+                    to bring ideas to life and introducing
                     fresh ideas and creativity to your team, <br>
                     let’s collaborate and create visual magic together!
                 </p>
@@ -258,17 +266,29 @@
                     <div class=></div><img src="image/calendar.png" height="28px" align-items: center; />
                     <span>Week 2</span>
                 </div>
+                <div class="exercises">
+                    <div class="exercise">Exercise 1</div>
+                    <div class="exercise">Exercise 2</div>
+                </div>
             </div>
             <div class="firstrowcolumn">
                 <div class="week">
                     <div class=></div><img src="image/calendar.png" height="28px" align-items: center; />
                     <span>Week 3</span>
                 </div>
+                <div class="exercises">
+                    <div class="exercise">Exercise 1</div>
+                    <div class="exercise">Exercise 2</div>
+                </div>
             </div>
             <div class="firstrowcolumn">
                 <div class="week">
                     <div class=></div><img src="image/calendar.png" height="28px" align-items: center; />
                     <span>Week 4</span>
+                </div>
+                <div class="exercises">
+                    <div class="exercise">Exercise 1</div>
+                    <div class="exercise">Exercise 2</div>
                 </div>
             </div>
         </div>
@@ -279,30 +299,35 @@
                 <div class=></div><img src="image/calendar.png" height="28px" align-items: center; />
                 <span>Week 5</span>
             </div>
+            <div class="exercises">
+                <div class="exercise">Exercise 1</div>
+                <div class="exercise">Exercise 2</div>
+            </div>
         </div>
     </div>
 
 
     <div>
-        <div class="footer">
-            <div class="footersocial">
-                <a href="https://www.instagram.com/cheyannecyy/" class="instagram" target="_blank">
-                    <img src="image/instagram.png" height="25" />
-                </a>
-                <a href="https://www.facebook.com/cheyanne.cyy.16" class="facebook" target="_blank">
-                    <img src="image/facebook.png" height="25" />
-                </a>
-                <a href="https://www.pinterest.com/yunyan233144/" class="pinterest" target="_blank">
-                    <img src="image/pinterest.png" height="25" />
-                </a>
-            </div>
-            <div class="footertext">
-                @2024 Chan Yun Yan. All rights reserved.
+        <div>
+            <div class="footer">
+                <div class="footersocial">
+                    <a href="https://www.instagram.com/cheyannecyy/" class="instagram" target="_blank">
+                        <img src="image/instagram.png" height="25" />
+                    </a>
+                    <a href="https://www.facebook.com/cheyanne.cyy.16" class="facebook" target="_blank">
+                        <img src="image/facebook.png" height="25" />
+                    </a>
+                    <a href="https://www.pinterest.com/yunyan233144/" class="pinterest" target="_blank">
+                        <img src="image/pinterest.png" height="25" />
+                    </a>
+                </div>
+                <div class="footertext">
+                    @2024 Chan Yun Yan. All rights reserved.
+                </div>
+
             </div>
 
         </div>
-
-    </div>
     </div>
 
 
