@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 2: Responsive Navigation Bar</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #383434;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            align-items: center;
+            font-family: Arial, sans-serif;
+
+        }
+
+        .navlogo {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .navright {
+            gap: 30px;
+            display: flex;
+            align-items: center;
+            position: relative;
+
+        }
+
+        .menu {
+            position: relative;
+            /* ensures submenu is positioned relative to this parent */
+            align-items: center;
+            display: flex;
+        }
+
+        .menu-img {
+            margin-right: 8px;
+
+        }
+
+        .submenu-for-both {
+            min-height: 25px;
+            font-size: 13px;
+            display: none;
+            align-items: center;
+            text-align: left;
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background-color: #383434;
+            padding: 10px 0;
+            min-width: 200px;
+            z-index: 1;
+            border: 1px solid #555;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .submenu-for-both a {
+            display: block;
+            padding: 8px 15px;
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .submenu-for-both a:hover {
+            background-color: #555;
+            /* link will be lighter when hover */
+        }
+
+        /* show submenu on hover */
+        .menu:hover .submenu-for-both {
+            display: block;
+        }
+
+        @media screen and (max-width: 600px) {
+
+            header {
+                flex-direction: column;
+                align-items: center;
+
+            }
+
+            .navright {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                /* Center the menu on mobile */
+                width: 100%;
+                text-align: center;
+                flex-direction: row;
+                font-size: small;
+                font-family: Arial;
+            }
+
+            .menu-item {
+                display: flex;
+                align-items: center;
+                font-size: small;
+            }
+
+            .menu-item.menuicon {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div><img src="images/logo.png" height="40px" /></div>
+        </div>
+
+        <div class="navright">
+            <div class="menu">
+                <div><img src="images/home.png" height="30" style="vertical-align: middle; margin-right: 8px;">Home
+                </div>
+            </div>
+
+            <div class="menu menu-about">
+                <img src="images/about.png" height="30" style="vertical-align: middle; margin-right: 8px;">
+                <div>About<img src="images/down arrow.png" height="15" style="margin-left:8px;"></div>
+                <div class="submenu-for-both">
+                    <a href="#">Mission</a>
+                    <a href="#">Vision</a>
+                </div>
+            </div>
+
+            <div class="menu menu-services">
+                <img src="images/service.png" height="23" style="vertical-align: middle; margin-right: 8px;">
+                <div>Services <img src="images/down arrow.png" height="15"></div>
+                <div class="submenu-for-both">
+                    <a href="#">Web Development</a>
+                    <a href="#">App Development</a>
+                    <a href="#">SEO Services</a>
+                </div>
+            </div>
+
+            <div class="menu">
+                <img src="images/contact.png" height="30" style="vertical-align: middle; margin-right: 8px;">Contact
+            </div>
+        </div>
+
+    </header>
+</body>
+
+</html>

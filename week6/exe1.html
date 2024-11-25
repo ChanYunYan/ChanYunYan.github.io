@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 1: Navigation Bar with Submenu</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+
+    <style>
+        header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #383434;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .navlogo {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+        }
+
+        .navright {
+            gap: 40px;
+            display: flex;
+            align-items: center;
+            position: relative;
+        }
+
+        .menu {
+            position: relative;
+            /* Ensures submenu is positioned relative to this parent */
+            cursor: pointer;
+        }
+
+        .submenu-for-both {
+            min-height: 25px;
+            font-size: 13px;
+            display: none;
+            align-items: center;
+            /* Center text vertically */
+            text-align: left;
+            /* Align text to the left horizontally */
+            padding: 10px;
+            color: white;
+            text-decoration: none;
+            position: absolute;
+            display: none;
+
+            top: 100%;
+            /* aligns below the parent menu */
+            left: 0;
+            /* aligns to the left of the parent */
+            background-color: #383434;
+            /* Background color */
+            padding: 10px 0;
+            min-width: 200px;
+            /* Minimum width of the submenu */
+            z-index: 1;
+            border: 1px solid #555;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .submenu-for-both a {
+            display: block;
+            padding: 8px 15px;
+            color: white;
+            font-size: 14px;
+            text-decoration: none;
+            text-align: left;
+        }
+
+        .submenu-for-both a:hover {
+            background-color: #555;
+            /* link will be lighter when hover */
+        }
+
+        /* show submenu on hover */
+        .menu:hover .submenu-for-both {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div><img src="images/logo.png" height="40px" /></div>
+        </div>
+
+        <div class="navright">
+            <div>Home</div>
+            <div class="menu menu-about">
+                <div>About <img src="images/down arrow.png" height="15"></div>
+                <div class="submenu-for-both">
+                    <a href="#">Mission</a>
+                    <a href="#">Vision</a>
+                </div>
+            </div>
+
+            <div class="menu menu-services">
+                <div>Services <img src="images/down arrow.png" height="15"></div>
+                <div class="submenu-for-both">
+                    <a href="#">Web Development</a>
+                    <a href="#">App Development</a>
+                    <a href="#">SEO Services</a>
+                </div>
+            </div>
+
+            <div>Contact</div>
+        </div>
+    </header>
+</body>
+
+</html>
