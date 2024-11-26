@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>W6 Exe 4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            color: white;
+        }
+
+        header {
+            display: flex;
+            align-items: flex-start;
+            justify-content: flex-start;
+            height: 100%;
+            position: relative;
+            background: url('images/roofers.jpg') no-repeat center center;
+            background-size: contain;
+            background-position: center top;
+        }
+
+        .info {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: saturate(120%) blur(5px);
+            padding: 30px;
+            padding-top: 35px;
+            border-radius: 10px;
+            max-width: 300px;
+            margin-left: 50px;
+
+        }
+
+
+        /* Logo styling */
+        .logo {
+            z-index: 1;
+            position: absolute;
+            top: 60px;
+            left: 310px;
+            transform: translateX(-50%);
+            /* Centers the logo container */
+            max-width: 60px;
+            height: auto;
+        }
+
+
+        .info h2 {
+
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .info p {
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        .info button {
+            display: inline-block;
+            font-weight: bold;
+            padding: 8px 15px;
+            font-size: 14px;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 10px;
+            text-decoration: none;
+        }
+
+        .info button:hover {
+            background-color: #675950;
+        }
+
+        /* Mobile styles */
+        @media (max-width: 768px) {
+
+            header {
+                background-size: cover;
+                /* On mobile, cover the entire screen */
+                background-position: right;
+                /* Center the image both horizontally and vertically */
+
+            }
+
+            .info {
+                top: 5%;
+                left: 200px;
+                position: absolute;
+                transform: translateX(-50%);
+                padding: 15px;
+            }
+
+            .info h2 {
+                font-size: 18px;
+            }
+
+            .info p {
+                font-size: 12px;
+            }
+
+            .info button {
+                font-size: 12px;
+                padding: 6px 10px;
+            }
+
+
+            .logo {
+                position: absolute;
+                top: 10px;
+                left: 50%;
+                transform: translateX(-50%);
+                padding: 15px;
+                max-width: 40px;
+                /* Adjust logo size for mobile */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Logo -->
+        <div class="logo-container">
+            <img src="images/nlogo.png" alt="Logo" class="logo">
+        </div>
+
+
+        <!-- Info -->
+        <div class="info">
+            <h2>Build Your Dream Home with Solid Structures Builders!</h2>
+            <p>Looking for a reliable and experienced building company to bring your vision to life?
+                Solid Structures Builders is here to make your dream home a reality.
+            </p>
+            <button>LEARN MORE</button>
+        </div>
+
+
+    </header>
+</body>
+
+</html>

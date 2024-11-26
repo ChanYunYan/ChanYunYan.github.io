@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exercise 4: Responsive Banner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            /* Full height of the viewport */
+            padding: 0;
+        }
+
+        header {
+            display: flex;
+            height: 100%;
+            background-image: url('images/roofers.jpg');
+            background-size: contain;
+            background-position: center top;
+            background-repeat: no-repeat;
+        }
+
+        .logo {
+            position: absolute;
+            /* Position relative to the container */
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%);
+            /* Center the logo within the container */
+            z-index: 1;
+            /* Centers the logo container */
+            max-width: 60px;
+            height: auto;
+
+
+        }
+
+        .container {
+            position: absolute;
+            top: 10%;
+            left: 5%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.1);
+            backdrop-filter: saturate(120%) blur(5px);
+            padding: 30px;
+            padding-top: 35px;
+            border-radius: 10px;
+            max-width: 300px;
+            margin-left: 50px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        .title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 15px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        .description {
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 12px;
+            line-height: 1.4;
+            margin-bottom: 15px;
+        }
+
+        button {
+            color: black;
+            background-color: white;
+            border-radius: 10px;
+            padding: 8px 15px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                /* stack items vertically */
+                text-align: left;
+                /* center align content */
+            }
+
+            .pic {
+                /*flex item should appear before items*/
+                order: -1;
+                max-width: 100%;
+                /* full width for both sections */
+
+            }
+
+            .leftsection {
+
+                max-width: 100%;
+                /* full width for both sections */
+                padding: 10px;
+            }
+
+            .leftsection {
+                padding-top: 0;
+                /* no extra spacing on top for info */
+            }
+
+            .pic img {
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <header>
+            <div class="logo"><img src="images/nlogo.png" alt="Logo"></div>
+            <div class="container">
+                <div class="title">Build Your Dream Home with Solid Structures Builders!</div>
+                <div class="description">Looking for a reliable and experienced building company to bring your vision to
+                    life? Solid Structures Builders is here to make your dream home a reality.
+                </div>
+                <button>Learn More</button>
+            </div>
+        </header>
+    </header>
+</body>
+
+</html>
