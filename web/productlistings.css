@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px;
+    justify-content: center;
+}
+
+.firstrowcolumn {
+    display: flex;
+    border-radius: 30px;
+    padding: 40px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* Makes the layout horizontal */
+    flex-direction: row;
+    /* Aligns items in a row */
+    border-radius: 30px;
+    padding: 40px;
+    justify-content: flex-start;
+    /* Align items to the start */
+    align-items: center;
+    /* Align vertically */
+    gap: 120px;
+    /* Space between product cards */
+    flex-wrap: nowrap;
+    /* Prevent wrapping */
+    margin-top: 10px;
+}
+
+
+.product-card {
+    width: 200px;
+    height: auto;
+    margin-bottom: -60px;
+    /* Remove unnecessary margin */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    /* Prevent cards from shrinking */
+}
+
+
+.product-card .background {
+    width: 180px;
+    height: 200px;
+    background-color: #FEF7E7;
+    border-radius: 10px;
+    /* Optional: match the card's border radius */
+    padding: 10px;
+    /* Optional: Add space between the image and the background */
+    align-items: center;
+}
+
+.product-card img {
+    width: 150px;
+    /* Adjust the width to 100% of the container */
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card .brand {
+    margin-top: 20px;
+    margin-bottom: 2px;
+    font-size: 17px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.product-card .name {
+    font-size: 17px;
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    margin-bottom: 7px;
+}
+
+.product-card.rating {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.product-card .stars {
+    color: gold;
+    font-size: 30px;
+    margin-right: 1px;
+}
+
+.product-card .reviewnumbers {
+    display: flex;
+    font-size: 16px;
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    margin-left: 5px;
+}
+
+.product-card .price {
+    font-size: 16px;
+    color: #4A4A4A;
+    font-family: "Nnunito Sans", sans-serif;
+}
