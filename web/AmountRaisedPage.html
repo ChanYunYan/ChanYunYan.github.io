@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Amount Raised</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @font-face {
+            font-family: 'Legwork DEMO';
+            src: url('LegworkDEMO.otf') format('opentype');
+        }
+
+        header {
+            position: sticky;
+            top: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #FFFFFF;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+            gap: 100px;
+            z-index: 500;
+        }
+
+        .menu a {
+            text-decoration: none;
+            color: #4A4A4A;
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 20px;
+        }
+
+        .menu {
+            gap: 20px;
+            margin-left: 15px;
+        }
+
+        .menu:hover a {
+            text-decoration: underline;
+        }
+
+        body {
+            background-color: #FFFCF7;
+        }
+
+        .DFP {
+            color: #1C1C42;
+            font-family: Legwork DEMO;
+            margin-left: 33%;
+            font-size: 80px;
+        }
+
+        .donation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+            margin-bottom: 85px;
+            margin-left: -5%;
+        }
+
+        .donationamount {
+            background-color: #E4F0D0;
+            padding: 30px;
+            border-radius: 10px;
+            margin-right: 40px;
+            text-align: center;
+        }
+
+        .da {
+            font-family: 'Oliver';
+            color: #5C4F66;
+            font-size: 40px;
+            margin-top: 5px;
+        }
+
+        .da h1 {
+            text-align: center;
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .donationamount button {
+            border: 1px solid #C4C4C4;
+            border-radius: 11px;
+            background-color: white;
+            color: #4A4A4A;
+            padding: 15px;
+            font-size: 23px;
+            font-family: "Nunito Sans", sans-serif;
+            margin: 8px 8px;
+            width: 105px;
+        }
+
+        #custom button {
+            width: 357px;
+        }
+
+        .cd {
+            text-align: left;
+        }
+
+        .small-rm {
+            font-size: 20px;
+            /* Adjust the size to be smaller */
+        }
+
+        .footerlogo {
+            font-family: legwork DEMO;
+            font-size: 38px;
+        }
+
+        footer {
+            background-color: #6896B1;
+            color: white;
+            padding: 20px;
+            font-size: 15px;
+            font-family: 'Nunito Sans', sans-serif;
+        }
+
+        h3 {
+            border-radius: 50px;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .greenshape {
+            position: relative;
+            margin-top: 68px;
+            margin-left: 85px;
+        }
+
+        .proceed {
+            position: absolute;
+            top: 90.4%;
+            left: 58.7%;
+            margin-top: 30px;
+            font-size: 20px;
+            font-family: 'Nunito Sans', sans-serif;
+            color: #4A4A4A;
+            z-index: 10;
+        }
+
+        .payarrow {
+            position: absolute;
+            top: 93.3%;
+            left: 72%;
+            z-index: 10;
+        }
+
+        .form input {
+            width: 115%;
+            border-radius: 8px;
+            border: 1px solid #6b6a6a;
+            padding: 10px;
+            margin-top: -40px;
+            font-family: 'Nunito Sans', sans-serif;
+            line-height: 50%;
+        }
+
+        .dog img {
+            position: absolute;
+            top: 31.3%;
+            left: 71.8%;
+        }
+
+        .cat img {
+            position: absolute;
+            top: 102.7%;
+            left: 3%;
+        }
+
+        .shape1 img {
+            position: absolute;
+            top: 30%;
+            left: 0%;
+        }
+
+        .shape2 img {
+            position: absolute;
+            top: 50%;
+            right: 0%;
+        }
+
+        .shape3 img {
+            position: absolute;
+            top: 104%;
+            left: 50%;
+        }
+
+        .shape4 img {
+            position: absolute;
+            top: 106.5%;
+            right: 0%;
+        }
+
+        .form {
+            margin-top: -10px;
+            font-size: 20px;
+            line-height: 43%;
+            font-family: 'Nunito Sans', sans-serif;
+            color: #4A4A4A;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images-AmtRaised/logo.png" alt="logo" width="70px">
+        </div>
+
+        <div id="nav">
+            <div class="menu">
+                <a href="#">Adopt</a>
+                <a href="#">Donate</a>
+                <a href="#">Learning Centre</a>
+                <a href="#">Shop</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <img src="images-AmtRaised/searchicon.png" alt="search" width="23px">
+        </div>
+    </header>
+
+    <div class="dog">
+        <img src="images-AmtRaised/dog.png" alt="dog" width="180px">
+    </div>
+
+    <div class="cat">
+        <img src="images-AmtRaised/cat.png" alt="cat" width="180px">
+    </div>
+
+    <div class="shape1">
+        <img src="images-AmtRaised/shape1.png" width="55px">
+    </div>
+
+    <div class="shape2">
+        <img src="images-AmtRaised/shape2.png" width="80px">
+    </div>
+
+    <div class="shape3">
+        <img src="images-AmtRaised/shape3.png" width="120px">
+    </div>
+
+    <div class="shape4">
+        <img src="images-AmtRaised/shape4.png" width="55px">
+    </div>
+
+    <p class="DFP">DONATE FOR PETS</p>
+
+    <div class="donation-container">
+        <div class="donationamount">
+            <h1 class="da">Donation Amount</h1>
+
+            <button>RM10</button>
+            <button>RM20</button>
+            <button>RM30</button>
+            <br>
+            <button>RM40</button>
+            <button>RM50</button>
+            <button>RM100</button>
+            <br>
+            <div id="custom">
+                <button class="cd"><span class="small-rm">RM</span> Custom Donation</button>
+            </div>
+
+        </div>
+
+        <div class="form">
+            <p>Personal/Company Name</p>
+            <input type="text">
+            <p>Email Address</p>
+            <input type="email">
+            <p>Phone</p>
+            <input type="tel">
+            <br>
+            <div class="proceed">Proceed to Payment</div>
+            <div class="payarrow"><img src="images-AmtRaised/payarrow.png" alt="arrow" width="25px"></div>
+            <div class="greenshape"><img src="images-AmtRaised/proceed.png" width="300px"></div>
+        </div>
+    </div>
+
+    <footer>
+        <p class="footerlogo">PETPAL</p>
+        <p>Petpal | petpal@gmail.com</p>
+        <p>No. 12, Jalan Pawfect, Taman Furry Friends, 47500 Subang Jaya, Selangor, Malaysia</p>
+        <p>+60 12-345 6789</p>
+    </footer>
+</body>
+
+</html>

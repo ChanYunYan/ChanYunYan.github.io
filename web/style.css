@@ -29,6 +29,10 @@ header {
     font-family: "Nunito Sans", sans-serif;
 }
 
+.container {
+    position: sticky;
+}
+
 .top-bar {
     background-color: #E4F0D0;
     border-radius: 15px;
