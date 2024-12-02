@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Homepage </title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            background-color: #FFFCF7;
+            box-sizing: border-box;
+        }
+
+        /*banner*/
+        .container {
+            background-color: #FEF7E7;
+            background-size: cover;
+            background-position: center top;
+            width: 100%;
+            height: 100%;
+            position: relative;
+        }
+
+        .bannerimage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .bannerimage h1 {
+            font-family: Legwork Demo;
+            font-size: 128px;
+            margin-right: 80px;
+            margin-left: 50px;
+        }
+
+        .paw1 {
+            left: 0%;
+            top: -8%;
+            position: absolute;
+        }
+
+        .paw2 {
+            right: 0%;
+            bottom: -15%;
+            position: absolute;
+        }
+
+        .quote {
+            font-family: "Nunito Sans", sans-serif;
+            font-size: 18px;
+            text-align: center;
+            line-height: 10%;
+        }
+
+        /*adoption*/
+        .adoption {
+            text-align: center;
+        }
+
+        .categories {
+            display: flex;
+            gap: 100px;
+            justify-content: center;
+            gap: 200px;
+        }
+
+        .align {
+            justify-content: center;
+        }
+
+        .categories p {
+            position: absolute;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .adoption h1 {
+            font-family: Legwork Demo;
+            font-size: 40px;
+        }
+
+        .adoption h2 {
+            font-family: oliver;
+        }
+
+        .ctgr {
+            position: relative;
+        }
+
+        /*info*/
+        .info {
+            display: flex;
+            gap: 300px;
+            justify-content: center;
+        }
+
+        .gap {
+            line-height: 20%;
+        }
+
+        .group {
+            display: flex;
+            gap: 10px;
+            justify-content: center;
+        }
+
+        .info h1 {
+            font-family: Legwork Demo;
+        }
+
+        .info p {
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        /*activities*/
+        .activities {
+            background: url('imageshp/irregular.png') no-repeat center center;
+            background-size: cover;
+            background-position: center top;
+            text-align: center;
+        }
+
+        .activities h1 {
+            font-family: legwork demo;
+        }
+
+        .activities h2 {
+            font-family: oliver;
+        }
+
+        .act {
+            background-color: #FFFCF7;
+            opacity: 60%;
+        }
+
+        .join {
+            position: absolute;
+            left: 48%;
+            top: -5%;
+        }
+
+        .click {
+            position: relative;
+        }
+
+        .act h1 {
+            font-family: legwork demo;
+        }
+
+        .act h2 {
+            font-family: oliver;
+        }
+
+        .act p {
+            font-family: "Nunito Sans", sans-serif;
+        }
+
+        .img1 {
+            background-image: url('imageshp/act1.png');
+            background-size: cover;
+            flex: 1;
+            min-height: 400px;
+        }
+
+        .img2 {
+            background-image: url('imageshp/act2.png');
+            background-size: cover;
+            flex: 1;
+            min-height: 400px;
+        }
+
+        /*proces*/
+        .process {
+            text-align: center;
+        }
+
+        .process h1 {
+            font-family: Legwork Demo;
+        }
+
+        .process h2 {
+            font-family: oliver;
+        }
+
+        .prcsflex {
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+        }
+
+        .prcs {
+            text-align: center;
+        }
+
+        /*about us*/
+        .about h1 {
+            font-family: legwork demo;
+        }
+
+        .column {
+            display: flex;
+        }
+
+        .button {
+            position: relative;
+        }
+
+        .about button p {
+            position: absolute;
+            left: 50%;
+        }
+
+        /*book*/
+        .book {
+            margin-left: 500px;
+            background-color: #A1B5D8;
+            opacity: 20%;
+        }
+
+        .book h1 {
+            font-family: legwork demo;
+        }
+
+        .book h2 {
+            font-family: oliver;
+        }
+    </style>
+</head>
+
+<body>
+    <!--nav bar-->
+    <header>
+        <div><img src="images/websitelogo.png" height="60px" style="margin-right:20px;" /></div>
+        <div id="nav">
+            <div>Adopt</div>
+            <div>Donate</div>
+            <div>Learning Centre</div>
+            <div>Shop</div>
+            <div>Help</div>
+            <div><img src="images/searchicon.png" height="30px" style="margin-left: 20;" /></div>
+        </div>
+    </header>
+
+    <!--BANNER-->
+    <section class="container">
+        <img src="imageshp/hppaw1.png" alt="hp" height="360" class="paw1">
+        <img src="imageshp/hppaw2.png" alt="hp" height="400" class="paw2">
+
+        <!--center image-->
+        <div class="bannerimage">
+            <h1>FIND</h1>
+            <img src="imageshp/hp.png" alt="hp" height="520">
+            <h1>PALS</h1>
+        </div>
+
+        <!--text-->
+        <div class="quote">
+            <p>Welcome to the Pet Pals.</p>
+            <p>Explore a world dedicated to keeping your beloved pets happy and loved.</p>
+            <p>Quick find
+                your new friends here !
+            </p>
+        </div>
+    </section>
+
+    <!--adoption-->
+    <div class="adoption">
+        <div class="adpt text">
+            <h1>ADOPTION</h1>
+            <h2>Waiting For You</h2>
+        </div>
+        <div class="categories">
+            <div class="align">
+                <p>DOG</p>
+                <img src="imageshp/dog.png" alt="dog" height="270" class="ctgr">
+            </div>
+            <div class="align">
+                <p>CAT</p>
+                <img src="imageshp/cat.png" alt="cat" height="260" class="ctgr">
+            </div>
+            <div class="align">
+                <p>OTHERS</p>
+                <img src="imageshp/other.png" alt="other" height="240" class="ctgr">
+            </div>
+        </div>
+    </div>
+
+    <!--information-->
+    <div class="info">
+        <div class="gap">
+            <div class="group">
+                <img src="imageshp/iconadoption.png" alt="other" height="50" class="ctgr">
+                <h1>128</h1>
+            </div>
+            <p>Waiting For Adoption</p>
+        </div>
+
+        <div class="gap">
+            <div class="group">
+                <img src="imageshp/iconrescues.png" alt="other" height="50" class="ctgr">
+                <h1>220</h1>
+            </div>
+            <p>Pet Rescues</p>
+        </div>
+
+        <div class="gap">
+            <div class="group">
+                <img src="imageshp/iconvolunteer.png" alt="other" height="50" class="ctgr">
+                <h1>168</h1>
+            </div>
+            <p>Volunteers In The State</p>
+        </div>
+    </div>
+
+    <!--activities-->
+    <div class="activities">
+        <section>
+            <h1>ACTIVITIES</h1>
+            <h2>Let create something together</h2>
+
+            <div class="act">
+                <h1>Pet exhibition</h1>
+                <h2>"join our pet exhibition!"</h2>
+                <p>Join our exciting pet exhibition and meet adorable animals looking for their forever homes! Discover
+                    different breeds, enjoy fun activities, and watch live demonstrations. Whether you’re adopting or
+                    just
+                    exploring, it’s the perfect event for pet lovers to connect, learn, and make a difference. Don’t
+                    miss
+                    the chance to meet your future furry friend! </p>
+                <div class="button">
+                    <img src="imageshp/button.png" alt="button" height="50" class="click">
+                    <p class="join">join now</p>
+                </div>
+                <div class="img 1"></div>
+            </div>
+
+            <div class="act">
+                <h1>Pet cafe</h1>
+                <h2>"join our pet cafe!"</h2>
+                <p>There are many little cuties living in the pet café, and they don’t like to be alone. Your presence
+                    can
+                    bring them joy and companionship, filling their days with happiness. Come relax, play, and make
+                    lasting
+                    memories with these adorable furry friends. We can’t wait to welcome you to this cheerful and
+                    heartwarming place! </p>
+                <div class="button">
+                    <img src="imageshp/button.png" alt="button" height="50" class="click">
+                    <p class="join">join now</p>
+                </div>
+                <div class="img 2"></div>
+            </div>
+        </section>
+
+    </div>
+
+    <!--adoption process-->
+    <div class="process">
+        <section>
+            <h1>Pet Adoption Process</h1>
+            <h2>How we work?</h2>
+            <div class="prcsflex">
+                <div class="prcs">
+                    <img src="imageshp/process1.png" alt="prcs1" height="350">
+                    <p>Find your pet</p>
+                </div>
+
+                <div class="prcs">
+                    <img src="imageshp/process2.png" alt="prcs2" height="350">
+                    <p>Know your pet</p>
+                </div>
+
+                <div class="prcs">
+                    <img src="imageshp/process3.png" alt="prcs3" height="350">
+                    <p>Take your pet home</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--about us-->
+    <div class="aboutus">
+        <section class="about">
+            <h1>about us</h1>
+            <div class="about button">
+                <img src="imageshp/aboutbutton1.png" alt="button" height="100" class="button">
+                <p class="why">why us?</p>
+            </div>
+            <div class="container">
+                <img src="imageshp/aboutdog.png" alt="dog" height="100" class="aboutdog">
+                <div class="column">
+                    <img src="imageshp/service.png" alt="button" height="50">
+                    <p>Book service</p>
+                </div>
+
+                <div class="column">
+                    <img src="imageshp/inhome.png" alt="button" height="50">
+                    <p>In-home consult</p>
+                </div>
+
+                <div class="column">
+                    <img src="imageshp/staff.png" alt="button" height="50">
+                    <p>Experienced and pro staff</p>
+                </div>
+            </div>
+            <!--cat section-->
+            <div class="about button">
+                <img src="imageshp/aboutbutton2.png" alt="button" height="100">
+                <p>our mission</p>
+            </div>
+            <div class="container">
+                <div class="column">
+                    <img src="imageshp/1.png" alt="button" height="50">
+                    <p>Rehome abandoned pets.</p>
+                </div>
+
+                <div class="column">
+                    <img src="imageshp/2.png" alt="button" height="50">
+                    <p>ISave injured, abused, or homeless animals.</p>
+                </div>
+
+                <div class="column">
+                    <img src="imageshp/3.png" alt="button" height="50">
+                    <p>Raise awareness and educate about loving and respecting animals.</p>
+                </div>
+
+                <div class="column">
+                    <img src="imageshp/4.png" alt="button" height="50">
+                    <p>Decrease stray populations through spaying and neutering programs.</p>
+                </div>
+                <img src="imageshp/aboutcat.png" alt="cat" height="100" class="aboutcat">
+            </div>
+        </section>
+    </div>
+
+    <!--book now-->
+    <div class="book">
+        <section>
+            <h1>Book Now</h1>
+            <div class="columnbook">
+                <h2>book an apppointment</h2>
+                <h2>Date and time</h2>
+                <input type="text">
+                <h2>Your name</h2>
+                <input type="text">
+            </div>
+            <div class="buttonbook">
+                <img src="imageshp/button.png" alt="button" height="50" class="click">
+                <p class="submit">join now</p>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
