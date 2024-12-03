@@ -2,7 +2,7 @@
     display: flex;
     gap: 40px;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 30px;
     padding: 5px;
     justify-content: center;
@@ -30,14 +30,15 @@
     /* Space between product cards */
     flex-wrap: nowrap;
     /* Prevent wrapping */
-    margin-top: 10px;
+    margin-top: -25px;
 }
 
 
 .product-card {
     width: 200px;
     height: auto;
-    margin-bottom: -60px;
+    margin-top: 30px;
+    margin-bottom: -70px;
     /* Remove unnecessary margin */
     padding: 20px;
     border-radius: 10px;
@@ -48,6 +49,8 @@
 
 
 .product-card .background {
+    display: flex;
+    justify-content: center;
     width: 180px;
     height: 200px;
     background-color: #FEF7E7;
@@ -59,11 +62,15 @@
 }
 
 .product-card img {
-    width: 150px;
+    width: 170px;
     /* Adjust the width to 100% of the container */
-    height: 150px;
+    height: 170px;
     justify-content: center;
     align-items: center;
+    display: flex;
+    object-fit: contain;
+    /* Ensures image maintains aspect ratio and fits inside */
+    display: block;
 }
 
 .product-card .brand {
@@ -92,6 +99,7 @@
     color: gold;
     font-size: 30px;
     margin-right: 1px;
+    line-height: 1;
 }
 
 .product-card .reviewnumbers {
@@ -100,6 +108,8 @@
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     margin-left: 5px;
+    line-height: 1;
+    align-items: center;
 }
 
 .product-card .price {
