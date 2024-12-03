@@ -29,6 +29,18 @@
             font-family: Oliver Regular;
             src: url(oliver_regular.woff);
         }
+
+        @media (max-width: 768px) {
+            .product-card-container {
+                flex-direction: column;
+                /* Stack cards vertically */
+                gap: 12px;
+                /* Adjust gap for mobile */
+            }
+
+            .categories {
+                display: none;
+            }
     </style>
 </head>
 
