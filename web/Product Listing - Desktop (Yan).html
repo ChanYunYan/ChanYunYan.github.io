@@ -10,7 +10,10 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="topbar.css">
+    <link rel="stylesheet" href="productlistings.css">
+
     <style>
         #setbg {
             background-color: #FFFCF7;
@@ -31,14 +34,14 @@
 
 <body>
     <header>
-        <div><img src="images/websitelogo.png" height="60px" style="margin-right:20px;" /></div>
+        <div><img src="images/websitelogo.png" height="60px" style="margin-right:60px;" /></div>
         <div id="nav">
             <div>Adopt</div>
             <div>Donate</div>
             <div>Learning Centre</div>
             <div>Shop</div>
             <div>Help</div>
-            <div><img src="images/searchicon.png" height="30px" style="margin-left: 20;" /></div>
+            <div><img src="images/searchicon.png" height="30px" style="margin-left: 50px;" /></div>
         </div>
     </header>
 
@@ -46,13 +49,139 @@
         <div class="left-section">
             <div class="food">Food</div>
             <div class="categories">
-                <div>DRY FOOD </div>
+                <a><u>DRY FOOD</u></a>
                 <a>WET FOOD</a>
                 <a>FROZEN FOOD</a>
             </div>
+            <div>
+                <button class="filterbutton">
+                    <img src="images/filtericon.png" alt="Filter Icon" class="filterbutton-photo" />
+                    <div class="filterbutton-text">Sort by</div>
+                </button>
+            </div>
         </div>
-
+        <div class="right-section">
+            <div class="image-container">
+                <img src="images/topbarirregularshape.png" class="bottom-shapeimage">
+                <img src="images/greentopbardog.png" class="top-dogimage">
+            </div>
+        </div>
     </div>
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/pedigreeadult.png">
+                    </div>
+                </div>
+                <div class="brand">Pedigree</div>
+                <div class="name">Adult Dry Dog Food - Steak & Vegetables</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(2326)</span>
+                    <div class="price">RM133.99</div>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/royalcanin.png">
+                    </div>
+                </div>
+                <div class="brand">Royal Green</div>
+                <div class="name">Small Breed Adult Dry Dog Food</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(1268)</span>
+                    <div class="price">RM268.20</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/purinafriskies.png">
+                    </div>
+                </div>
+                <div class="brand">Purina® Friskies</div>
+                <div class="name">Adult Cat Dry Food - With Vitamins</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(7196)</span>
+                    <div class="price">RM95.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/bluebuffalocatfood.png">
+                    </div>
+                </div>
+                <div class="brand">Blue Buffalo</div>
+                <div class="name">Sensitive Stomach Adult Dry Cat Food - Chicken</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(981)</span>
+                    <div class="price">RM210.00</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/oxbowessential.png">
+                    </div>
+                </div>
+                <div class="brand">Oxbow Essential</div>
+                <div class="name"> Adult Guinea Pig Food</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(423)</span>
+                    <div class="price">RM102.80</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="images/gardenselectrabbit.png">
+                    </div>
+                </div>
+                <div class="brand">Oxbow Garden Select </div>
+                <div class="name">Rabbit Food</div>
+                <div class="rating">
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="stars">★</span>
+                    <span class="reviewnumbers">(94)</span>
+                    <div class="price">RM57.20</div>
+                </div>
+            </div>
 </body>
 
 </html>

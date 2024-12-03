@@ -1,0 +1,93 @@
+.top-bar {
+    background-color: #E4F0D0;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.left-section {
+    width: 50%;
+    padding-right: 20px;
+    margin-left: 15px;
+}
+
+.food {
+    font-size: 25pt;
+    font-family: Legwork Demo;
+}
+
+.categories {
+    display: flex;
+    margin-top: 13pt;
+    color: #5C4F66;
+    font-size: 18pt;
+    font-family: Oliver Regular;
+    gap: 100px;
+}
+
+.filterbutton {
+    margin-top: 20px;
+    background-color: #C0E2C0;
+    border: 1px solid black;
+    align-items: center;
+    display: inline-flex;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 10px;
+    color: #4A4A4A;
+    width: 120px;
+}
+
+.filterbutton-photo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.filterbutton-text {
+    font-size: 17px;
+    color: #585858;
+}
+
+.right-section {
+    width: 50%;
+    /* Set the width of the right section */
+    padding-left: 20px;
+    height: 10vh;
+    /* Ensure the right section fills the entire viewport height */
+    display: flex;
+    flex-direction: column;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Make it fill the width of the right section */
+    height: 100%;
+}
+
+.bottom-shapeimage {
+    width: 100%;
+    /* Make the bottom image fill the container */
+    height: 100%;
+    /* Ensure the bottom image fills the container */
+    max-width: 100%;
+    max-height: 100%
+}
+
+.top-dogimage {
+    position: absolute;
+    /* Position the top image absolutely */
+    top: -15pt;
+    /* Align it at the top of the container */
+    left: 40%;
+    /* Align it to the left of the container */
+    width: 50%;
+    /* Adjust size as needed (optional) */
+    z-index: 10;
+    /* Ensure the top image appears above the bottom image */
+}
