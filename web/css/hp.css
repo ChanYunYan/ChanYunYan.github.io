@@ -93,15 +93,41 @@ body {
     margin-left: 50px;
     margin-right: 50px;
     gap: 30px;
+    background-color: rgb(255, 252, 247, 0.5);
 }
 
 .actinfo {
     text-align: left;
 }
 
+.act h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.act h2 {
+    font-family: oliver;
+    font-size: 28px;
+}
+
+.act p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
 /*process*/
 .process {
     text-align: center;
+}
+
+.process h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.process h2 {
+    font-family: oliver;
+    font-size: 28px;
 }
 
 .prcs {
@@ -110,6 +136,11 @@ body {
     text-align: center;
     gap: 200px;
     line-height: 20%;
+}
+
+.prcs {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
 }
 
 /*aboutus*/
@@ -141,9 +172,44 @@ body {
     background-size: cover;
 }
 
+.abtdog h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.aboutbutton h2 {
+    font-family: oliver;
+    font-size: 28px;
+}
+
+.about button h2 {
+    font-family: oliver;
+    font-size: 28px;
+}
+
+.abtdog p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
+.abtcat p {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 18px;
+}
+
 /*book*/
 .book {
     text-align: center;
+}
+
+.book h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.bookinfo h2 {
+    font-family: oliver;
+    font-size: 28px;
 }
 
 .booknow {
@@ -153,6 +219,5 @@ body {
 }
 
 .bookinfo {
-    background-color: #A1B5D8;
-    opacity: 20%;
+    background-color: rgb(161, 181, 216, 0.2);
 }
