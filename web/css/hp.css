@@ -80,13 +80,6 @@ body {
     font-size: 25px;
 }
 
-.actbutton {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center center;
-    padding: 10px;
-}
-
 /*activities*/
 .act {
     text-align: center;
