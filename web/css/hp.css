@@ -1,0 +1,165 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFCF7;
+}
+
+/*banner*/
+.banner {
+    background: url('imgs/imageshp/hp.png') no-repeat center center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: #FEF7E7;
+    justify-content: center;
+    align-items: center;
+}
+
+.findpals {
+    font-family: legwork demo;
+    font-size: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.quote {
+    font-family: "Nunito Sans", sans-serif;
+    line-height: 10%;
+    font-size: 18px;
+}
+
+/*adoption*/
+.adoption {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.adoption h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.adoption h2 {
+    font-family: oliver;
+    font-size: 28px;
+}
+
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+/*information*/
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    gap: 350px;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    line-height: 10%;
+}
+
+.info h1 {
+    font-family: legwork demo;
+    font-size: 38px;
+}
+
+.info h2 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 25px;
+}
+
+.actbutton {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px;
+}
+
+/*activities*/
+.act {
+    text-align: center;
+    background-color: #FBDEDB;
+    background-image: cover;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    gap: 30px;
+}
+
+.actinfo {
+    text-align: left;
+}
+
+/*process*/
+.process {
+    text-align: center;
+}
+
+.prcs {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 200px;
+    line-height: 20%;
+}
+
+/*aboutus*/
+.aboutus {
+    background-image: url('imgs/imageshp/abtshape');
+    background-size: contain;
+    background-position: center;
+}
+
+.abtdog {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.abtcat {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.column {
+    display: flex;
+}
+
+.abtimage {
+    background-size: cover;
+}
+
+/*book*/
+.book {
+    text-align: center;
+}
+
+.booknow {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.bookinfo {
+    background-color: #A1B5D8;
+    opacity: 20%;
+}
