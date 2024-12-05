@@ -58,6 +58,15 @@ body {
     gap: 150px;
 }
 
+.align {
+    text-align: center;
+}
+
+.adoption p {
+    font-family: legwork demo;
+    font-size: 28px;
+}
+
 /*information*/
 .info {
     display: flex;
@@ -119,6 +128,12 @@ body {
 .act p {
     font-family: "Nunito Sans", sans-serif;
     font-size: 18px;
+}
+
+.actshape {
+    background-size: cover;
+    width: 100%;
+    height: auto;
 }
 
 /*process*/
