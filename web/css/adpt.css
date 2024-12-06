@@ -1,0 +1,72 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFCF7;
+}
+
+/*banner*/
+.bnr {
+    background-color: #E4F0D0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+
+}
+
+.text {
+    font-family: legwork demo;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+/*information*/
+.information {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.information h1 {
+    font-family: legwork demo;
+    font-size: 30px;
+}
+
+.information h2 {
+    font-family: oliver;
+    font-size: 20px;
+}
+
+.line1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 200px;
+}
+
+.info {
+    background-color: #FBDEDB;
+    padding: 5px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gap {
+    display: flex;
+    gap: 50px;
+}
+
+.breed {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.calender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
