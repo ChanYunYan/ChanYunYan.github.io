@@ -38,26 +38,30 @@ body {
     color: #5C4F66;
 }
 
+.container {
+    margin: 100px;
+}
+
 .line1 {
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     display: flex;
-    gap: 200px;
+    gap: 100px;
 }
 
 .info {
     background-color: #FBDEDB;
-    padding: 5px;
     border-radius: 20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
 }
 
 .line1 h1 {
     font-family: legwork demo;
-    font-size: 20px;
+    font-size: 25px;
     color: #1C1C42;
 }
 
@@ -69,14 +73,12 @@ body {
 .gap {
     display: flex;
     gap: 50px;
-}
-
-.breed {
-    display: flex;
     align-items: center;
-    gap: 10px;
+    text-align: center;
+    justify-content: space-between;
 }
 
+.breed,
 .calender {
     display: flex;
     align-items: center;
