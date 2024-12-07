@@ -84,3 +84,17 @@ body {
     align-items: center;
     gap: 10px;
 }
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .line1 {
+        flex-direction: column;
+
+    }
+}
