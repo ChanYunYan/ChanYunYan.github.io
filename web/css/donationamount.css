@@ -1,5 +1,8 @@
 body {
     background-color: #FFFCF7;
+    margin: 0%;
+    padding: 0%;
+
 }
 
 .DFP {
@@ -63,18 +66,8 @@ body {
     /* Adjust the size to be smaller */
 }
 
-.footerlogo {
-    font-family: legwork DEMO;
-    font-size: 38px;
-}
-
-footer {
+.footer {
     position: relative;
-    background-color: #6896B1;
-    color: white;
-    padding: 20px;
-    font-size: 15px;
-    font-family: 'Nunito Sans', sans-serif;
 }
 
 .cat {
@@ -109,7 +102,7 @@ h3 {
 }
 
 .form {
-    margin-top: 3%;
+    margin-top: 2%;
     font-size: 20px;
     line-height: 43%;
     font-family: 'Nunito Sans', sans-serif;
@@ -118,6 +111,6 @@ h3 {
 
 .dog {
     position: absolute;
-    top: 36%;
-    left: 70.2%;
+    top: 32.8%;
+    left: 70.3%;
 }

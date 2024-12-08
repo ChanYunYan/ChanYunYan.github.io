@@ -1,0 +1,139 @@
+body {
+    background-color: #FEF7E7;
+    margin: 0%;
+    padding: 0%;
+}
+
+.learningcentre {
+    color: #1C1C42;
+    font-family: Legwork DEMO;
+    font-size: 48px;
+    margin-left: 40%;
+    margin-top: 90px;
+}
+
+.nutri {
+    color: #5C4F66;
+    font-size: 30px;
+    font-family: Oliver Regular;
+    margin-left: 42.3%;
+    margin-top: 50px;
+}
+
+.nutrinhealth {
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-top: 50px;
+}
+
+.text {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+}
+
+.text p {
+    font-family: Oliver Regular;
+    font-size: 25px;
+    color: #4A4A4A;
+}
+
+.others p {
+    margin-top: 13px;
+    margin-left: 30px;
+}
+
+.cat p {
+    margin-left: 15px;
+}
+
+.behavior {
+    color: #5C4F66;
+    font-size: 30px;
+    font-family: Oliver Regular;
+    margin-left: 40%;
+    margin-top: 300px;
+}
+
+.behaviorntips {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 30px;
+}
+
+.text2 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -105px;
+}
+
+.text2 p {
+    font-family: Oliver Regular;
+    font-size: 25px;
+    color: #4A4A4A;
+}
+
+.text4 {
+    margin-top: -97px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text4 p {
+    font-family: Oliver Regular;
+    font-size: 25px;
+    color: #4A4A4A;
+}
+
+.groom {
+    color: #5C4F66;
+    font-size: 30px;
+    font-family: Oliver Regular;
+    margin-left: 720px;
+    margin-top: 330px;
+}
+
+.grooming {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 40px;
+}
+
+.text3 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+    margin-top: -90px;
+}
+
+.text3 p {
+    font-family: Oliver Regular;
+    font-size: 25px;
+    color: #4A4A4A;
+}
+
+.text5 {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-top: -30%;
+    margin-left: -38px;
+}
+
+.text5 p {
+    font-family: Oliver Regular;
+    font-size: 25px;
+    color: #4A4A4A;
+}
