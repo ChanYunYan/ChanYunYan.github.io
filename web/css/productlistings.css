@@ -3,7 +3,7 @@
     gap: 40px;
     width: 100%;
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     padding: 5px;
     justify-content: center;
 }
@@ -26,7 +26,7 @@
     /* Align items to the start */
     align-items: center;
     /* Align vertically */
-    gap: 120px;
+    gap: 140px;
     /* Space between product cards */
     flex-wrap: nowrap;
     /* Prevent wrapping */
@@ -35,7 +35,7 @@
 
 
 .product-card {
-    width: 200px;
+    width: 240px;
     height: auto;
     margin-top: 30px;
     margin-bottom: -70px;
@@ -47,11 +47,10 @@
     /* Prevent cards from shrinking */
 }
 
-
 .product-card .background {
     display: flex;
     justify-content: center;
-    width: 180px;
+    width: 220px;
     height: 200px;
     background-color: #FEF7E7;
     border-radius: 10px;
@@ -62,9 +61,9 @@
 }
 
 .product-card img {
-    width: 170px;
+    width: 200px;
     /* Adjust the width to 100% of the container */
-    height: 170px;
+    height: 190px;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -96,24 +95,48 @@
 }
 
 .product-card .stars {
+    display: inline-flex;
+    /* Ensures stars are in a row */
     color: gold;
     font-size: 30px;
-    margin-right: 1px;
+    margin-top: 15pt;
+    margin-right: 2px;
     line-height: 1;
+    gap: 5px;
 }
 
 .product-card .reviewnumbers {
-    display: flex;
+    margin-left: 5px;
+    align-items: center;
     font-size: 16px;
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
-    margin-left: 5px;
     line-height: 1;
+    justify-content: center;
+}
+
+.product-card.prices {
+    display: flex;
     align-items: center;
+    gap: 10pt;
+    margin-top: 5px;
+    font-size: 16px;
+    display: inline-block;
 }
 
 .product-card .price {
     font-size: 16px;
     color: #4A4A4A;
-    font-family: "Nnunito Sans", sans-serif;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 10pt;
+    display: block;
+}
+
+.product-card .old-price {
+    font-size: 14px;
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    text-decoration: line-through;
+    margin-left: 12pt;
+    display: inline-block;
 }
