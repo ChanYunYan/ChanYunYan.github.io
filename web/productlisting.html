@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Listing - Desktop (Yan)</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/productlistings.css">
+
+    <style>
+        body {
+            background-color: #FFFCF7;
+            background-size: contain;
+        }
+
+        @font-face {
+            font-family: Legwork Demo;
+            src: url(legwork_demo.woff);
+        }
+
+        @font-face {
+            font-family: Oliver Regular;
+            src: url(oliver_regular.woff);
+        }
+
+        @media (max-width: 768px) {
+            .product-card {
+                flex-direction: column;
+                /* Stack cards vertically */
+                gap: 12px;
+                /* Adjust gap for mobile */
+            }
+
+            .categories {
+                display: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="imgs/images-AmtRaised/logo.png" alt="logo" width="60px">
+        </div>
+
+        <div id="nav">
+            <div class="menu">
+                <a href="#">Adopt</a>
+                <a href="#">Donate</a>
+                <a href="#">Learning Centre</a>
+                <a href="#">Shop</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <img src="imgs/images-AmtRaised/searchicon.png" alt="search" width="23px">
+        </div>
+    </header>
+
+    <div class="top-bar">
+        <div class="left-section">
+            <div class="title">Food</div>
+            <div class="categories">
+                <a><u>DRY FOOD</u></a>
+                <a>WET FOOD</a>
+                <a>FROZEN FOOD</a>
+            </div>
+            <div>
+                <button class="filterbutton" style="background-color: #C0E2C0;">
+                    <img src="imgs/images/filtericon.png" alt="Filter Icon" class="filterbutton-photo" />
+                    <div class="filterbutton-text">Sort by</div>
+                </button>
+            </div>
+        </div>
+        <div class="right-section">
+            <img src="imgs/images/topgreenbardog.png" style="height:200px; margin: 0;">
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/pedigreeadult.png">
+                    </div>
+                </div>
+                <div class="brand">Pedigree</div>
+                <div class="name">Adult Dry Dog Food - Steak & Vegetables</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(2326)</span>
+                </div>
+                <div class="price">RM133.99</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/royalcanin.png">
+                    </div>
+                </div>
+                <div class="brand">Royal Green</div>
+                <div class="name">Small Breed Adult Dry Dog Food</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(1268)</span>
+                    <div class="price">RM268.20</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/purinafriskies.png">
+                    </div>
+                </div>
+                <div class="brand">Purina® Friskies</div>
+                <div class="name">Adult Cat Dry Food - With Vitamins</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(7196)</span>
+                    <div class="price">RM95.60</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/bluebuffalocatfood.png">
+                    </div>
+                </div>
+                <div class="brand">Blue Buffalo</div>
+                <div class="name">Sensitive Stomach Adult Dry Cat Food - Chicken</div>
+                <div class="stars">
+                    ★★★★★
+                </div>
+                <span class="reviewnumbers">(981)</span>
+                <div class="price">RM210.00</div>
+            </div>
+
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/oxbowessential.png">
+                    </div>
+                </div>
+                <div class="brand">Oxbow Essential</div>
+                <div class="name"> Adult Guinea Pig Food</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(423)</span>
+                    <div class="price">RM102.80</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/gardenselectrabbit.png">
+                    </div>
+                </div>
+                <div class="brand">Oxbow Garden Select </div>
+                <div class="name">Rabbit Food</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(94)</span>
+                    <div class="price">RM57.20</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="top-bar" style="background-color: #FBDEDB;  margin-top: 140px">
+        <div class="left-section">
+            <div class="title">Toys</div>
+            <div class="categories">
+                <a><u>Chew Toys</u></a>
+                <a>Plush Toys</a>
+            </div>
+            <div>
+                <button class="filterbutton" style="background-color: #F3AFA7;">
+                    <img src="imgs/images/filtericon.png" alt="Filter Icon" class="filterbutton-photo" />
+                    <div class="filterbutton-text">Sort by</div>
+                </button>
+            </div>
+        </div>
+
+        <img src="imgs/images/topgreenbardog.png" style="height:200px; margin-left:-45px;">
+
+    </div>
+
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/nylabonedentalchew.png">
+                    </div>
+                </div>
+                <div class="brand">Nylabone® DuraChew</div>
+                <div class="name">Easy-Hold Dental Chew Dog Toy - Bacon Flavor</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(98)</span>
+                </div>
+                <div class="price">RM53.60</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/nylabonepuppychew.png">
+                    </div>
+                </div>
+                <div class="brand">Nylabone</div>
+                <div class="name">Puppy Chew Bone Toy - Peanut Butter Flavor</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(149)</span>
+                </div>
+                <div class="price">RM37.50</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/dentalbanana.png">
+                    </div>
+                </div>
+                <div class="brand">Catstages</div>
+                <div class="name">Dental Banana Teether Cat Toy</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(65)</span>
+                </div>
+                <div class="prices">
+                    <div class="price" style="color: #FF0000; display: inline-block;">RM22.30</div>
+                    <div class="old-price">RM26.70</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/catnipchew.png">
+                    </div>
+                </div>
+                <div class="brand">Catstages</div>
+                <div class="name">Catnip Chew Mice Cat Toy</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★☆☆
+                    </div>
+                    <span class="reviewnumbers">(44)</span>
+                </div>
+                <div class="prices">
+                    <div class="price" style="color: #FF0000; display: inline-block;">RM17.90</div>
+                    <div class="old-price">RM40.20</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/smallpetrainbow.png">
+                    </div>
+                </div>
+                <div class="brand">Full Cheeks™</div>
+                <div class="name">Small Pet Rainbow Pumice Chews</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(22)</span>
+                </div>
+                <div class="price">RM22.50</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/smallpetflavouredpuffs.png">
+                    </div>
+                </div>
+                <div class="brand">Full Cheeks™</div>
+                <div class="name">Small Pet Flavored Rice Puff - Strawberry Flavour</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★★
+                    </div>
+                    <span class="reviewnumbers">(54)</span>
+                </div>
+                <div class="price">RM22.30</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="top-bar" style="background-color: #A1B5D8; margin-top: 140px; padding:32px;">
+        <div class="left-section">
+            <div class="title">Supplies</div>
+            <div class="supplies-categories">
+                <div class="row">
+                    <a><u>Collars & Leathers</u></a>
+                    <a>Beds/Furniture/Decor</a>
+                    <a>Bowl/Feeders</a>
+                </div>
+                <div class="row" style="margin-top: -50pt;">
+                    <a>Clothing & Accessories</a>
+                    <a>Others</a>
+                </div>
+            </div>
+            <button class="filterbutton" style="background-color: #5F86AA;">
+                <img src="imgs/images/filtericon.png" alt="Filter Icon" class="filterbutton-photo" />
+                <div class="filterbutton-text">Sort by</div>
+            </button>
+
+        </div>
+
+        <img src="imgs/images/cat topbar 3.png" style="height:100px; margin-left:-45px;">
+
+    </div>
+
+
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/sassywoofminniemouse.png">
+                    </div>
+                </div>
+                <div class="brand">Sassy Woof</div>
+                <div class="name">Disney Minnie Mouse Dog Leash
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★☆
+                    </div>
+                    <span class="reviewnumbers">(70)</span>
+                </div>
+                <div class="price">RM98.30</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/catgreencollar.png">
+                    </div>
+                </div>
+                <div class="brand">Catstages</div>
+                <div class="name">Holiday Grinch Kitten/Cat Green Collar</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★
+                    </div>
+                    <span class="reviewnumbers">(37)</span>
+                </div>
+                <div class="prices">
+                    <div class="price" style="color: #FF0000; display: inline-block;">RM35.70</div>
+                    <div class="old-price">RM44.65</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/bluecatcollar.png">
+                    </div>
+                </div>
+                <div class="brand">Made By Cleo</div>
+                <div class="name">Velvet Frost Blue Cat Collar</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★
+                    </div>
+                    <span class="reviewnumbers">(15)</span>
+                </div>
+                <div class="price">RM72.50</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="firstrowcolumn">
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/peppermintcat.png">
+                    </div>
+                </div>
+                <div class="brand">Merry & Bright™</div>
+                <div class="name">Peppermint Cat/Kitten Collar
+                </div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★☆☆
+                    </div>
+                    <span class="reviewnumbers">(44)</span>
+                </div>
+                <div class="prices">
+                    <div class="price" style="color: #FF0000; display: inline-block;">RM30.50</div>
+                    <div class="old-price">RM36.50</div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/purplemooncat.png">
+                    </div>
+                </div>
+                <div class="brand">Whisker City®</div>
+                <div class="name">Purple Moon Easy Kitten & Cat Collar</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★★☆
+                    </div>
+                    <span class="reviewnumbers">(54)</span>
+                </div>
+                <div class="price">RM45.65</div>
+            </div>
+            <div class="product-card">
+                <div class="background">
+                    <div class="img">
+                        <img src="imgs/images/navycatcollar.png">
+                    </div>
+                </div>
+                <div class="brand">Made By Cleo®</div>
+                <div class="name">Nautical Navy Cat Collar</div>
+                <div class="rating">
+                    <div class="stars">
+                        ★★★☆☆
+                    </div>
+                    <span class="reviewnumbers">(32)</span>
+                </div>
+                <div class="price">RM75.95</div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="footer left">
+            <div class="footer-logo-row">
+                <p class="footer logo">PETPAL</p>
+                <div class="footer underline"></div>
+            </div>
+            <div class="footer info">
+                <p>petpal@gmail.com</p>
+                <p>
+                    <span>No. 12, Jalan Pawfect</span><br>
+                    <span>Taman Furry Friends</span><br>
+                    <span>47500 Subang Jaya, Selangor, </span><br>
+                    <span>Malaysia</span>
+                </p>
+                <p>+60 12-345 6789</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
+            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
