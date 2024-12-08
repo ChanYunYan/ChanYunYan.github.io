@@ -1,7 +1,7 @@
 body {
     margin: 0%;
     padding: 0%;
-    background-color: #FFFCF7;
+    background-color: #fffcf7;
 }
 
 /*banner*/
@@ -17,7 +17,7 @@ body {
     align-items: center;
     display: flex;
     width: 100%;
-    height: 100vh;
+    height: 92vh;
     justify-content: center;
 }
 
@@ -35,6 +35,7 @@ body {
     font-size: 18px;
     text-align: center;
     color: #4A4A4A;
+    margin-top: -90px;
     padding: 10px;
 }
 
@@ -78,16 +79,7 @@ body {
     /* Adjust the spacing so text appears centered over the image */
     padding: 140px 10px;
     /* Optional: Add padding for spacing */
-    border-radius: 8px;
     align-items: center;
-}
-
-.text {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    gap: 400px;
 }
 
 /*information*/
@@ -242,22 +234,33 @@ body {
     padding-top: 100px;
 }
 
+.abtbg {
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    margin-bottom: -50px;
+}
+
 .about {
-    background-color: #FEF7E7;
+    background-color: rgb(254, 247, 231, 0.5)
 }
 
 .abtdog {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 200px;
+    margin-left: -20%;
 }
 
 .abtcat {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 100px;
+    padding-top: 80px;
+    margin-left: 12%;
 }
 
 .column {
@@ -290,7 +293,7 @@ body {
 }
 
 .buttonmission {
-    justify-items: flex-start;
+    margin-right: 500px;
 }
 
 .abtdog p {
@@ -308,6 +311,7 @@ body {
 /*book*/
 .book {
     text-align: center;
+    padding-top: 8%;
 }
 
 .book h1 {
@@ -333,11 +337,15 @@ body {
     border-radius: 20px;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: left;
     max-width: 400px;
     /* Set a maximum width */
     height: 380px;
     /* Ensure it only takes up as much space as needed */
+}
+
+.submit {
+    text-align: center;
 }
 
 /*mobile*/
@@ -357,6 +365,7 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
+        display: none;
     }
 
     .categories {
@@ -406,7 +415,7 @@ body {
     }
 
     .booking {
-        height: 500px;
-
+        height: 300px;
+        margin-right: -500px;
     }
 }
