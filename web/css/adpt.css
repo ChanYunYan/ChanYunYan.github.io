@@ -1,0 +1,100 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFCF7;
+}
+
+/*banner*/
+.bnr {
+    background-color: #E4F0D0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+.text {
+    font-family: legwork demo;
+    font-size: 40px;
+    white-space: nowrap;
+}
+
+/*information*/
+.information {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.information h1 {
+    font-family: legwork demo;
+    font-size: 30px;
+    color: #1C1C42;
+}
+
+.information h2 {
+    font-family: oliver;
+    font-size: 20px;
+    color: #5C4F66;
+}
+
+.container {
+    margin: 100px;
+}
+
+.line1 {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    gap: 100px;
+}
+
+.info {
+    background-color: #FBDEDB;
+    border-radius: 20px;
+    padding: 0px 10px;
+    margin: 0px 20px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+}
+
+.line1 h1 {
+    font-family: legwork demo;
+    font-size: 25px;
+    color: #1C1C42;
+}
+
+.line1 p {
+    font-family: "Nunito Sans", sans-serif;
+    color: #4A4A4A;
+}
+
+.gap {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.breed,
+.calender {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    .line1 {
+        flex-direction: column;
+
+    }
+}
