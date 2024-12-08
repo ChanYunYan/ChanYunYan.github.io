@@ -37,22 +37,20 @@
     </header>
 
     <!--banner-->
-    <div class="banner">
-        <section>
-            <div class="img"
-                style="background: url('imgs/imageshp/hp.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
-                <div class="findpals">
-                    <div class="find">Find</div>
-                    <div class="pals">Pals</div>
-                </div>
+    <section class="banner">
+        <div class="img"
+            style="background: url('imgs/imageshp/hp.png'); background-size: cover; background-repeat: no-repeat; background-position: center center;">
+            <div class="findpals">
+                <div class="find">Find</div>
+                <div class="pals">Pals</div>
             </div>
-            <div class="quote">
-                <p>Welcome to the Pet Pals.</p>
-                <p>Explore a world dedicated to keeping your beloved pets happy and loved.</p>
-                <p>Quick find your new friends here !</p>
-            </div>
-        </section>
-    </div>
+        </div>
+        <div class="quote">
+            <p>Welcome to the Pet Pals.</p>
+            <p>Explore a world dedicated to keeping your beloved pets happy and loved.</p>
+            <p>Quick find your new friends here !</p>
+        </div>
+    </section>
 
     <!--adoption-->
     <div class="adoption">
@@ -206,6 +204,10 @@
     <!--aboutus-->
     <div class="aboutus">
         <section>
+            <!-- Top Shape -->
+            <div class="abtbg">
+                <img src="imgs/imageshp/abtbg.png" alt="abtbg" class="abtbg">
+            </div>
 
             <div class="about">
                 <!--dog-->
@@ -216,8 +218,9 @@
 
                     <div>
                         <h1>about us</h1>
-                        <div class="buttonwhy" style="background:url('imgs/imageshp/aboutbutton1.png' );background-size:contain;
-                        background-repeat: no-repeat; background-position: center center; padding:20px 10px;">
+                        <div class="buttonwhy"
+                            style="background:url('imgs/imageshp/aboutbutton1.png' );background-size:contain;
+                        background-repeat: no-repeat; background-position: center center; padding:20px 10px; margin-left:-220px">
                             <h2 class="why">why us?</h2>
                         </div>
 
@@ -241,8 +244,9 @@
                 <!--cat-->
                 <div class="abtcat">
                     <div>
-                        <div class="buttonmission" style="background:url('imgs/imageshp/aboutbutton2.png' );background-size:contain;
-                        background-repeat: no-repeat; background-position:flex-start; padding:28px 5px;">
+                        <div class="buttonmission"
+                            style="background:url('imgs/imageshp/aboutbutton2.png' );background-size:contain;
+                        background-repeat: no-repeat; background-position:center center; padding:28px 61px; margin-left: -100px;">
                             <h2 class="mission">our mission</h2>
                         </div>
 
@@ -273,7 +277,8 @@
                 </div>
 
                 <div>
-                    <img src="imgs/imageshp/abtimage.png" alt="button" class="abtimage" style="margin-top: 100px;">
+                    <img src="imgs/imageshp/abtimage.png" alt="button" class="abtimage"
+                        style="margin-top: 50px; margin-bottom: -110px;">
                 </div>
             </div>
         </section>
@@ -288,9 +293,10 @@
                     <div>
                         <h2>book an apppointment</h2>
                         <h2>Date and time</h2>
-                        <input type="text" placeholder="mm / dd / yy">
+                        <input type="text" placeholder="mm / dd / yy"
+                            style="width: 100%; padding: 3px; border-radius: 10px;">
                         <h2>Your name</h2>
-                        <input type="text" placeholder="Daniel">
+                        <input type="text" placeholder="Daniel" style="width: 100%; padding: 3px; border-radius: 10px;">
                         <div class="buttonbook" style="background: url('imgs/imageshp/button.png') no-repeat center
                             center; background-size: contain; padding: 10px;">
                             <h2 class="submit">submit</h2>
@@ -299,9 +305,34 @@
                 </div>
 
                 <div>
-                    <img src="imgs/imageshp/book.png" alt="book" height="500" class="booking" ;>
+                    <img src="imgs/imageshp/book.png" alt="book" height="500" class="booking"
+                        style="margin-right: -570px;">
                 </div>
             </div>
         </section>
     </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <div class="footer left">
+            <div class="footer-logo-row">
+                <p class="footer logo">PETPAL</p>
+                <div class="footer underline"></div>
+            </div>
+            <div class="footer info">
+                <p>petpal@gmail.com</p>
+                <p>
+                    <span>No. 12, Jalan Pawfect</span><br>
+                    <span>Taman Furry Friends</span><br>
+                    <span>47500 Subang Jaya, Selangor, </span><br>
+                    <span>Malaysia</span>
+                </p>
+                <p>+60 12-345 6789</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
+            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
+        </div>
+    </footer>
 </body>
