@@ -3,34 +3,72 @@
     border-radius: 15px;
     padding: 20px;
     display: flex;
-    margin-top: 5px;
-    justify-content: center;
+    margin-top: 20px;
     gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .left-section {
-    width: 50%;
-    padding-right: 20px;
-    margin-left: 15px;
+    width: auto;
+    margin-left: 20px;
 }
 
-.food {
-    font-size: 25pt;
+.title {
+    font-size: 28pt;
     font-family: Legwork Demo;
+    color: #1C1C42;
 }
 
 .categories {
+    text-decoration: none;
     display: flex;
-    margin-top: 13pt;
+    margin-top: 16pt;
+    color: #5C4F66;
+    font-size: 18pt;
+    font-family: Oliver Regular;
+    gap: 90px;
+}
+
+.categories a:hover {
+    text-decoration: underline;
+}
+
+.supplies-categories {
+    display: flex;
+    flex-direction: column;
     color: #5C4F66;
     font-size: 18pt;
     font-family: Oliver Regular;
     gap: 100px;
 }
 
+.supplies-categories a:hover {
+    text-decoration: underline;
+}
+
+.supplies-categories .row {
+    display: flex;
+    margin-top: 16pt;
+    gap: 60px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+
+.filterbuttons-container {
+    display: flex;
+    /* Ensures child elements align horizontally */
+    justify-content: flex-start;
+    /* Align items to the left (adjust as needed) */
+    align-items: center;
+    /* Vertically align items */
+    gap: 20px;
+    /* Space between buttons */
+}
+
 .filterbutton {
     margin-top: 20px;
-    background-color: #C0E2C0;
     border: 1px solid black;
     align-items: center;
     display: inline-flex;
@@ -38,8 +76,9 @@
     border-radius: 20px;
     text-decoration: none;
     font-size: 10px;
-    color: #4A4A4A;
-    width: 120px;
+    color: #000000;
+    width: 125px;
+
 }
 
 .filterbutton-photo {
@@ -50,44 +89,19 @@
 
 .filterbutton-text {
     font-size: 17px;
-    color: #585858;
+    color: #000000
 }
 
 .right-section {
-    width: 50%;
-    /* Set the width of the right section */
+    width: auto;
     padding-left: 20px;
-    height: 10vh;
-    /* Ensure the right section fills the entire viewport height */
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+
 }
 
-.image-container {
-    position: relative;
-    width: 100%;
-    /* Make it fill the width of the right section */
-    height: 100%;
-}
-
-.bottom-shapeimage {
-    width: 100%;
-    /* Make the bottom image fill the container */
-    height: 100%;
-    /* Ensure the bottom image fills the container */
-    max-width: 100%;
-    max-height: 100%
-}
-
-.top-dogimage {
-    position: absolute;
-    /* Position the top image absolutely */
-    top: -15pt;
-    /* Align it at the top of the container */
-    left: 40%;
-    /* Align it to the left of the container */
-    width: 50%;
-    /* Adjust size as needed (optional) */
-    z-index: 10;
-    /* Ensure the top image appears above the bottom image */
+.categories .row {
+    display: flex;
+    gap: 15px;
 }

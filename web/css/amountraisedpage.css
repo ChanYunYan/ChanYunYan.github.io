@@ -63,19 +63,24 @@ body {
     /* Adjust the size to be smaller */
 }
 
-
-
 .footerlogo {
     font-family: legwork DEMO;
     font-size: 38px;
 }
 
 footer {
+    position: relative;
     background-color: #6896B1;
     color: white;
     padding: 20px;
     font-size: 15px;
     font-family: 'Nunito Sans', sans-serif;
+}
+
+.cat {
+    position: absolute;
+    bottom: 100%;
+    left: 3%;
 }
 
 h3 {
@@ -89,10 +94,12 @@ h3 {
     align-items: center;
     display: flex;
     gap: 10px;
+    font-size: 20px;
 }
 
 .form input {
-    width: 115%;
+    position: relative;
+    width: 120%;
     border-radius: 8px;
     border: 1px solid #6b6a6a;
     padding: 10px;
@@ -101,46 +108,16 @@ h3 {
     line-height: 50%;
 }
 
-.dog img {
-    position: absolute;
-    top: 28.4%;
-    left: 71.8%;
-}
-
-.cat img {
-    position: absolute;
-    top: 99.9%;
-    left: 3%;
-}
-
-.shape1 img {
-    position: absolute;
-    top: 30%;
-    left: 0%;
-}
-
-.shape2 img {
-    position: absolute;
-    top: 45%;
-    right: 0%;
-}
-
-.shape3 img {
-    position: absolute;
-    top: 102%;
-    left: 50%;
-}
-
-.shape4 img {
-    position: absolute;
-    top: 104%;
-    right: 0%;
-}
-
 .form {
-    margin-top: -10px;
+    margin-top: 3%;
     font-size: 20px;
     line-height: 43%;
     font-family: 'Nunito Sans', sans-serif;
     color: #4A4A4A;
+}
+
+.dog {
+    position: absolute;
+    top: 36%;
+    left: 70.2%;
 }
