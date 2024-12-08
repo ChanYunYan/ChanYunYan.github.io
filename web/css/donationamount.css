@@ -140,6 +140,7 @@ h3 {
     .donation-container {
         flex-direction: column;
         margin-top: -30px;
+        justify-content: center;
     }
 
     .da {
@@ -148,5 +149,9 @@ h3 {
 
     .dog {
         display: none;
+    }
+
+    .donationamount {
+        margin-right: 0%;
     }
 }

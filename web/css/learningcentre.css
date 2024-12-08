@@ -164,6 +164,7 @@ body {
     .learningcentre {
         font-size: 48px;
         margin-left: 15%;
+        margin-top: 70px;
     }
 
     .nutri {
@@ -188,7 +189,7 @@ body {
     .behavior {
         font-size: 28px;
         margin-left: 17%;
-        margin-top: 115px;
+        margin-top: 130px;
     }
 
     .behaviorntips {
@@ -216,5 +217,15 @@ body {
     .mobiledog3 {
         width: 300px;
         margin-left: 21%;
+    }
+
+    .text3 {
+        margin-left: 35px;
+        margin-top: -85px;
+    }
+
+    .text5 {
+        margin-top: -90px;
+        margin-left: -10px;
     }
 }
