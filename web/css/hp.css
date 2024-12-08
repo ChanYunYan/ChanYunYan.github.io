@@ -35,6 +35,7 @@ body {
     font-size: 18px;
     text-align: center;
     color: #4A4A4A;
+    padding: 10px;
 }
 
 /*adoption*/
@@ -121,11 +122,21 @@ body {
 }
 
 /*activities*/
+.top-shape {
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: -50px;
+    /* Connects shape to the content without overlap */
+}
+
+
 .act {
     text-align: center;
-    background-color: #FBDEDB;
-    background-image: cover;
+}
 
+.actcontent {
+    background-color: #FBDEDB;
+    z-index: 100;
 }
 
 .activities {
@@ -168,12 +179,21 @@ body {
     width: 100%;
     height: auto;
     background-position: top center, bottom center;
+    display: block;
+    /* Ensures no inline gaps */
 }
 
 .join {
     font-family: oliver;
     font-size: 20px;
     color: #5C4F66;
+}
+
+/* Bottom Shape Styling */
+.bottom-shape {
+    text-align: center;
+    margin-top: -20px;
+    /* Connects the bottom shape to the content */
 }
 
 /*process*/
@@ -198,7 +218,8 @@ body {
     justify-content: center;
     text-align: center;
     gap: 200px;
-    line-height: 20%;
+    line-height: 300%;
+    margin-top: -30px;
 }
 
 .prcs {
@@ -207,12 +228,22 @@ body {
     color: #4A4A4A;
 }
 
+.line {
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+}
+
 /*aboutus*/
 .aboutus {
     background-image: url('imgs/imageshp/abtshape');
     background-size: contain;
     background-position: center;
     padding-top: 100px;
+}
+
+.about {
+    background-color: #FEF7E7;
 }
 
 .abtdog {
@@ -226,11 +257,12 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 150px;
 }
 
 .column {
     display: flex;
+    align-items: center;
 }
 
 .abtimage {
@@ -308,10 +340,6 @@ body {
     /* Ensure it only takes up as much space as needed */
 }
 
-.booking {
-    margin: -65px;
-}
-
 /*mobile*/
 @media screen and (max-width: 600px) {
     #nav {
@@ -326,7 +354,9 @@ body {
     }
 
     .findpals {
-        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .categories {
