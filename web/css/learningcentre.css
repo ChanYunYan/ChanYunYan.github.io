@@ -2,6 +2,7 @@ body {
     background-color: #FEF7E7;
     margin: 0%;
     padding: 0%;
+    background-size: contain;
 }
 
 .learningcentre {
