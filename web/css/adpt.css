@@ -21,6 +21,10 @@ body {
     margin-top: 200px;
 }
 
+.dogimgmobile {
+    display: none;
+}
+
 /*information*/
 .information {
     justify-content: center;
@@ -57,7 +61,7 @@ body {
     padding: 30px;
 }
 
-.info {
+.dginfo {
     background-color: #FBDEDB;
     border-radius: 20px;
     padding: 0px 10px;
@@ -102,21 +106,61 @@ body {
         display: none;
     }
 
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+
     .bnr {
         background-color: #E4F0D0;
-        height: 90vh;
+        height: 92vh;
     }
 
     .text {
         margin-bottom: -350px;
-        align-items: center;
+        text-align: center;
+    }
+
+    .information h1 {
+        font-size: 35px;
+
+    }
+
+    .information h2 {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .dogimgmobile {
+        background-size: contain;
+        /* Adjust image to cover the area */
+        display: block;
+    }
+
+    .line1 {
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .dginfo {
+        height: 120px;
+    }
+
+    .dog {
+        margin: 20px;
     }
 
     .dogimg {
         display: none;
     }
 
-    .line1 {
-        flex-direction: column;
-    }
 }
