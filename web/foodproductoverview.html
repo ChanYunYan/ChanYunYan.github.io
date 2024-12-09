@@ -18,11 +18,8 @@
     <style>
         body {
             background-image: url('imgs/images/backgroundimage.png');
-            background-size: contain;
             background-repeat: no-repeat;
-            width: 100%;
-            height: 100vh;
-            background-position: center;
+            background-size: 100%;
         }
 
         @font-face {
@@ -34,13 +31,97 @@
             font-family: Oliver Regular;
             src: url(oliver_regular.woff);
         }
+
+        @media screen and (max-width: 600px) {
+            body {
+                flex-direction: column;
+                background-size: contain;
+                background-image: none;
+            }
+
+            #nav {
+                flex-direction: column;
+                justify-content: space-between;
+                display: none;
+            }
+
+            header {
+                background-size: cover;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .categories {
+                display: none;
+            }
+
+            .filterbutton {
+                display: none;
+            }
+
+            .differentfilterbuttons {
+                display: none;
+            }
+
+            .product {
+                flex-direction: column;
+            }
+
+            .product-photo {
+                height: 400px;
+            }
+
+            .product-info .stars {
+                font-size: 40px;
+            }
+
+            .productoverview {
+                align-items: center;
+            }
+
+            .irregularshapesphotogallery.container {
+                flex-direction: column;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container1 {
+                flex-direction: column;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container1 .image img {
+                height: 250px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2 {
+                flex-direction: column;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2 .image img {
+                height: 250px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container3 {
+                flex-direction: column;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container3 .image img {
+                height: 250px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container4 {
+                flex-direction: column;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container4 .image img {
+                height: 250px;
+            }
+        }
     </style>
 </head>
 
 <body>
     <header>
         <div class="logo">
-            <img src="imgs/images-AmtRaised/logo.png" alt="logo" width="60px">
+            <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
         </div>
 
         <div id="nav">
@@ -54,7 +135,7 @@
         </div>
 
         <div class="search">
-            <img src="imgs/images-AmtRaised/searchicon.png" alt="search" width="23px">
+            <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
     </header>
     <div class="top-bar" style="background-color: #FEF7E7;">
@@ -195,3 +276,67 @@
     </div>
 
     <div class="viewmorereviews">View more reviews</div>
+
+    <div class="product overview. title" style="margin-top: 100pt; margin-bottom: 60pt;">Photo Gallery</div>
+
+    <div class="irregularshapesphotogallery container" style="align-items:center;">
+        <div class="irregularshapesphotogallery image-and-description-container1">
+            <div class="image">
+                <img src="imgs/images/(food)irregulardogphoto1.png" style=" margin-left: 150pt;">
+            </div>
+            <div class="description">Fuel your dog's health <br> with every bite!</div>
+        </div>
+    </div>
+    <div class="irregularshapesphotogallery container" style="margin-top:-140pt;">
+        <div class="irregularshapesphotogallery image-and-description-container2">
+            <div class="description">Real ingredients, <br>
+                real love for your dog.</div>
+            <div class="image">
+                <img src="imgs/images/(food)irregulardogphoto2.png" alt="Dog Treats" style="margin-left: 120pt;">
+            </div>
+        </div>
+    </div>
+
+    <div class="irregularshapesphotogallery container">
+        <div class="irregularshapesphotogallery image-and-description-container3">
+            <div class="image">
+                <img src="imgs/images/(food)irregulardogphoto3.png" style="margin-left: 120pt;">
+            </div>
+            <div class="description">Tail wags start <br> with pedigree!</div>
+        </div>
+    </div>
+
+    <div class="irregularshapesphotogallery container" style="margin-top:-120px; margin-left:-120px;">
+        <div class="irregularshapesphotogallery image-and-description-container2">
+            <div class="description">Happy pups, healthy meals!</div>
+            <div class="image">
+                <img src="imgs/images/(food)irregulardogphoto4.png" alt="Dog Treats" style="margin-left: 120pt;">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer left">
+            <div class="footer-logo-row">
+                <p class="footer logo">PETPAL</p>
+                <div class="footer underline"></div>
+            </div>
+            <div class="footer info">
+                <p>petpal@gmail.com</p>
+                <p>
+                    <span>No. 12, Jalan Pawfect</span><br>
+                    <span>Taman Furry Friends</span><br>
+                    <span>47500 Subang Jaya, Selangor, </span><br>
+                    <span>Malaysia</span>
+                </p>
+                <p>+60 12-345 6789</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
+            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
+        </div>
+    </footer>
+</body>
+
+</html>

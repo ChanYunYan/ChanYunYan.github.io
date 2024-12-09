@@ -31,16 +31,43 @@
         }
 
         @media (max-width: 768px) {
-            .product-card {
+
+            body {
                 flex-direction: column;
-                /* Stack cards vertically */
-                gap: 12px;
-                /* Adjust gap for mobile */
+                background-size: contain;
+                background-image: none;
+            }
+
+            #nav {
+                flex-direction: column;
+                justify-content: space-between;
+                display: none;
+            }
+
+            header {
+                background-size: cover;
+                align-items: center;
+                justify-content: space-between;
             }
 
             .categories {
                 display: none;
             }
+
+            .supplies-categories {
+                display: none;
+            }
+
+            .firstrowcolumn {
+                flex-direction: column;
+            }
+
+            .product-card {
+                flex-direction: column;
+                gap: 12px;
+            }
+
+
         }
     </style>
 </head>
@@ -48,7 +75,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="imgs/images-AmtRaised/logo.png" alt="logo" width="60px">
+            <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
         </div>
 
         <div id="nav">
@@ -62,7 +89,7 @@
         </div>
 
         <div class="search">
-            <img src="imgs/images-AmtRaised/searchicon.png" alt="search" width="23px">
+            <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
     </header>
 
@@ -205,8 +232,6 @@
                 </button>
             </div>
         </div>
-
-        <img src="imgs/images/topgreenbardog.png" style="height:200px; margin-left:-45px;">
 
     </div>
 

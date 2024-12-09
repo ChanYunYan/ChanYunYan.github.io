@@ -94,11 +94,10 @@
 
 .right-section {
     width: auto;
-    padding-left: 20px;
+    margin-left: 1080px;
+    margin-top: 60px;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
-
+    position: absolute;
 }
 
 .categories .row {
