@@ -137,3 +137,95 @@ body {
     font-size: 25px;
     color: #4A4A4A;
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        background-size: contain;
+        background-image: none;
+    }
+
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nutrinhealth {
+        flex-direction: column;
+    }
+
+    .learningcentre {
+        font-size: 48px;
+        margin-left: 15%;
+        margin-top: 70px;
+    }
+
+    .nutri {
+        font-size: 28px;
+        margin-left: 25%;
+    }
+
+    .nutrinhealth {
+        margin-left: 120px;
+        gap: 95px;
+    }
+
+    .mobiledog {
+        width: 250px;
+    }
+
+    .text {
+        margin-top: -90px;
+        margin-left: -120px;
+    }
+
+    .behavior {
+        font-size: 28px;
+        margin-left: 17%;
+        margin-top: 130px;
+    }
+
+    .behaviorntips {
+        flex-direction: column;
+        gap: 85px;
+    }
+
+    .mobiledog2 {
+        width: 320px;
+        margin-left: 18%;
+        margin-top: 20px;
+    }
+
+    .groom {
+        font-size: 28px;
+        margin-left: 38%;
+        margin-top: 120px;
+    }
+
+    .grooming {
+        flex-direction: column;
+        gap: 95px;
+    }
+
+    .mobiledog3 {
+        width: 300px;
+        margin-left: 21%;
+    }
+
+    .text3 {
+        margin-left: 35px;
+        margin-top: -85px;
+    }
+
+    .text5 {
+        margin-top: -90px;
+        margin-left: -10px;
+    }
+}
