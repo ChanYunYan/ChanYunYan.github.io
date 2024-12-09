@@ -21,7 +21,7 @@ body {
     margin-top: 200px;
 }
 
-.dogimgmobile {
+.mobile-img {
     display: none;
 }
 
@@ -123,27 +123,35 @@ body {
     .bnr {
         background-color: #E4F0D0;
         height: 92vh;
+        flex-direction: column-reverse;
+        justify-content: center;
+        /* Center content vertically */
+        text-align: center;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+        width: 70%;
+        margin-top: 80px;
+        margin-left: 60px;
     }
 
     .text {
-        margin-bottom: -350px;
         text-align: center;
+        margin-left: 0px;
     }
 
     .information h1 {
         font-size: 35px;
-
     }
 
     .information h2 {
         font-size: 28px;
         margin-bottom: 10px;
-    }
-
-    .dogimgmobile {
-        background-size: contain;
-        /* Adjust image to cover the area */
-        display: block;
     }
 
     .line1 {
@@ -157,10 +165,6 @@ body {
 
     .dog {
         margin: 20px;
-    }
-
-    .dogimg {
-        display: none;
     }
 
 }
