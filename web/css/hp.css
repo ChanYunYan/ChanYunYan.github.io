@@ -351,11 +351,6 @@ body {
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    #nav {
-        flex-direction: column;
-        justify-content: space-between;
-        display: none;
-    }
 
     body,
     html {
@@ -363,12 +358,6 @@ body {
         padding: 0;
         overflow-x: hidden;
         /* 禁止横向滚动 */
-    }
-
-    header {
-        background-size: cover;
-        align-items: center;
-        justify-content: space-between;
     }
 
     .img {

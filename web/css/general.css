@@ -87,3 +87,17 @@ footer {
     width: 35px;
     align-self: flex-end;
 }
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
