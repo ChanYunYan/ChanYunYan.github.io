@@ -7,17 +7,24 @@ body {
 .inform {
     display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
 }
 
 .inform h1 {
     font-family: legwork demo;
-    font-size: 40px;
+    font-size: 80px;
     color: #1C1C42;
+    white-space: nowrap;
+    line-height: 30px;
 }
 
-.inform h2 {
+.bg {
+    margin-top: 100px;
+}
+
+.text {}
+
+.inform h2,
+.button h2 {
     font-family: oliver;
     font-size: 25px;
     color: #5C4F66;
@@ -26,4 +33,10 @@ body {
 .inform p {
     font-family: "Nunito Sans", sans-serif;
     color: #4A4A4A;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
 }
