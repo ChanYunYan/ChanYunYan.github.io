@@ -215,6 +215,7 @@
 }
 
 .productoverview {
+    justify-content: center;
     margin-left: 90pt;
     margin-top: 90pt;
 }
