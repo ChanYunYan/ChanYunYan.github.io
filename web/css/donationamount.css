@@ -2,6 +2,7 @@ body {
     background-color: #FFFCF7;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
 }
 
 .dfp {
@@ -115,6 +116,7 @@ h3 {
 }
 
 .doggie {
+    display: none;
     position: absolute;
     bottom: 100%;
     left: 3%;
@@ -153,8 +155,9 @@ h3 {
     }
 
     .donationamount {
-        width: 113%;
+        width: 95%;
         margin-left: 15%;
+        border-radius: 0%;
     }
 
     .form input {
@@ -169,6 +172,7 @@ h3 {
     }
 
     .doggie {
+        display: block;
         margin-left: 55%;
         width: 180px;
     }
