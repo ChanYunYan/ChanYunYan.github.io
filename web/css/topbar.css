@@ -4,14 +4,14 @@
     padding: 20px;
     display: flex;
     margin-top: 20px;
-    gap: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
     justify-content: space-between;
     align-items: center;
 
 }
 
 .left-section {
-    width: auto;
     margin-left: 20px;
 }
 
@@ -93,11 +93,10 @@
 }
 
 .right-section {
-    width: auto;
-    margin-left: 1080px;
-    margin-top: 60px;
     display: flex;
-    position: absolute;
+    justify-content: center;
+    align-items: center;
+    position: relative;
 }
 
 .categories .row {
