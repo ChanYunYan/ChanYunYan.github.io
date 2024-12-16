@@ -41,8 +41,6 @@ body {
 
 /*adoption*/
 .adoption {
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -128,14 +126,11 @@ body {
 
 .actcontent {
     background-color: #FBDEDB;
-    z-index: 100;
 }
 
 .activities {
     display: flex;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
     gap: 30px;
     background-color: rgb(255, 252, 247, 0.5);
     padding: 20px 80px;
@@ -219,8 +214,6 @@ body {
 
 .line {
     margin-top: -100px;
-    justify-content: center;
-    align-items: center;
 }
 
 /*aboutus*/
@@ -240,7 +233,7 @@ body {
 }
 
 .about {
-    background-color: rgb(254, 247, 231，0.5)
+    background-color: rgb(254, 247, 231, 0.5)
 }
 
 .abtdog {
@@ -326,8 +319,6 @@ body {
     background-color: rgb(161, 181, 216, 0.2);
     padding: 30px;
     border-radius: 20px;
-    justify-content: center;
-    align-items: center;
     text-align: left;
     max-width: 400px;
     /* Set a maximum width */
