@@ -12,13 +12,6 @@
             font-family: 'Legwork DEMO';
             src: url('LegworkDEMO.otf') format('opentype');
         }
-
-        body {
-            background-image: url("imgs/images-donationamount/bgimg.png");
-            background-repeat: no-repeat;
-            background-size: 100%;
-            background: ('imgs/images-donationamounnt/bgimg2.png');
-        }
     </style>
 </head>
 
@@ -45,6 +38,12 @@
         </div>
     </header>
 
+    <div class="shape1"><img src="imgs/images-donationamount/shape1.png" alt="bg" width="50px"></div>
+    <div class="shape2"><img src="imgs/images-donationamount/shape2.png" alt="bg" width="90px"></div>
+    <div class="mobileshape1"><img src="imgs/images-donationamount/mobileshape1.png" alt="bg" width="45px"></div>
+    <div class="mobileshape2"><img src="imgs/images-donationamount/mobileshape2.png" alt="bg" width="40px"></div>
+    <div class="mobileshape3"><img src="imgs/images-donationamount/mobileshape3.png" alt="bg" width="60px"></div>
+
     <div class="dfp">
         <p>Donate For Pets</p>
     </div>
@@ -53,13 +52,17 @@
         <div class="donationamount">
             <h1 class="da">Donation Amount</h1>
 
-            <button>RM10</button>
-            <button>RM20</button>
-            <button>RM30</button>
+            <div class="button1">
+                <button>RM10</button>
+                <button>RM20</button>
+                <button>RM30</button>
+            </div>
             <br>
-            <button>RM40</button>
-            <button>RM50</button>
-            <button>RM100</button>
+            <div class="button1">
+                <button>RM40</button>
+                <button>RM50</button>
+                <button>RM100</button>
+            </div>
             <br>
             <div id="custom">
                 <button class="cd"><span class="small-rm">RM</span> Custom Donation</button>
@@ -75,14 +78,13 @@
                 <input type="email">
                 <p>Phone</p>
                 <input type="tel">
+                <img class="dog" src="imgs/images-donationamount/dog.png" alt="dog" width="150px">
             </div>
 
             <div class="greenshape"
                 style="background: url('imgs/images-donationamount/proceed.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; padding: 55px;">
                 <p>Proceed to Payment</p>
                 <img src="imgs/images-donationamount/payarrow.png" alt="arrow" width="20px">
-
-                <img class="dog" src="imgs/images-donationamount/dog.png" alt="dog" width="160px">
             </div>
         </div>
     </div>
@@ -111,6 +113,7 @@
             <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
 
             <img class="cat" src="imgs/images-donationamount/cat.png" alt="cat" width="180px">
+            <img class="shape3" src="imgs/images-donationamount/shape3.png" alt="bg" width="45%">
         </div>
         <img class="doggie" src="imgs/images-donationamount/dog.png" alt="dog" width="160px">
     </footer>

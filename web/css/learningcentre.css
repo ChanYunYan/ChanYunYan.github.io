@@ -23,8 +23,27 @@ body {
 .nutrinhealth {
     display: flex;
     justify-content: center;
-    gap: 120px;
-    margin-top: 50px;
+    gap: 100px;
+    margin-top: -30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    z-index: 200;
+}
+
+.bg2 {
+    background-color: #E4F0D0;
+}
+
+.dog {
+    flex: 1;
+}
+
+.cat {
+    flex: 1;
+}
+
+.others {
+    flex: 1;
 }
 
 .text {
@@ -61,8 +80,17 @@ body {
 .behaviorntips {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 80px;
     margin-top: 30px;
+    margin-left: 15%;
+}
+
+.dog {
+    flex: 1;
+}
+
+.cat {
+    flex: 1;
 }
 
 .text2 {
@@ -71,6 +99,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: -105px;
+    margin-left: -36%;
 }
 
 .text2 p {
@@ -85,6 +114,7 @@ body {
     gap: 10px;
     justify-content: center;
     align-items: center;
+    margin-left: -40%;
 }
 
 .text4 p {
@@ -98,15 +128,28 @@ body {
     font-size: 30px;
     font-family: Oliver Regular;
     margin-left: 720px;
-    margin-top: 330px;
+    margin-top: -35px;
 }
 
 .grooming {
     display: flex;
     justify-content: center;
-    gap: 150px;
+    gap: 80px;
     margin-top: 40px;
     margin-bottom: 50px;
+    margin-left: 19%;
+}
+
+.bg3 {
+    background-color: #A1B5D8;
+}
+
+.dog {
+    flex: 1;
+}
+
+.cat {
+    flex: 1;
 }
 
 .text3 {
@@ -116,6 +159,7 @@ body {
     align-items: center;
     margin-top: -30%;
     margin-top: -90px;
+    margin-left: -45%;
 }
 
 .text3 p {
@@ -129,8 +173,8 @@ body {
     gap: 10px;
     justify-content: center;
     align-items: center;
-    margin-top: -30%;
-    margin-left: -38px;
+    margin-top: -15%;
+    margin-left: -50%;
 }
 
 .text5 p {
@@ -184,7 +228,7 @@ body {
 
     .text {
         margin-top: -90px;
-        margin-left: -120px;
+        margin-left: -20%;
     }
 
     .behavior {
@@ -196,6 +240,15 @@ body {
     .behaviorntips {
         flex-direction: column;
         gap: 85px;
+        margin-left: 1%;
+    }
+
+    .text2 {
+        margin-left: 5%;
+    }
+
+    .text4 {
+        margin-left: 5%;
     }
 
     .mobiledog2 {
@@ -207,12 +260,13 @@ body {
     .groom {
         font-size: 28px;
         margin-left: 38%;
-        margin-top: 120px;
+
     }
 
     .grooming {
         flex-direction: column;
         gap: 95px;
+        margin-left: -1%;
     }
 
     .mobiledog3 {
