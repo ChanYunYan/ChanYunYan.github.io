@@ -25,7 +25,7 @@ body {
     font-family: legwork demo;
     font-size: 128px;
     display: flex;
-    gap: 500px;
+    gap: 80%;
     color: #1C1C42;
 }
 
@@ -42,6 +42,7 @@ body {
 /*adoption*/
 .adoption {
     text-align: center;
+    padding-bottom: 20%;
 }
 
 .adoption h1 {
@@ -60,7 +61,8 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 150px;
+    align-items: center;
+    gap: 5%;
 }
 
 .align {
@@ -73,10 +75,8 @@ body {
     font-family: legwork demo;
     font-size: 28px;
     color: #1C1C42;
-    margin-top: -115%;
+    margin-top: -85%;
     /* Adjust the spacing so text appears centered over the image */
-    padding: 140px 10px;
-    /* Optional: Add padding for spacing */
     align-items: center;
 }
 
@@ -87,8 +87,8 @@ body {
     align-items: center;
     text-align: center;
     max-width: 100%;
-    gap: 350px;
-    padding: 50px;
+    gap: 20%;
+    padding: 8%;
 }
 
 .group {
@@ -131,12 +131,12 @@ body {
 .activities {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 5%;
     background-color: rgb(255, 252, 247, 0.5);
     padding: 20px 80px;
     align-items: center;
     border-radius: 20px;
-    margin: 20px;
+    margin: 5%;
 }
 
 .actinfo {
@@ -179,7 +179,7 @@ body {
 /* Bottom Shape Styling */
 .bottom-shape {
     text-align: center;
-    margin-top: -20px;
+    margin-top: -5%;
     /* Connects the bottom shape to the content */
 }
 
@@ -204,16 +204,15 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 200px;
-    line-height: 300%;
-    margin-top: -30px;
+    gap: 10%;
+    margin-top: -5%;
     font-family: "Nunito Sans", sans-serif;
     font-size: 18px;
     color: #4A4A4A;
 }
 
 .line {
-    margin-top: -100px;
+    margin-top: -5%;
 }
 
 /*aboutus*/
@@ -221,7 +220,7 @@ body {
     background-image: url('imgs/imageshp/abtshape');
     background-size: contain;
     background-position: center;
-    padding-top: 100px;
+    padding-top: 15%;
 }
 
 .abtbg {
@@ -240,7 +239,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 200px;
+    gap: 15%;
     margin-left: -20%;
 }
 
@@ -283,7 +282,7 @@ body {
 }
 
 .buttonmission {
-    margin-right: 500px;
+    margin-right: 60%;
 }
 
 .abtdog p,
@@ -410,8 +409,8 @@ body {
 
     .infor {
         flex-direction: column;
-        gap: 50px;
-        margin-top: 10px;
+        gap: 100%;
+        margin: 20%;
     }
 
     .activities {
@@ -453,7 +452,6 @@ body {
 
     .aboutdog {
         display: block;
-        height: 400px;
         margin-right: 5px;
         margin-bottom: -200px;
     }
