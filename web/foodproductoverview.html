@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Food Product Overview (Yan)</title>
+    <title>Food Product Overview</title>
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,6 +20,7 @@
             background-image: url('imgs/images/backgroundimage.png');
             background-repeat: no-repeat;
             background-size: 100%;
+            overflow-x: hidden;
         }
 
         @font-face {
@@ -32,7 +33,7 @@
             src: url(oliver_regular.woff);
         }
 
-        @media screen and (max-width: 600px) {
+        @media screen and (max-width: 720px) {
             body {
                 flex-direction: column;
                 background-size: contain;
@@ -54,6 +55,10 @@
                 justify-content: space-between;
             }
 
+            .top-bar {
+                padding: 5px;
+            }
+
             .categories {
                 display: none;
             }
@@ -64,6 +69,11 @@
 
             .differentfilterbuttons {
                 display: none;
+            }
+
+            .right-section {
+                width: auto;
+                height: 150px;
             }
 
             .product {
@@ -87,12 +97,20 @@
                 margin-top: 80px;
             }
 
-            .irregularshapesphotogallery.container {
+            .irregularshapesphotogallery .container {
+                display: flex;
                 flex-direction: column;
+                align-items: flex-end;
+
+
             }
 
             .irregularshapesphotogallery .image-and-description-container1 {
+                display: flex;
                 flex-direction: column;
+                /* Stack image and description vertically */
+                gap: 10px;
+                margin-bottom: 70px;
             }
 
             .irregularshapesphotogallery .image-and-description-container1 .image img {
@@ -101,30 +119,44 @@
 
             .irregularshapesphotogallery .image-and-description-container1 .description {
                 text-align: right;
+                font-size: 18px;
+                width: 50%;
             }
 
-            .irregularshapesphotogallery .image-and-description-container2 {
-                flex-direction: column;
+            .irregularshapesphotogallery .image-and-description-container2-4 {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 10px;
+                margin-bottom: 10px;
             }
 
-            .irregularshapesphotogallery .image-and-description-container2 .image img {
-                height: 250px;
+            .irregularshapesphotogallery .image-and-description-container2-4 .image img {
+                height: 280px;
+                margin-bottom: 20px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2-4 .description {
+                text-align: left;
+                font-size: 18px;
+                width: 50%;
             }
 
             .irregularshapesphotogallery .image-and-description-container3 {
+                display: flex;
                 flex-direction: column;
+                gap: 10px;
+                margin-bottom: 70px;
             }
 
             .irregularshapesphotogallery .image-and-description-container3 .image img {
-                height: 250px;
+                height: 280px;
+                margin-bottom: 30px;
             }
 
-            .irregularshapesphotogallery .image-and-description-container4 {
-                flex-direction: column;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container4 .image img {
-                height: 250px;
+            .irregularshapesphotogallery .image-and-description-container3 .description {
+                text-align: right;
+                font-size: 18px;
+                width: 50%;
             }
         }
     </style>
@@ -183,11 +215,14 @@
             </div>
         </div>
 
-        <img src="imgs/images/topgreenbardog.png" style="height:200px; margin-left:-45px;">
+        <div class="right-section">
+            <img src="imgs/images/foodproductoverviewdogimage.png" style=" width: auto;
+    height: 100%; margin-bottom:-10px;">
+        </div>
 
     </div>
 
-    <div class="product">
+    <div class=" product">
         <div class="product-photo">
             <img src="imgs/images/pedigreeadult.png" alt="Product Image" />
         </div>
@@ -232,7 +267,8 @@
         <p class="description" style="margin-bottom: 10pt;">Pedigree Complete Nutrition Adult Dry Dog Food, Grilled
             Steak & Vegetable Flavor is a
             balanced,<br> 100%
-            complete meal that includes whole grains, protein, and vegetables. It supports your dog's <br>health with 36
+            complete meal that includes whole grains, protein, and vegetables. It supports your dog's <br>health
+            with 36
             vitamins, minerals, amino acids, and Omega 6 Fatty Acid and Zinc. It's free from <br>high fructose corn
             syrup, artificial flavors, and added sugars.</p>
 
@@ -242,7 +278,8 @@
             acids</p>
         <p class="description" style="line-height: 1;"> • Supports healthy skin and coat with Omega 6 Fatty
             Acid and Zinc</p>
-        <p class="description" style="line-height: 1; margin-bottom: 25pt"> • Contains no high fructose corn syrup or
+        <p class="description" style="line-height: 1; margin-bottom: 25pt"> • Contains no high fructose corn syrup
+            or
             artificial flavors</p>
 
 
@@ -293,38 +330,33 @@
 
     <div class="product overview. title" style="margin-top: 100pt; margin-bottom: 60pt;">Photo Gallery</div>
 
-    <div class="irregularshapesphotogallery container" style="align-items:center;">
+    <div class="irregularshapesphotogallery container">
         <div class="irregularshapesphotogallery image-and-description-container1">
             <div class="image">
-                <img src="imgs/images/(food)irregulardogphoto1.png" style=" margin-left: 150pt;">
+                <img src="imgs/images/(food)irregulardogphoto1.png">
             </div>
-            <div class="description">Fuel your dog's health <br> with every bite!</div>
-        </div>
-    </div>
-    <div class="irregularshapesphotogallery container" style="margin-top:-140pt;">
-        <div class="irregularshapesphotogallery image-and-description-container2">
-            <div class="description">Real ingredients, <br>
+            <div class="description">Real ingredients,<br>
                 real love for your dog.</div>
+        </div>
+        <div class="irregularshapesphotogallery image-and-description-container2-4">
+            <div class="description">Fuel your dog's health <br>
+                with every bite!</div>
             <div class="image">
-                <img src="imgs/images/(food)irregulardogphoto2.png" alt="Dog Treats" style="margin-left: 120pt;">
+                <img src="imgs/images/(food)irregulardogphoto2.png">
             </div>
         </div>
-    </div>
 
-    <div class="irregularshapesphotogallery container">
         <div class="irregularshapesphotogallery image-and-description-container3">
             <div class="image">
-                <img src="imgs/images/(food)irregulardogphoto3.png" style="margin-left: 120pt;">
+                <img src="imgs/images/(food)irregulardogphoto3.png">
             </div>
-            <div class="description">Tail wags start <br> with pedigree!</div>
-        </div>
-    </div>
-
-    <div class="irregularshapesphotogallery container" style="margin-top:-120px; margin-left:-120px;">
-        <div class="irregularshapesphotogallery image-and-description-container2">
             <div class="description">Happy pups, healthy meals!</div>
+        </div>
+
+        <div class="irregularshapesphotogallery image-and-description-container2-4" style="margin-bottom:100px;">
+            <div class="description">Tail wags start <br> with pedigree!</div>
             <div class="image">
-                <img src="imgs/images/(food)irregulardogphoto4.png" alt="Dog Treats" style="margin-left: 120pt;">
+                <img src="imgs/images/(food)irregulardogphoto4.png">
             </div>
         </div>
     </div>
