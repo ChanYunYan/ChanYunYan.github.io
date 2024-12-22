@@ -1,0 +1,192 @@
+.heading {
+    font-family: Legwork Demo;
+    font-size: 35pt;
+    letter-spacing: 3px;
+    color: #1C1C42;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.address-contact-number.large-container {
+    flex-direction: row;
+    /* Stack the containers vertically */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    gap: 140px;
+}
+
+
+.social-email.large-container {
+    flex-direction: row;
+    /* Stack the containers vertically */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 70px;
+    gap: 140px;
+
+}
+
+.socials.container {
+    margin-left: -280px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.socials.icon-text {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.information.container {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.information.icon-title {
+    display: flex;
+    align-items: center;
+}
+
+.information.icon {
+    margin-right: 10px;
+}
+
+.information.icon img {
+    width: 40x;
+    height: 40px;
+    object-fit: contain;
+}
+
+.information.title {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.information.details {
+    color: #4A4A4A;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 13pt;
+    line-height: 1.5;
+}
+
+.green-dog.container {
+    background-color: #E4F0D0;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    margin-top: 80px;
+    margin: 80px auto;
+}
+
+.green-dog.image {
+    align-items: center;
+
+}
+
+.green-dog.image img {
+    height: 180px;
+    align-items: center;
+    margin-bottom: -52px;
+}
+
+.subheading {
+    font-family: Oliver Regular;
+    font-size: 24pt;
+    color: #5C4F66;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.description {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 13pt;
+    color: #4A4A4A;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pink-dog.container {
+    background-color: #FBDEDB;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    width: 80%;
+    display: flex;
+    margin-top: 80px;
+    margin: 80px auto;
+}
+
+.pink-dog.image {
+    align-items: center;
+
+}
+
+.pink-dog.image img {
+    height: 250px;
+    align-items: center;
+    margin-bottom: -52px;
+}
+
+table {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    width: 50%;
+    border-collapse: collapse;
+    background-color: #FBDEDB;
+    /* Light pink background */
+    align-items: center;
+    justify-content: center;
+}
+
+th {
+    font-family: Oliver Regular;
+    font-size: 18pt;
+    letter-spacing: 3px;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #5C4F66;
+}
+
+td {
+    font-family: Nunito Sans, sans-serif;
+    font-size: 13pt;
+    text-align: center;
+    padding: 12px;
+    color: #4A4A4A;
+    align-items: center;
+    justify-content: center;
+}
+
+td:nth-child(2) {
+    background-color: #E4F0D0;
+    /* Light green background */
+}
+
+
+th {
+    background-color: #FFFCF7;
+    /* Light green background for headers */
+
+}
