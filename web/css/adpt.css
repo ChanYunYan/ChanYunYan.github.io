@@ -5,18 +5,28 @@ body {
 }
 
 /*banner*/
+header{
+    z-index: 10000;
+}
+
 .bnr {
     background-color: #E4F0D0;
     text-align: center;
     align-items: center;
     display: flex;
-    height: 40%;
 }
 
 .text {
     font-family: legwork demo;
     font-size: 40px;
     white-space: nowrap;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.desktop-img {
+    margin-bottom: -3%;
+    margin-right: -40%;
 }
 
 .mobile-img {
@@ -25,7 +35,15 @@ body {
 
 /*information*/
 .information {
+    padding: 5% 5%;
     text-align: center;
+}
+
+.title {
+    background: url('../imgs/adpt/pawbgup.png');
+    position: relative;
+    z-index: 1000;
+    background-size: contain;
 }
 
 .information h1 {
@@ -40,37 +58,47 @@ body {
     color: #5C4F66;
 }
 
-.line1 {
-    justify-content: space-between;
+.line1,
+.line2 {
+    justify-content: center;
     align-items: center;
     display: flex;
+}
+
+.line2 {
+    margin-bottom: 5%;
 }
 
 .dginfo {
     background-color: #FBDEDB;
     border-radius: 20px;
-    padding: 0px 10%;
+    padding: 10px 8%;
     margin: 0px 5%;
-    z-index: 1000;
     position: relative;
     z-index: 0;
+    max-width: 300px;
+    /* Adjust to suit your layout */
 }
 
-.line1 h1 {
+.dg {
+    margin-bottom: -20%;
+}
+
+.line1 h1,
+.line2 h1 {
     font-family: legwork demo;
     font-size: 25px;
     color: #1C1C42;
 }
 
-.line1 p {
+.line1 p,
+.line2 p {
     font-family: "Nunito Sans", sans-serif;
     color: #4A4A4A;
 }
 
 .gap {
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: space-between;
 }
 
@@ -78,7 +106,15 @@ body {
 .calender {
     display: flex;
     align-items: center;
-    gap: 15%;
+    gap: 10%;
+    white-space: nowrap;
+}
+
+.bgdown img{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:100%;
+    margin-top: -80%;
 }
 
 /*mobile*/
@@ -137,13 +173,10 @@ body {
         margin-bottom: 10px;
     }
 
-    .line1 {
+    .line1,
+    .line2 {
         flex-direction: column;
         margin-top: -20px;
-    }
-
-    .dginfo {
-        height: 120px;
     }
 
     .dog {
