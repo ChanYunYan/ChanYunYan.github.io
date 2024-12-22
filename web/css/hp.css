@@ -6,27 +6,22 @@ body {
 
 /*banner*/
 .banner {
-
+    background: url('../imgs/imageshp/hp.png');
     background-color: #FEF7E7;
-    justify-content: center;
-    align-items: center;
-}
-
-.img {
-    text-align: center;
-    align-items: center;
-    display: flex;
-    width: 100%;
-    height: 92vh;
-    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0.1%;
 }
 
 .findpals {
     font-family: legwork demo;
     font-size: 128px;
     display: flex;
-    gap: 80%;
     color: #1C1C42;
+    justify-content: space-around;
+    min-height: 600px;
+    align-items: center;
 }
 
 .quote {
@@ -35,14 +30,12 @@ body {
     font-size: 18px;
     text-align: center;
     color: #4A4A4A;
-    margin-top: -90px;
-    padding: 10px;
 }
 
 /*adoption*/
 .adoption {
     text-align: center;
-    padding-bottom: 20%;
+    padding-bottom: 8%;
 }
 
 .adoption h1 {
@@ -63,21 +56,28 @@ body {
     text-align: center;
     align-items: center;
     gap: 5%;
+    margin-left: 10%;
 }
 
 .align {
     display: flex;
     flex-direction: column;
     /* Stack the image and text vertically */
+    transition: transform 0.3s ease-in-out;
 }
 
 .adoption p {
     font-family: legwork demo;
     font-size: 28px;
     color: #1C1C42;
-    margin-top: -85%;
+    margin-left: -20%;
+    margin-top: -55%;
     /* Adjust the spacing so text appears centered over the image */
     align-items: center;
+}
+
+.align:hover {
+    transform: scale(1.1);
 }
 
 /*information*/
@@ -119,6 +119,19 @@ body {
     /* Connects shape to the content without overlap */
 }
 
+.actbutton {
+    background: url('../imgs/imageshp/button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px 25px;
+}
+
+.actbutton:hover {
+    background: url('../imgs/imageshp/acthover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 25px 25px;
+}
 
 .act {
     text-align: center;
@@ -204,15 +217,12 @@ body {
     display: flex;
     justify-content: center;
     text-align: center;
-    gap: 10%;
+    gap: 15%;
     margin-top: -5%;
     font-family: "Nunito Sans", sans-serif;
     font-size: 18px;
     color: #4A4A4A;
-}
-
-.line {
-    margin-top: -5%;
+    align-items: center;
 }
 
 /*aboutus*/
@@ -220,7 +230,7 @@ body {
     background-image: url('imgs/imageshp/abtshape');
     background-size: contain;
     background-position: center;
-    padding-top: 15%;
+    padding-top: 5%;
 }
 
 .abtbg {
@@ -228,7 +238,7 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-bottom: -50px;
+    margin-bottom: -20px;
 }
 
 .about {
@@ -239,8 +249,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 15%;
-    margin-left: -20%;
+    margin-left: -30%;
 }
 
 .abtcat {
@@ -261,12 +270,23 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
+    margin-top: 50px;
+    margin-bottom: -110px;
 }
 
 .abtdog h1 {
     font-family: legwork demo;
     font-size: 38px;
     color: #1C1C42;
+}
+
+.buttonwhy {
+    background: url('../imgs/imageshp/aboutbutton1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 10px;
+    margin-left: -220px
 }
 
 .buttonwhy h2 {
@@ -282,6 +302,12 @@ body {
 }
 
 .buttonmission {
+    background: url('../imgs/imageshp/aboutbutton2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 28px 61px;
+    margin-left: -100px;
     margin-right: 60%;
 }
 
@@ -296,6 +322,7 @@ body {
 .book {
     text-align: center;
     padding-top: 8%;
+    padding-bottom: 2%;
 }
 
 .book h1 {
@@ -312,6 +339,7 @@ body {
 .booknow {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .bookinfo {
@@ -333,8 +361,22 @@ body {
     font-size: 25px;
 }
 
+.buttonbook {
+    background: url('../imgs/imageshp/button.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 10px;
+}
+
+.type,
+.name {
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+}
+
 .desktop-img {
-    margin-right: -570px;
     display: block;
 }
 
@@ -344,6 +386,28 @@ body {
 
 .submit {
     text-align: center;
+}
+
+/*mobile*/
+@media screen and (max-width: 768px) {
+
+    .adoption h1,
+    .act h1,
+    .process h1,
+    .abtdog h1,
+    .book h1 {
+        font-size: 32px;
+    }
+
+    .adoption h2,
+    .act h2,
+    .process h2,
+    .buttonwhy h2,
+    .buttonmission h2,
+    .bookinfo h2 {
+        font-size: 28px;
+    }
+
 }
 
 /*mobile*/
@@ -357,26 +421,30 @@ body {
         /* 禁止横向滚动 */
     }
 
-    .img {
-        margin-top: -60px;
+    .banner {
+        background-image: url('../imgs/imageshp/bannermobile.png');
+        background-repeat: no-repeat;
+        background-position: center center;
     }
 
     .findpals {
-        display: flex;
+        justify-content: center;
+        gap: 10%;
         font-size: 85px;
-        gap: 20px;
-        margin-top: 410px;
     }
 
     .quote {
         font-size: 16px;
-        margin-top: -100px;
-        padding: 30px;
-        line-height: 0.8;
+        margin-top: -50px;
+        padding: 5px 30px;
+    }
+
+    .p2 {
+        line-height: 1;
     }
 
     .categories {
-        gap: 60px;
+        gap: 150px;
         flex-direction: column;
         align-items: center;
     }
@@ -409,8 +477,12 @@ body {
 
     .infor {
         flex-direction: column;
-        gap: 100%;
         margin: 20%;
+        margin-bottom: 5%;
+    }
+
+    .gap {
+        margin-bottom: 20%;
     }
 
     .activities {
@@ -434,9 +506,12 @@ body {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        gap: 0px;
         margin-top: -30px;
         line-height: 0px;
+    }
+
+    .prcs img {
+        width: 75%;
     }
 
     .line {
@@ -446,24 +521,18 @@ body {
     .abtdog {
         flex-direction: column;
         align-items: center;
-        margin-top: 96px;
+        margin-top: 7%;
         margin-left: 10px;
     }
 
-    .aboutdog {
-        display: block;
-        margin-right: 5px;
-        margin-bottom: -200px;
-    }
-
     .aboutcat {
-        display: block;
-        height: 400px;
-        margin-bottom: -100px;
+        margin-bottom: -10%;
+        align-items: center;
     }
 
     .abtcat {
         flex-direction: column-reverse;
+        width: 80%;
     }
 
     .abtimage {
