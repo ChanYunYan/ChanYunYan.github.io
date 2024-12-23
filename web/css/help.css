@@ -28,7 +28,6 @@
     display: flex;
     margin-top: 70px;
     gap: 140px;
-
 }
 
 .socials.container {
@@ -129,7 +128,7 @@
     border-radius: 20px;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 40px;
     width: 80%;
     display: flex;
     margin-top: 80px;
@@ -142,9 +141,9 @@
 }
 
 .pink-dog.image img {
-    height: 250px;
+    height: 260px;
     align-items: center;
-    margin-bottom: -52px;
+    margin-bottom: -45px;
 }
 
 table {
@@ -156,6 +155,8 @@ table {
     /* Light pink background */
     align-items: center;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 th {
