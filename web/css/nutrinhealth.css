@@ -1,0 +1,372 @@
+body {
+    color: #FFFCF7;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.head {
+    color: #1C1C42;
+    font-family: Legwork DEMO;
+    font-size: 48px;
+    text-align: center;
+}
+
+.b1 {
+    position: relative;
+    background-image: url('../imgs/images-nutrinhealth/box1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 1%;
+    left: 12%;
+    margin-top: 15%;
+}
+
+.dog {
+    position: absolute;
+    top: 25.5%;
+    left: 18%;
+}
+
+.t {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    padding-left: 10%;
+    padding-top: 2%;
+}
+
+.p {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 3.8%;
+}
+
+.p2 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 10.6%;
+}
+
+.b2 {
+    background-image: url('../imgs/images-nutrinhealth/box2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    right: -55%;
+    padding-bottom: 1%;
+}
+
+.t2 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    padding-left: 9.4%;
+    padding-top: 2%;
+}
+
+.p3 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 12.5%;
+}
+
+.dog2 {
+    position: absolute;
+    top: 46.2%;
+    right: 20%;
+}
+
+.b3 {
+    background-image: url('../imgs/images-nutrinhealth/box3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 1%;
+    position: relative;
+    left: 12%;
+    margin-top: 2%;
+}
+
+.t3 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    padding-left: 14.3%;
+    padding-top: 2%;
+}
+
+.p4 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 2.6%;
+}
+
+.p5 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 10%;
+}
+
+.b4 {
+    background-image: url('../imgs/images-nutrinhealth/box4.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 1%;
+    position: relative;
+    right: -55%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.t4 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    padding-left: 12.2%;
+    padding-top: 2%;
+}
+
+.p6 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 2.5%;
+}
+
+.p7 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    padding-left: 7.3%;
+}
+
+.dogs {
+    margin-bottom: -0.3%;
+}
+
+.bg1 {
+    position: absolute;
+    top: 15%;
+}
+
+.bg2 {
+    position: absolute;
+    top: 58%;
+    right: -10%;
+}
+
+.bg3 {
+    position: absolute;
+    top: 124%;
+    right: 20%;
+}
+
+.bg4 {
+    position: absolute;
+    top: 97%;
+    left: 3%;
+}
+
+.bg5 {
+    position: absolute;
+    top: 148%;
+    left: 15%;
+}
+
+.mbg1 {
+    display: none;
+}
+
+.mbg2 {
+    display: none;
+}
+
+.mbg3 {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+    }
+
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .head {
+        font-size: 45px;
+        padding: 5%;
+    }
+
+    .b1 {
+        position: relative;
+        background-image: url('../imgs/images-nutrinhealth/mbox1.png');
+        padding-bottom: 1%;
+        left: 8.9%;
+        margin-top: 25%;
+    }
+
+    .dog {
+        position: absolute;
+        top: 33.1%;
+        left: 22.5%;
+        width: 55%;
+    }
+
+    .t {
+        font-size: 30px;
+        padding-left: 20%;
+        padding-top: 2%;
+    }
+
+    .p {
+        font-size: 15px;
+        padding-left: 6%;
+    }
+
+    .p2 {
+        font-size: 15px;
+        padding-left: 25%;
+    }
+
+    .dog2 {
+        display: none;
+    }
+
+    .bg1 {
+        width: 30%;
+        top: 32%;
+    }
+
+    .bg2 {
+        display: none;
+    }
+
+    .bg3 {
+        display: none;
+    }
+
+    .bg4 {
+        display: none;
+    }
+
+    .bg5 {
+        display: none;
+    }
+
+    .b2 {
+        position: relative;
+        background-image: url('../imgs/images-nutrinhealth/mbox2.png');
+        left: 8.9%;
+    }
+
+    .t2 {
+        font-size: 30px;
+        padding-left: 18%;
+        padding-top: 2%;
+    }
+
+    .p {
+        font-size: 15px;
+        padding-left: 6%;
+    }
+
+    .p3 {
+        font-size: 15px;
+        padding-left: 30%;
+    }
+
+    .b3 {
+        position: relative;
+        background-image: url('../imgs/images-nutrinhealth/mbox3.png');
+        left: 8.9%;
+    }
+
+    .t3 {
+        font-size: 30px;
+        padding-left: 33.9%;
+        padding-top: 2%;
+    }
+
+    .p4 {
+        font-size: 15px;
+        padding-left: 3%;
+    }
+
+    .p5 {
+        font-size: 15px;
+        padding-left: 24%;
+    }
+
+    .b4 {
+        position: relative;
+        background-image: url('../imgs/images-nutrinhealth/mbox4.png');
+        left: 8.9%;
+    }
+
+    .t4 {
+        font-size: 30px;
+        padding-left: 27%;
+        padding-top: 2%;
+    }
+
+    .p6 {
+        font-size: 15px;
+        padding-left: 3%;
+    }
+
+    .p7 {
+        font-size: 15px;
+        padding-left: 16%;
+    }
+
+    .dogs {
+        margin-bottom: -0.8%;
+        margin-top: 5%;
+    }
+
+    .mbg1 {
+        display: block;
+        position: absolute;
+        right: -6.7%;
+        top: 105%;
+    }
+
+    .mbg2 {
+        display: block;
+        position: absolute;
+        top: 127%;
+    }
+
+    .mbg3 {
+        display: block;
+        position: absolute;
+        top: 30%;
+        right: -2%;
+        width: 20%;
+    }
+
+    .mbg4 {
+        display: block;
+        position: absolute;
+        top: 74%;
+        left: 1%;
+        width: 20%;
+    }
+}
