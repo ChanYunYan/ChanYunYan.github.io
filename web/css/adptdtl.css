@@ -5,7 +5,7 @@ body {
 }
 
 .information {
-    padding: 5%;
+    padding: 2% 5%;
     background: url('../imgs/detail/bg.png') no-repeat;
     background-size: contain;
 }
@@ -16,26 +16,87 @@ body {
     align-items: center;
 }
 
+/* Menu Container */
+.word {
+    font-family: oliver;
+}
+
+/* Menu Item */
+.menutext {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Line Before Text */
+.menutext .line1 {
+    width: 50px;
+    height: 2.5px;
+    background-color: #5C4F66;
+    margin-right: 1%;
+    transition: background-color 0.3s ease;
+}
+
+.menutext .line2 {
+    width: 30px;
+    height: 2.5px;
+    background-color: rgb(92, 79, 102, 0.5);
+    margin-right: 2.5%;
+    transition: background-color 0.3s ease;
+}
+
+/* Text Style */
+.menutext .quote1 {
+    font-family: oliver;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #5C4F66;
+    text-decoration: none;
+}
+
+.menutext .quote2 {
+    font-family: oliver;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(92, 79, 102, 0.5);
+    text-decoration: none;
+}
+
+/* Hover Effects */
+.menutext:hover .quote1,
+.quote2 {
+    color: #1c1c42;
+}
+
+.menutext:hover .line {
+    background-color: #1c1c42;
+}
+
 .inform h1 {
     font-family: legwork demo;
-    font-size: 70px;
+    font-size: 75px;
     color: #1C1C42;
     white-space: nowrap;
     line-height: 30px;
 }
 
 .name {
-    margin-top: -25% ;
-    left:10%;
-}
-
-.text{
-    margin-bottom: -20%;
-}
-
-.bg {
-    margin-top: 0%;
     position: relative;
+    margin-top: -20%;
+    left: 16%;
+}
+
+.text {
+    position: relative;
+    margin-bottom: -20%;
+    right: 8%;
+}
+
+.image {
+    margin-left: 10%;
 }
 
 .inform h2,
@@ -50,6 +111,38 @@ body {
     color: #4A4A4A;
 }
 
+/*page*/
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    margin-top: 20px;
+}
+
+/* Dots */
+.dot {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Active Dot */
+.dot.active {
+    background-color: #567899;
+    transform: scale(1.2);
+    /* Slightly larger */
+}
+
+/* Hover Effect */
+.dot:hover {
+    background-color: #b0c4de;
+}
+
+/*button*/
 .button {
     display: flex;
     justify-content: center;
@@ -59,11 +152,88 @@ body {
 .buttondonate {
     background: url('../imgs/detail/left.png') no-repeat center center;
     background-size: contain;
-    padding: 4%;
+    padding: 3%;
 }
 
 .buttonadoption {
     background: url('../imgs/detail/right.png') no-repeat center center;
     background-size: contain;
-    padding: 4%;
+    padding: 3%;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+
+    .arrow {
+        width: 8%;
+    }
+
+    .information {
+        padding: 5%;
+    }
+
+    .image img {
+        position: static;
+    }
+
+    .inform {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name {
+        margin-top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .text {
+        margin-bottom: 15%;
+        right: 0;
+        text-align: center;
+    }
+
+    .menutext {
+        justify-content: center;
+    }
+
+    .page {
+        gap: 10%;
+        padding: 5%;
+    }
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .buttondonate {
+        padding: 10%
+    }
+
+    .buttonadoption {
+        background: url('../imgs/detail/adoptionbuttonmobile.png') no-repeat center center;
+        background-size: contain;
+        padding: 10%;
+    }
 }

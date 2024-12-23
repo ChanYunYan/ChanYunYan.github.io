@@ -5,7 +5,7 @@ body {
 }
 
 /*banner*/
-header{
+header {
     z-index: 10000;
 }
 
@@ -14,6 +14,7 @@ header{
     text-align: center;
     align-items: center;
     display: flex;
+
 }
 
 .text {
@@ -27,6 +28,7 @@ header{
 .desktop-img {
     margin-bottom: -3%;
     margin-right: -40%;
+    filter: drop-shadow(-125px 10px 15px rgba(0, 0, 0, 0.3));
 }
 
 .mobile-img {
@@ -110,10 +112,10 @@ header{
     white-space: nowrap;
 }
 
-.bgdown img{
+.bgdown img {
     background-repeat: no-repeat;
     background-size: contain;
-    width:100%;
+    width: 100%;
     margin-top: -80%;
 }
 
@@ -154,9 +156,10 @@ header{
 
     .mobile-img {
         display: block;
-        width: 70%;
-        margin-top: 80px;
-        margin-left: 60px;
+        width: 90%;
+        margin-top: 15%;
+        margin-left: 20px;
+        filter: drop-shadow(10px -100px 15px rgba(0, 0, 0, 0.3));
     }
 
     .text {
