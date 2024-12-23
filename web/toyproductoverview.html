@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Toy Product Overview</title>
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/topbar.css">
+    <link rel="stylesheet" href="css/toyproductoverview.css">
+
+
+    <style>
+        body {
+            background-image: url('imgs/images/backgroundimage.png');
+            background-repeat: no-repeat;
+            background-size: 100%;
+            overflow-x: hidden;
+        }
+
+        @font-face {
+            font-family: Legwork Demo;
+            src: url(legwork_demo.woff);
+        }
+
+        @font-face {
+            font-family: Oliver Regular;
+            src: url(oliver_regular.woff);
+        }
+
+        @media screen and (max-width: 720px) {
+            body {
+                flex-direction: column;
+                background-size: contain;
+                background-image: none;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            #nav {
+                flex-direction: column;
+                justify-content: space-between;
+                display: none;
+            }
+
+            header {
+                background-size: cover;
+                align-items: center;
+                justify-content: space-between;
+            }
+
+            .top-bar {
+                padding: 5px;
+            }
+
+            .categories {
+                display: none;
+            }
+
+            .filterbutton {
+                display: none;
+            }
+
+            .differentfilterbuttons {
+                display: none;
+            }
+
+            .right-section {
+                width: auto;
+                height: 150px;
+            }
+
+            .right-section image img {
+                width: 273.58px;
+                height: 150px;
+            }
+
+            .product {
+                flex-direction: column;
+            }
+
+            .product-photo {
+                height: 400px;
+            }
+
+            .product-info .stars {
+                font-size: 40px;
+            }
+
+            .productoverview {
+                justify-content: center;
+                margin-left: 30px;
+            }
+
+            .viewmorereviews {
+                margin-top: 80px;
+            }
+
+            .irregularshapesphotogallery .container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+
+            }
+
+            .irregularshapesphotogallery .image-and-description-container1 {
+                display: flex;
+                flex-direction: column;
+                /* Stack image and description vertically */
+                gap: 10px;
+                margin-bottom: 70px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container1 .image img {
+                height: 250px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container1 .description {
+                text-align: right;
+                font-size: 18px;
+                width: 50%;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2-4 {
+                display: flex;
+                flex-direction: column-reverse;
+                gap: 10px;
+                margin-bottom: 10px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2-4 .image img {
+                height: 280px;
+                margin-bottom: 20px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container2-4 .description {
+                text-align: left;
+                font-size: 18px;
+                width: 50%;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container3 {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin-bottom: 70px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container3 .image img {
+                height: 280px;
+                margin-bottom: 30px;
+            }
+
+            .irregularshapesphotogallery .image-and-description-container3 .description {
+                text-align: right;
+                font-size: 18px;
+                width: 50%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
+            </a>
+        </div>
+
+        <div id="nav">
+            <div class="menu">
+                <a href="adoption.html">Adopt</a>
+                <a href="donationamount.html">Donate</a>
+                <a href="learningcentre.html">Learning Centre</a>
+                <a href="productlisting.html">Shop</a>
+                <a href="#">Help</a>
+            </div>
+        </div>
+
+        <div class="search">
+            <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
+        </div>
+    </header>
+    <div class="top-bar" style="background-color: #FEF7E7;">
+        <div class="left-section">
+            <div class="title">Toys</div>
+            <div class="categories">
+                <a><u>Chew Toys</u></a>
+                <a>Plush ToYS</a>
+            </div>
+            <div class="filterbuttons-container">
+                <button class="filterbutton" style="background-color:white;">
+                    <img src="imgs/images/filtericon.png" alt="Filter Icon" class="filterbutton-photo" />
+                    <div class="filterbutton-text">Sort by:</div>
+                </button>
+
+                <button class="differentfilterbuttons" style="background-color:white;">
+                    <div class="text">Price</div>
+                    <img src="imgs/images/down-arrow.png" class="photo" />
+                </button>
+
+                <button class="differentfilterbuttons" style="background-color:white;">
+                    <div class="text">Brand</div>
+                    <img src="imgs/images/down-arrow.png" class="photo" />
+                </button>
+
+                <button class="differentfilterbuttons" style="background-color:white;">
+                    <div class="text">Pet</div>
+                    <img src="imgs/images/down-arrow.png" class="photo" />
+                </button>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <img src="imgs/images/toyproductoverviewdogimage.png" style=" width: 352px;
+    height: 193px; margin-bottom:-10px;">
+        </div>
+
+    </div>
+
+    <div class=" product">
+        <div class="product-photo">
+            <img src="imgs/images/productoverviewnylabone.png" alt="Product Image" />
+        </div>
+        <div class="product-info">
+            <div class="brand">Nylabone</div>
+
+            <div class="name">
+                Power Chew Easy-Hold Dental Chew Dog Toy - Bacon Flavor
+            </div>
+
+            <div class="rating">
+                <div class="stars">
+                    ★★★★★
+                </div>
+                <span class="reviewnumbers">(2326)</span>
+            </div>
+            <p class="product-price">RM53.60</p>
+
+            <div class="size">Size:</div>
+            <div class="buttons-container">
+                <button class="sizebuttons">Small</button>
+                <button class="sizebuttons">Large</button>
+            </div>
+            <div class="quantitybutton-container">
+                <div class="quantity">Quantity:</div>
+                <button class="quantitybutton">
+                    <img src="imgs/images/minusicon.png" class="quantity-icon" alt="Minus">
+                    <span class="quantity-number">1</span>
+                    <img src="imgs/images/plusicon.png" class="quantity-icon" alt="Plus">
+                </button>
+            </div>
+            <button class="addtocartbutton"><img src="imgs/images/addtocart.png" class="quantity-icon">Add
+                to Cart</button>
+        </div>
+    </div>
+
+
+    <div class="productoverview">
+        <div class="title">Product Overview</div>
+        <div class="smalltitles" style="margin-top: 35pt;">Description</div>
+        <p class="description" style="margin-bottom: 10pt;">The Nylabone Power Chew Easy-Hold dog chew toy is a durable,
+            veterinarian- <br> approved toy designed to engage and entertain dogs. It features 4 paw grips, durable<br>
+            nylon, and multiple dental textures, making it a popular choice for extreme chewers.</p>
+
+        <div class=" smalltitles" style="margin-top: 40pt;">Benefits
+        </div>
+        <p class="description"> • Designed with four paw grips to to help dogs comfortably chew from any angle</p>
+        <p class="description" style="line-height: 1;"> • Multiple dental textures help reduce plaque and tartar buildup
+        </p>
+        <p class="description" style="line-height: 1; margin-bottom: 25pt"> • Provide long-lasting entertainment & keeps
+            dogs happy and satisfied</p>
+
+        <div class="smalltitles-description-container">
+            <div class="smalltitles">Code Number:</div>
+            <p class="description">5308205</p>
+        </div>
+
+        <div class="smalltitles-description-container">
+            <div class="smalltitles">Brand:</div>
+            <p class="description">Nylabone</p>
+        </div>
+        <div class="smalltitles-description-container">
+            <div class="smalltitles">Dimensions:</div>
+            <p class="description">13 in L x 1.5 in W x 5.5 in H</p>
+        </div>
+
+
+        <div class="title" style="margin-top: 35pt;">Ratings & Reviews</div>
+        <div class="review-info">
+            <span class="overallrating">4.5</span>
+            <span class="numbersofrating">43 reviews</span>
+        </div>
+        <div class="stars">
+            ★★★★
+        </div>
+
+        <div class="review-comments">
+            <div class="usercircle">C</div>
+            <div class="review-summary-container" style="margin-left:-5px;">
+                <div class="commenttitle">Winner!!!</div>
+                <div class="commenttime">3 months ago, Cruiser</div>
+            </div>
+        </div>
+        <div class="commentdescription">Finally can stop trying new bones. She likes this one! Yay!</div>
+
+        <div class="review-comments" style="margin-top:35pt;">
+            <div class="usercircle">M</div>
+            <div class="review-summary-container" style="margin-left:-5px;">
+                <div class="commenttitle">Great shape for paw holding</div>
+                <div class="commenttime">a month ago, Mary96</div>
+            </div>
+        </div>
+        <div class="commentdescription">During puppy teething, I purchased a cute nylabones for his paws, replacing them
+            as soon as he removes the edges.</div>
+    </div>
+
+    <div class="viewmorereviews">View more reviews</div>
+
+    <div class="product overview. title" style="margin-top: 100pt; margin-bottom: 60pt;">Photo Gallery</div>
+
+    <div class="irregularshapesphotogallery container">
+        <div class="irregularshapesphotogallery image-and-description-container1">
+            <div class="image">
+                <img src="imgs/images/(toy)irregulardogphoto1.png">
+            </div>
+            <div class="description">The chew toy your dog dreams of.</div>
+        </div>
+        <div class="irregularshapesphotogallery image-and-description-container2-4">
+            <div class="description">Stronger chews, happier pups.</div>
+            <div class="image">
+                <img src="imgs/images/(toy)irregulardogphoto2.png">
+            </div>
+        </div>
+
+        <div class="irregularshapesphotogallery image-and-description-container3">
+            <div class="image">
+                <img src="imgs/images/(toy)irregulardogphoto3.png">
+            </div>
+            <div class="description">Designed for dogs who love to gnaw!</div>
+        </div>
+
+        <div class="irregularshapesphotogallery image-and-description-container2-4" style="margin-bottom:100px;">
+            <div class="description">Tough on teeth, easy on love.</div>
+            <div class="image">
+                <img src="imgs/images/(toy)irregulardogphoto4.png">
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer left">
+            <div class="footer-logo-row">
+                <p class="footer logo">PETPAL</p>
+                <div class="footer underline"></div>
+            </div>
+            <div class="footer info">
+                <p>petpal@gmail.com</p>
+                <p>
+                    <span>No. 12, Jalan Pawfect</span><br>
+                    <span>Taman Furry Friends</span><br>
+                    <span>47500 Subang Jaya, Selangor, </span><br>
+                    <span>Malaysia</span>
+                </p>
+                <p>+60 12-345 6789</p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
+            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
