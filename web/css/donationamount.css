@@ -57,11 +57,11 @@ body {
 
 .button1 {
     display: flex;
+    justify-content: center;
 }
 
 #custom button {
-    width: 100%;
-    justify-content: stretch;
+    width: 96%;
 }
 
 .cd {
@@ -190,6 +190,10 @@ h3 {
         width: 95%;
         margin-left: 15%;
         border-radius: 0%;
+    }
+
+    #custom button {
+        width: 82%;
     }
 
     .form input {

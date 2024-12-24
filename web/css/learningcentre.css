@@ -2,13 +2,16 @@ body {
     background-color: #FEF7E7;
     margin: 0%;
     padding: 0%;
+    background-image: url('../imgs/images-learningcentre/topbg1.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .learningcentre {
     color: #1C1C42;
     font-family: Legwork DEMO;
     font-size: 48px;
-    margin-left: 40%;
+    text-align: center;
     margin-top: 90px;
 }
 
@@ -16,7 +19,7 @@ body {
     color: #5C4F66;
     font-size: 30px;
     font-family: Oliver Regular;
-    margin-left: 42.3%;
+    text-align: center;
     margin-top: 50px;
 }
 
@@ -55,6 +58,18 @@ body {
     align-items: center;
     margin-top: -30%;
     margin-left: -15%;
+}
+
+.text a {
+    text-decoration: none;
+    font-family: Oliver Regular;
+    color: #4A4A4A;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.text:hover {
+    color: #757575;
 }
 
 .text p {
@@ -189,8 +204,6 @@ body {
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
-        background-size: contain;
-        background-image: none;
     }
 
     #nav {
@@ -211,13 +224,11 @@ body {
 
     .learningcentre {
         font-size: 48px;
-        margin-left: 15%;
         margin-top: 70px;
     }
 
     .nutri {
         font-size: 28px;
-        margin-left: 25%;
     }
 
     .nutrinhealth {
@@ -232,6 +243,8 @@ body {
     .text {
         margin-top: -90px;
         margin-left: -20%;
+        font-family: Oliver Regular;
+        font-size: 24px;
     }
 
     .behavior {
