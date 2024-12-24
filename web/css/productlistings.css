@@ -1,3 +1,65 @@
+@media (max-width: 600px) {
+
+    body {
+        flex-direction: column;
+        background-size: contain;
+        background-image: none;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .categories {
+        display: none;
+    }
+
+    .top-bar.green {
+        background-position: right 8px;
+        background-size: 280px 150px;
+    }
+
+    .top-bar.pink {
+        background-position: right -10px;
+        background-size: 280px 180px;
+    }
+
+    .top-bar.blue {
+        background-position: right 30px;
+        background-size: 260px 140px;
+    }
+
+    .supplies-categories {
+        display: none;
+    }
+
+    .firstrowcolumn {
+        flex-direction: column;
+    }
+
+    .product-card {
+        flex-direction: column;
+        gap: 12px;
+    }
+}
+
+body {
+    background-color: #FFFCF7;
+    background-size: contain;
+    overflow-x: hidden;
+}
+
 .container {
     display: flex;
     gap: 40px;

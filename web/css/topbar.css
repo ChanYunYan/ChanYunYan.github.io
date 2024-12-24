@@ -1,4 +1,8 @@
-.top-bar {
+.top-bar.green {
+    background-image: url('../imgs/images/topgreenbardog.png');
+    background-position: right 20px;
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
     background-color: #E4F0D0;
     border-radius: 15px;
     padding: 20px;
@@ -10,6 +14,74 @@
     align-items: center;
 
 }
+
+.top-bar.pink {
+    background-image: url('../imgs/images/toppinkbarcat.png');
+    background-position: right 2px;
+    background-size: 400px 200px;
+    background-repeat: no-repeat;
+    background-color: #FBDEDB;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-bar.blue {
+    background-image: url('../imgs/images/topbarbluecats.png');
+    background-position: right 70px;
+    background-size: 400px 220px;
+    background-repeat: no-repeat;
+    background-color: #A1B5D8;
+    border-radius: 15px;
+    padding: 32px;
+    display: flex;
+    margin-top: 140px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-bar.food {
+    background-image: url('../imgs/images/foodproductoverviewdogimage.png');
+    background-position: right 5px;
+    background-size: 350px 190px;
+    background-repeat: no-repeat;
+    background-color: #FEF7E7;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-bar.toy {
+    background-image: url('../imgs/images/toyproductoverviewdogimage.png');
+    background-position: right 5px;
+    background-size: 350px 190px;
+    background-color: #FEF7E7;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
 
 .left-section {
     margin-left: 20px;
@@ -40,7 +112,7 @@
     flex-direction: column;
     color: #5C4F66;
     font-size: 18pt;
-    font-family: Oliver Regular;
+    font-family:"Oliver Regular";
     gap: 100px;
 }
 
