@@ -508,10 +508,6 @@ body {
         font-size: 16px;
     }
 
-    .imgact {
-        height: 220px;
-    }
-
     .prcs {
         flex-direction: column;
         justify-content: center;
