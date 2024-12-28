@@ -82,6 +82,7 @@ body {
 
 .align:hover {
     transform: scale(1.1);
+    cursor: pointer;
 }
 
 /*information*/
@@ -352,10 +353,7 @@ body {
     padding: 30px;
     border-radius: 20px;
     text-align: left;
-    max-width: 400px;
-    /* Set a maximum width */
-    height: 380px;
-    /* Ensure it only takes up as much space as needed */
+    flex:1;
 }
 
 .appoint {
@@ -379,6 +377,10 @@ body {
     width: 100%;
     padding: 3px;
     border-radius: 10px;
+}
+
+.booking{
+    flex:1;
 }
 
 .desktop-img {
@@ -504,10 +506,6 @@ body {
     .abtcat p,
     .prcs {
         font-size: 16px;
-    }
-
-    .imgact {
-        height: 220px;
     }
 
     .prcs {
