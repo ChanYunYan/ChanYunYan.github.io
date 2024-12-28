@@ -11,13 +11,12 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/topbar.css">
     <link rel="stylesheet" href="css/foodproductoverview.css">
 
 
     <style>
         body {
-            background-image: url('imgs/images/backgroundimage.png');
+            background-image: url('imgs/images/(food) backgroundimage.png');
             background-repeat: no-repeat;
             background-size: 100%;
             overflow-x: hidden;
@@ -31,135 +30,6 @@
         @font-face {
             font-family: Oliver Regular;
             src: url(oliver_regular.woff);
-        }
-
-        @media screen and (max-width: 720px) {
-            body {
-                flex-direction: column;
-                background-size: contain;
-                background-image: none;
-                margin: 0;
-                padding: 0;
-                overflow-x: hidden;
-            }
-
-            #nav {
-                flex-direction: column;
-                justify-content: space-between;
-                display: none;
-            }
-
-            header {
-                background-size: cover;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .top-bar.food {
-                padding: 50px;
-                background-position: right 10px;
-                background-size: 280px 140px;
-            }
-
-            .categories {
-                display: none;
-            }
-
-            .filterbutton {
-                display: none;
-            }
-
-            .differentfilterbuttons {
-                display: none;
-            }
-
-            .right-section {
-                width: auto;
-                height: 150px;
-            }
-
-            .product {
-                flex-direction: column;
-            }
-
-            .product-photo {
-                height: 400px;
-            }
-
-            .product-info .stars {
-                font-size: 40px;
-            }
-
-            .productoverview {
-                justify-content: center;
-                margin-left: 30px;
-            }
-
-            .viewmorereviews {
-                margin-top: 80px;
-            }
-
-            .irregularshapesphotogallery .container {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-
-
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 {
-                display: flex;
-                flex-direction: column;
-                /* Stack image and description vertically */
-                gap: 10px;
-                margin-bottom: 70px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 .image img {
-                height: 250px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 .description {
-                text-align: right;
-                font-size: 18px;
-                width: 50%;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 {
-                display: flex;
-                flex-direction: column-reverse;
-                gap: 10px;
-                margin-bottom: 10px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 .image img {
-                height: 280px;
-                margin-bottom: 20px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 .description {
-                text-align: left;
-                font-size: 18px;
-                width: 50%;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                margin-bottom: 70px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 .image img {
-                height: 280px;
-                margin-bottom: 30px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 .description {
-                text-align: right;
-                font-size: 18px;
-                width: 50%;
-            }
         }
     </style>
 </head>
@@ -252,7 +122,7 @@
                     <img src="imgs/images/plusicon.png" class="quantity-icon" alt="Plus">
                 </button>
             </div>
-            <button class="addtocartbutton"><img src="imgs/images/addtocart.png" class="quantity-icon">Add
+            <button class="addtocartbutton"><img src="imgs/images/addtocart.png" class="icon">Add
                 to Cart</button>
         </div>
     </div>

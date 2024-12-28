@@ -50,6 +50,13 @@
 
 }
 
+.email.container {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+
+}
+
 .information.icon-title {
     display: flex;
     align-items: center;

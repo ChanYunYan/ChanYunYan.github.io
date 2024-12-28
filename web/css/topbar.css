@@ -70,6 +70,24 @@
     background-image: url('../imgs/images/toyproductoverviewdogimage.png');
     background-position: right 5px;
     background-size: 350px 190px;
+    background-repeat: no-repeat;
+    background-color: #FEF7E7;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.top-bar.supplies {
+    background-image: url('../imgs/images/suppliesproductoverviewdogimage.png');
+    background-position: right 10px;
+    background-size: 400px 240px;
+    background-repeat: no-repeat;
     background-color: #FEF7E7;
     border-radius: 15px;
     padding: 20px;
@@ -112,7 +130,7 @@
     flex-direction: column;
     color: #5C4F66;
     font-size: 18pt;
-    font-family:"Oliver Regular";
+    font-family: "Oliver Regular";
     gap: 100px;
 }
 
@@ -162,13 +180,6 @@
 .filterbutton-text {
     font-size: 17px;
     color: #000000
-}
-
-.right-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
 }
 
 .categories .row {
