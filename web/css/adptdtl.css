@@ -86,17 +86,20 @@ body {
 .name {
     position: relative;
     margin-top: -20%;
-    left: 16%;
+    left: 15%;
+    width: 25%;
 }
 
 .text {
     position: relative;
     margin-bottom: -20%;
-    right: 8%;
+    right: 10%;
+    width: 25%;
 }
 
 .image {
     margin-left: 10%;
+    width: 50%;
 }
 
 .inform h2,
@@ -147,7 +150,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
-    
+
 }
 
 .buttondonate {
@@ -194,6 +197,7 @@ body {
 
     .image img {
         position: static;
+        width: 100%;
     }
 
     .inform {
@@ -203,14 +207,16 @@ body {
 
     .name {
         margin-top: 0;
-        left: 0;
+        left: 0%;
         text-align: center;
+        width: 100%;
     }
 
     .text {
         margin-bottom: 15%;
         right: 0;
         text-align: center;
+        width: 100%;
     }
 
     .menutext {
