@@ -1,0 +1,123 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: #FBDEDB;
+}
+
+/*img*/
+.timmeline {
+    background: url("../imgs/imagesdogdetail/line.png") no-repeat;
+    background-size: cover;
+}
+
+.row1,
+.row2 {
+    display: flex;
+}
+
+.detail {
+    text-align: center;
+}
+
+.dog1 {
+    width: 30%;
+}
+
+.dog2 {
+    width: 33%;
+}
+
+.dog3 {
+    width: 30%;
+}
+
+.dog4 {
+    width: 30%;
+}
+
+.dog5 {
+    width: 30%;
+}
+
+.dog6 {
+    width: 30%;
+}
+
+/* Menu Container */
+.word {
+    font-family: oliver;
+}
+
+/* Menu Item */
+.menutext {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+/* Line Before Text */
+.menutext .line1 {
+    width: 50px;
+    height: 2.5px;
+    background-color: #5C4F66;
+    margin-right: 1%;
+    transition: background-color 0.3s ease;
+}
+
+.menutext .line2 {
+    width: 30px;
+    height: 2.5px;
+    background-color: rgb(92, 79, 102, 0.5);
+    margin-right: 2.5%;
+    transition: background-color 0.3s ease;
+}
+
+/* Text Style */
+.menutext .quote1 {
+    font-family: oliver;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #5C4F66;
+    text-decoration: none;
+}
+
+.menutext .quote2 {
+    font-family: oliver;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: rgb(92, 79, 102, 0.5);
+    text-decoration: none;
+}
+
+/* Hover Effects */
+.menutext:hover .quote1,
+.quote2 {
+    color: #1c1c42;
+}
+
+.menutext:hover .line {
+    background-color: #1c1c42;
+}
+
+/*button*/
+.button {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.buttondonate {
+    background: url('../imgs/detail/left.png') no-repeat center center;
+    background-size: contain;
+    padding: 3%;
+}
+
+.buttonadoption {
+    background: url('../imgs/detail/right.png') no-repeat center center;
+    background-size: contain;
+    padding: 3%;
+}
