@@ -11,13 +11,12 @@
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/general.css">
-    <link rel="stylesheet" href="css/topbar.css">
-    <link rel="stylesheet" href="css/toyproductoverview.css">
+    <link rel="stylesheet" href="css/suppliesproductoverview.css">
 
 
     <style>
         body {
-            background-image: url('imgs/images/backgroundimage.png');
+            background-image: url('imgs/images/(supplies) backgroundimage.png');
             background-repeat: no-repeat;
             background-size: 100%;
             overflow-x: hidden;
@@ -31,137 +30,6 @@
         @font-face {
             font-family: Oliver Regular;
             src: url(oliver_regular.woff);
-        }
-
-        @media screen and (max-width: 600px) {
-            body {
-                flex-direction: column;
-                background-size: cover;
-                margin: 0;
-                padding: 0;
-                overflow-x: hidden;
-            }
-
-            #nav {
-                flex-direction: column;
-                justify-content: space-between;
-                display: none;
-            }
-
-            header {
-                background-size: cover;
-                align-items: center;
-                justify-content: space-between;
-            }
-
-            .top-bar {
-                padding: 5px;
-            }
-
-            .categories {
-                display: none;
-            }
-
-            .filterbutton {
-                display: none;
-            }
-
-            .differentfilterbuttons {
-                display: none;
-            }
-
-            .right-section {
-                width: auto;
-                height: 150px;
-            }
-
-            .right-section image img {
-                width: 273.58px;
-                height: 150px;
-            }
-
-            .product {
-                flex-direction: column;
-            }
-
-            .product-photo {
-                height: 400px;
-            }
-
-            .product-info .stars {
-                font-size: 40px;
-            }
-
-            .productoverview {
-                justify-content: center;
-                margin-left: 30px;
-            }
-
-            .viewmorereviews {
-                margin-top: 80px;
-            }
-
-            .irregularshapesphotogallery .container {
-                display: flex;
-                flex-direction: column;
-                align-items: flex-end;
-
-
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 {
-                display: flex;
-                flex-direction: column;
-                /* Stack image and description vertically */
-                gap: 10px;
-                margin-bottom: 70px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 .image img {
-                height: 250px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container1 .description {
-                text-align: right;
-                font-size: 18px;
-                width: 50%;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 {
-                display: flex;
-                flex-direction: column-reverse;
-                gap: 10px;
-                margin-bottom: 10px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 .image img {
-                height: 280px;
-                margin-bottom: 20px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container2-4 .description {
-                text-align: left;
-                font-size: 18px;
-                width: 50%;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 {
-                display: flex;
-                flex-direction: column;
-                gap: 10px;
-                margin-bottom: 70px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 .image img {
-                height: 280px;
-                margin-bottom: 30px;
-            }
-
-            .irregularshapesphotogallery .image-and-description-container3 .description {
-                text-align: right;
-                font-size: 18px;
-                width: 50%;
-            }
         }
     </style>
 </head>
@@ -188,13 +56,17 @@
             <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
     </header>
-    <div class="top-bar" style="background-color: #FEF7E7;">
+    <div class="top-bar supplies">
         <div class="left-section">
-            <div class="title">Toys</div>
+            <div class="title">Supplies</div>
             <div class="categories">
                 <a><u>Collars & Leashes</u></a>
                 <a>Beds/Furniture/Decor</a>
                 <a>Bowl/Feeders</a>
+            </div>
+            <div class="categories">
+                <a>Clothing & Accessories</a>
+                <a>Others</a>
 
             </div>
             <div class="filterbuttons-container">
@@ -219,23 +91,17 @@
                 </button>
             </div>
         </div>
-
-        <div class="right-section">
-            <img src="imgs/images/toyproductoverviewdogimage.png" style=" width: 352px;
-    height: 193px; margin-bottom:-10px;">
-        </div>
-
     </div>
 
-    <div class=" product">
+    <div class="product">
         <div class="product-photo">
-            <img src="imgs/images/productoverviewsportdog.png" alt="Product Image" />
+            <img src="imgs/images/productoverviewsassywoof.png" alt="Product Image" />
         </div>
         <div class="product-info">
-            <div class="brand">SportDOG</div>
+            <div class="brand">Sassy Woof</div>
 
             <div class="name">
-                Bark & Shock Collar - 3 Modes of Operation - Dogs 8 lbs +
+                Sassy Woof Disney Minnie Mouse Dog Leash
             </div>
 
             <div class="rating">
@@ -244,7 +110,7 @@
                 </div>
                 <span class="reviewnumbers">(314)</span>
             </div>
-            <p class="product-price">RM460.60</p>
+            <p class="product-price">RM98.30</p>
 
             <div class="size">Size:</div>
             <div class="buttons-container">
@@ -259,7 +125,7 @@
                     <img src="imgs/images/plusicon.png" class="quantity-icon" alt="Plus">
                 </button>
             </div>
-            <button class="addtocartbutton"><img src="imgs/images/addtocart.png" class="quantity-icon">Add
+            <button class="addtocartbutton"><img src="imgs/images/addtocart.png" class="icon">Add
                 to Cart</button>
         </div>
     </div>
@@ -268,34 +134,42 @@
     <div class="productoverview">
         <div class="title">Product Overview</div>
         <div class="smalltitles" style="margin-top: 35pt;">Description</div>
-        <p class="description" style="margin-bottom: 10pt;">The SportDOG Brand NoBark SBC-R offers customizable bark
-            control with 3 <br> programmable training modes and 10 static stimulation levels. It uses Silent <br>
-            Partner
-            technology to quickly detect unique barks, making it suitable for <br> single-dog homes or kennels.</p>
+        <p class="description" style="margin-bottom: 10pt;">This Sassy Woof Where Dogs Are Family Disney Minnie Mouse
+            Dog Leash is a fun, stylish and safe choice in leashes for <br> Disney fans and their pups. This leash and
+            comfortable and is durable enough for everyday use, with a fun Disney-centric <br> design you will love.
+            Best of
+            all, this leash offers you the control you desire to make walks safer and more enjoyable for you <br> and
+            your
+            furry friend.</p>
 
-        <div class=" smalltitles" style="margin-top: 40pt;">Benefits
+        <div class=" smalltitles" style="margin-top: 40pt;">Features
         </div>
-        <p class="description"> • Waterproof and submersible to 10 feet</p>
-        <p class="description" style="line-height: 1;"> • Charges in 2 hours, lasts 200 hours per charge
+        <p class="description"> • Black Metal Accents</p>
+        <p class="description" style="line-height: 1;"> • Durable, Fashionable, Classy
         </p>
-        <p class="description" style="line-height: 1; margin-bottom: 25pt"> • Silent Partner technology</p>
+        <p class="description" style="line-height: 1; margin-bottom: 25pt"> • Comfortable and durable for everyday use.
+        </p>
 
         <div class="smalltitles-description-container">
             <div class="smalltitles">Code Number:</div>
-            <p class="description">5345977</p>
+            <p class="description">#5352763</p>
         </div>
 
         <div class="smalltitles-description-container">
             <div class="smalltitles">Brand:</div>
-            <p class="description">SportDOG</p>
+            <p class="description">Sassy Woof</p>
+        </div>
+        <div class="smalltitles-description-container">
+            <div class="smalltitles">Color:</div>
+            <p class="description">Pink</p>
         </div>
         <div class="smalltitles-description-container">
             <div class="smalltitles">Material:</div>
-            <p class="description">Plastic, Nylon, Metal</p>
+            <p class="description">Neoprene, Polyester</p>
         </div>
         <div class="smalltitles-description-container">
             <div class="smalltitles">Dimensions:</div>
-            <p class="description">Collar Receiver without strap - 2.75 in L X 1.125 in W X 1.125 in H</p>
+            <p class="description">60 in x 1 in</p>
         </div>
 
 
@@ -309,24 +183,23 @@
         </div>
 
         <div class="review-comments">
-            <div class="usercircle">A</div>
+            <div class="usercircle">KR</div>
             <div class="review-summary-container" style="margin-left:-5px;">
-                <div class="commenttitle">Great product</div>
-                <div class="commenttime">3 months ago, Adam C</div>
+                <div class="commenttitle">Love!</div>
+                <div class="commenttime">16 days ago, Krw12345</div>
             </div>
         </div>
-        <div class="commentdescription">The no bark device has significantly improved my dog's behavior, teaching her to
-            be alone and not panic, <br> and only requiring a two-week battery charge.</div>
+        <div class="commentdescription">The cutest print! I love this leash. I have toddlers who love Minnie Mouse so
+            this is a go to! <br> It is high quality and perfect.</div>
 
         <div class="review-comments" style="margin-top:35pt;">
             <div class="usercircle">D</div>
             <div class="review-summary-container" style="margin-left:-5px;">
-                <div class="commenttitle">Works well</div>
+                <div class="commenttitle">Cute</div>
                 <div class="commenttime">7 months ago, David G</div>
             </div>
         </div>
-        <div class="commentdescription">I’ve found a collar that has significantly helped me so much, reducing my dog’s
-            barking and allowing him to travel.</div>
+        <div class="commentdescription">This is so pretty! Suits my dog a lot!</div>
     </div>
 
     <div class="viewmorereviews">View more reviews</div>
@@ -336,14 +209,14 @@
     <div class="irregularshapesphotogallery container">
         <div class="irregularshapesphotogallery image-and-description-container1">
             <div class="image">
-                <img src="imgs/images/(toy)irregulardogphoto1.png">
+                <img src="imgs/images/(supplies)irregulardogphoto1.png">
             </div>
             <div class="description">Helping you and your <br> dog learn together.</div>
         </div>
         <div class="irregularshapesphotogallery image-and-description-container2-4">
-            <div class="description">A smarter way to guide your furry friend.</div>
+            <div class="description">A smarter way to guide <br> your furry friend.</div>
             <div class="image">
-                <img src="imgs/images/(toy)irregulardogphoto2.png">
+                <img src="imgs/images/(supplies)irregulardogphoto2.png">
             </div>
         </div>
 
