@@ -5,9 +5,15 @@ body {
 }
 
 /*img*/
-.timmeline {
+.information {
+    padding: 2% 5%;
+}
+
+.timeline {
     background: url("../imgs/imagesdogdetail/line.png") no-repeat;
-    background-size: cover;
+    background-size: 90%;
+    background-position: center center;
+    padding: 3%;
 }
 
 .row1,
@@ -15,32 +21,96 @@ body {
     display: flex;
 }
 
-.detail {
+.row2 {
+    margin-top: -50px;
+}
+
+.detaildog1,
+.detaildog2,
+.detaildog3,
+.detaildog4,
+.detaildog5,
+.detaildog6 {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* Stack content vertically */
+    align-items: center;
+    /* Horizontally center items */
+}
+
+.detaildog1 {
+    position: relative;
+    top: -100px;
+    left: -50px;
+}
+
+.detaildog2 {
+    position: relative;
+    left: -20px;
+    top: -20px;
+}
+
+.detaildog3 {
+    position: relative;
+    left: -20px;
+}
+
+.detaildog4 {
+    position: relative;
+    top: -60px;
+    right: -80px;
+}
+
+.detaildog5 {
+    position: relative;
+    top: 30px;
+    right: -40px;
+}
+
+.detaildog6 {
+    position: relative;
+    right: -80px;
+    top: 100px;
 }
 
 .dog1 {
-    width: 30%;
+    width: 70%;
 }
 
 .dog2 {
-    width: 33%;
+    width: 70%;
 }
 
 .dog3 {
-    width: 30%;
+    width: 60%;
 }
 
 .dog4 {
-    width: 30%;
+    width: 75%;
 }
 
 .dog5 {
-    width: 30%;
+    width: 65%;
 }
 
 .dog6 {
-    width: 30%;
+    width: 70%;
+}
+
+.text1,
+.text2,
+.text5 {
+    margin-top: -2%;
+}
+
+.text6 {
+    margin-top: -4%;
+}
+
+.text3,
+.text4 {
+    margin-top: -8%;
 }
 
 /* Menu Container */
@@ -57,7 +127,7 @@ body {
 }
 
 /* Line Before Text */
-.menutext .line1 {
+.menutext .line2 {
     width: 50px;
     height: 2.5px;
     background-color: #5C4F66;
@@ -65,7 +135,7 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.menutext .line2 {
+.menutext .line1 {
     width: 30px;
     height: 2.5px;
     background-color: rgb(92, 79, 102, 0.5);
@@ -74,7 +144,7 @@ body {
 }
 
 /* Text Style */
-.menutext .quote1 {
+.menutext .quote2 {
     font-family: oliver;
     font-size: 25px;
     font-weight: bold;
@@ -83,7 +153,7 @@ body {
     text-decoration: none;
 }
 
-.menutext .quote2 {
+.menutext .quote1 {
     font-family: oliver;
     font-size: 25px;
     font-weight: bold;
@@ -120,4 +190,117 @@ body {
     background: url('../imgs/detail/right.png') no-repeat center center;
     background-size: contain;
     padding: 3%;
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+    #nav {
+        flex-direction: column;
+        justify-content: space-between;
+        display: none;
+    }
+
+    header {
+        background-size: cover;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+
+    .arrow {
+        width: 8%;
+    }
+
+    .timeline {
+        background: none;
+        background: url("../imgs/imagesdogdetail/mobileline.png") no-repeat;
+        background-size: 58%;
+        background-position: center 80px;
+        margin-bottom: 50%;
+    }
+
+    .row1,
+    .row2 {
+        flex-direction: column;
+    }
+
+    .detaildog1 {
+        position: relative;
+        top: -60px;
+        left: -70px;
+    }
+
+    .detaildog2 {
+        position: relative;
+        left: 50px;
+        top: 0px;
+    }
+
+    .detaildog3 {
+        position: relative;
+        left: -80px;
+        top:50px;
+    }
+
+    .detaildog4 {
+        position: relative;
+        top:100px;
+        right: -100px;
+    }
+
+    .detaildog5 {
+        position: relative;
+        top: 180px;
+        left: -60px;
+    }
+
+    .detaildog6 {
+        position: relative;
+        top: 180px;
+    }
+
+    .dog1,
+    .dog2,
+    .dog4,
+    .dog6 {
+        width: 70%;
+    }
+
+    .dog3{
+        width:80%;
+    }
+
+    .dog5{
+        width:60%;
+    }
+
+
+    .menutext {
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .button {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buttondonate {
+        padding: 10%
+    }
+
+    .buttonadoption {
+        background: url('../imgs/detail/adoptionbuttonmobile.png') no-repeat center center;
+        background-size: contain;
+        padding: 10%;
+    }
+    
 }

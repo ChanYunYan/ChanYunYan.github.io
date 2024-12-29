@@ -17,7 +17,7 @@ header {
 }
 
 .text {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 40px;
     white-space: nowrap;
     margin-left: 10%;
@@ -48,13 +48,13 @@ header {
 }
 
 .information h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 32px;
     color: #1C1C42;
 }
 
 .information h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 25px;
     color: #5C4F66;
 }
@@ -87,7 +87,7 @@ header {
 
 .line1 h1,
 .line2 h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 25px;
     color: #1C1C42;
 }
