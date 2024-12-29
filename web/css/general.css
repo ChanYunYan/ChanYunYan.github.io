@@ -95,6 +95,17 @@ footer {
 
 /*mobile*/
 @media screen and (max-width: 600px) {
+
+    @font-face {
+        font-family: "Legwork Demo";
+        src: url(fonts/legworkDEMO.otf);
+    }
+
+    @font-face {
+        font-family: "Oliver Regular";
+        src: url(fonts/oliver_regular.woff);
+    }
+
     #nav {
         flex-direction: column;
         justify-content: space-between;
