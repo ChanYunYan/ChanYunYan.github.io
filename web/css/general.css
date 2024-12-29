@@ -8,7 +8,7 @@
     src: url(fonts/oliver_regular.woff);
 }
 
-header {
+.navbar {
     position: sticky;
     top: 0px;
     display: flex;
@@ -16,8 +16,13 @@ header {
     align-items: center;
     background-color: #FFFFFF;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    gap: 60px;
+    gap: 30px;
     z-index: 500;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 .menu a {
@@ -25,13 +30,36 @@ header {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 16px;
-    margin-right: 20px;
-    margin-left: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 14px 20px;
 }
 
 .menu a:hover {
     text-decoration: underline;
 }
+
+.close-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    display: none;
+    font-size: 36pt;
+    color: white;
+    cursor: pointer;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: #5F86AA;
+    cursor: pointer;
+}
+
+#menu-checkbox:checked+.menu-toggle+.menu {
+    display: flex;
+}
+
 
 footer {
     display: flex;
@@ -95,16 +123,85 @@ footer {
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    #nav {
-        flex-direction: column;
-        justify-content: space-between;
-        display: none;
+
+    @font-face {
+        font-family: "Legwork Demo";
+        src: url(fonts/legworkDEMO.otf);
     }
 
-    header {
-        background-size: cover;
-        align-items: center;
+    @font-face {
+        font-family: "Oliver Regular";
+        src: url(fonts/oliver.woff);
+    }
+
+    .navbar {
+        padding: 18px 10px;
+        gap: 180px;
         justify-content: space-between;
+    }
+
+    .navbar .logo {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .menu {
+        border-radius: 30px;
+        flex-direction: column;
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 80%;
+        height: 50%;
+        background-color: #FEF7E7;
+        justify-content: center;
+        align-items: flex-start;
+        z-index: 1000;
+        gap: 5px;
+    }
+
+    .menu a {
+        text-align: left;
+        padding: 20px;
+        font-size: 18px;
+        color: #5C4F66;
+        transition: color 0.3s ease, background-color 0.3s ease;
+    }
+
+    .menu a:hover {
+        color: #FFFFFF;
+        /* Change text color on hover */
+        background-color: #5C4F66;
+        /* Add a background color for better visibility */
+        border-radius: 20px;
+        /* Optional: add rounded corners for hover effect */
+    }
+
+    .menu-item>a {
+        display: block;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    #menu-checkbox:checked+.menu-toggle+.menu {
+        color: #5F86AA;
+        display: flex;
+    }
+
+    #menu-checkbox:checked+.menu-toggle+.menu .close-btn {
+        color: #5F86AA;
+        display: block;
+    }
+
+    .close-btn {
+        position: absolute;
+        /* Position it relative to the menu */
+        top: 10px;
+        right: 10px;
     }
 
     .footer {
