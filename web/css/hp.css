@@ -1,7 +1,8 @@
 body {
-    margin: 0%;
     padding: 0%;
     background-color: #fffcf7;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /*banner*/
@@ -414,6 +415,16 @@ body {
     .buttonmission h2,
     .bookinfo h2 {
         font-size: 28px;
+    }
+
+    .findpals {
+        font-family: Legwork Demo;
+        font-size: 128px;
+        display: flex;
+        color: #1C1C42;
+        justify-content: space-around;
+        min-height: 600px;
+        align-items: center;
     }
 
 }
