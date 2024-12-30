@@ -9,12 +9,17 @@ header {
     z-index: 10000;
 }
 
-.bnr {
+.banner {
     background-color: #E4F0D0;
+}
+
+.bnr {
     text-align: center;
     align-items: center;
     display: flex;
-    width: 100%;
+    min-height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .text {
@@ -39,6 +44,8 @@ header {
 .information {
     padding: 5% 5%;
     text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .title {
@@ -67,7 +74,7 @@ header {
     display: flex;
 }
 
-.line1{
+.line1 {
     margin-bottom: 5%;
 }
 
@@ -83,6 +90,20 @@ header {
     position: relative;
     z-index: 0;
     max-width: 300px;
+    min-height: 120px;
+}
+
+.dog a {
+    text-decoration: none;
+}
+
+.dog {
+    transition: transform 0.3s ease-in-out;
+}
+
+.dog:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .dg {
@@ -105,8 +126,8 @@ header {
 .gap {
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 10px;
+    flex-wrap: nowrap;
+    gap: 20%;
 }
 
 .breed,
@@ -114,7 +135,6 @@ header {
     display: flex;
     align-items: center;
     gap: 10%;
-    white-space: nowrap;
 }
 
 .bgdown img {
@@ -126,12 +146,11 @@ header {
 
 /*tablet*/
 @media screen and (max-width: 768px) {
-    .text{
-    margin-top: 8%;
-    font-size: 30px;
+    .text {
+        margin-top: 8%;
+        font-size: 30px;
     }
 }
-
 
 /*mobile*/
 @media screen and (max-width: 600px) {

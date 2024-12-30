@@ -380,11 +380,12 @@ body {
 }
 
 .booking {
-    width: 100%;
+    width: 50%;
 }
 
 .desktop-img {
     display: block;
+    width: 100%;
 }
 
 .mobile-img {

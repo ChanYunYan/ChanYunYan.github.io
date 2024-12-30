@@ -7,6 +7,8 @@ body {
 /*img*/
 .information {
     padding: 2% 5%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .timeline {
@@ -116,6 +118,7 @@ body {
 /* Menu Container */
 .word {
     font-family: oliver;
+    font-size: 25px;
 }
 
 /* Menu Item */
@@ -145,8 +148,6 @@ body {
 
 /* Text Style */
 .menutext .quote2 {
-    font-family: oliver;
-    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #5C4F66;
@@ -154,8 +155,6 @@ body {
 }
 
 .menutext .quote1 {
-    font-family: oliver;
-    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     color: rgb(92, 79, 102, 0.5);
@@ -177,7 +176,13 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
+    font-family: Oliver Regular;
+}
 
+.button a {
+    text-decoration: none;
+    color: #5B4F64;
+    font-size: 22px;
 }
 
 .buttondonate {
@@ -190,6 +195,42 @@ body {
     background: url('../imgs/detail/right.png') no-repeat center center;
     background-size: contain;
     padding: 3%;
+}
+
+/*tablet*/
+@media screen and (max-width: 800px) {
+    .detaildog1 {
+        position: relative;
+        top: -50px;
+        left: -50px;
+    }
+
+    .detaildog4 {
+        position: relative;
+        top: -20px;
+        right: -50px;
+    }
+
+    .detaildog6 {
+        position: relative;
+        right: -40px;
+        top: 50px;
+    }
+
+    .word {
+        font-family: oliver;
+        font-size: 20px;
+    }
+
+    .menutext .line2 {
+        width: 50px;
+        height: 2.4px;
+    }
+
+    .menutext .line1 {
+        width: 30px;
+        height: 2.4px;
+    }
 }
 
 /*mobile*/
@@ -246,12 +287,12 @@ body {
     .detaildog3 {
         position: relative;
         left: -80px;
-        top:50px;
+        top: 50px;
     }
 
     .detaildog4 {
         position: relative;
-        top:100px;
+        top: 100px;
         right: -100px;
     }
 
@@ -273,24 +314,23 @@ body {
         width: 70%;
     }
 
-    .dog3{
-        width:80%;
+    .dog3 {
+        width: 80%;
     }
 
-    .dog5{
-        width:60%;
+    .dog5 {
+        width: 60%;
     }
-
 
     .menutext {
+        display: flex;
         justify-content: center;
-        align-items: center;
     }
-
 
     .button {
         flex-direction: column;
         align-items: center;
+        margin-top: 5%;
     }
 
     .buttondonate {
@@ -302,5 +342,5 @@ body {
         background-size: contain;
         padding: 10%;
     }
-    
+
 }
