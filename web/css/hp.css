@@ -7,12 +7,15 @@ body {
 
 /*banner*/
 .banner {
-    background: url('../imgs/imageshp/hp.png');
+    background: url('../imgs/imageshp/hppaw.png');
     background-color: #FEF7E7;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 0.1%;
+}
+
+.hpimage {
+    background-size: contain;
 }
 
 .findpals {
@@ -21,7 +24,7 @@ body {
     display: flex;
     color: #1C1C42;
     justify-content: space-around;
-    min-height: 600px;
+    min-height: 605px;
     align-items: center;
 }
 
@@ -31,7 +34,7 @@ body {
 
 .quote {
     font-family: "Nunito Sans", sans-serif;
-    line-height: 10%;
+    line-height: 18%;
     font-size: 18px;
     text-align: center;
     color: #4A4A4A;
@@ -136,7 +139,6 @@ body {
     background: url('../imgs/imageshp/acthover.png');
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 25px 25px;
 }
 
 .act {
@@ -244,7 +246,7 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-bottom: -20px;
+    margin-bottom: -2px;
 }
 
 .about {
@@ -354,7 +356,7 @@ body {
     padding: 30px;
     border-radius: 20px;
     text-align: left;
-    width: 50%；
+    width: 20%;
 }
 
 .appoint {
@@ -400,6 +402,14 @@ body {
 /*tablet*/
 @media screen and (max-width: 768px) {
 
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+
     .adoption h1,
     .act h1,
     .process h1,
@@ -419,14 +429,48 @@ body {
 
     .findpals {
         font-family: Legwork Demo;
-        font-size: 128px;
+        font-size: 80px;
         display: flex;
         color: #1C1C42;
         justify-content: space-around;
-        min-height: 600px;
+        min-height: 590px;
         align-items: center;
     }
 
+    .hpimage {
+        width: 50%;
+    }
+
+    .bookinfo{
+        width:35%;
+    }
+
+    .abtdog {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7%;
+        margin-left: 10px;
+    }
+
+    .aboutcat {
+        margin-bottom: -10%;
+        align-items: center;
+    }
+
+    .abtcat {
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+
+    .abtbg{
+        margin-bottom: -25px;
+    }
+
+    .activities {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /*mobile*/
@@ -441,21 +485,39 @@ body {
     }
 
     .banner {
-        background-image: url('../imgs/imageshp/bannermobile.png');
+        background-image: url('../imgs/imageshp/mobilepaw.png');
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 70%;
     }
 
+    .findpals {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .find,
+    .pals {
+        display: none;
+    }
 
     .mobilefindpals {
         display: block;
     }
 
+    .findpals{
+        flex-direction: column;
+        min-height:570px;
+    }
+
+    .hpimage{
+        width:60%;
+    }
     .quote {
         font-size: 16px;
-        margin-top: -50%;
-        padding: 5px 30px;
+        margin-top:0%;
     }
 
     .p2 {
@@ -538,6 +600,10 @@ body {
         display: none;
     }
 
+    .abtbg{
+        margin-bottom: -19px;
+    }
+
     .abtdog {
         flex-direction: column;
         align-items: center;
@@ -580,20 +646,21 @@ body {
         align-items: center;
     }
 
+    .bookinfo{
+        width:50%;
+    }
+
     .desktop-img {
         display: none;
+    }
+
+    .booking{
+        width:100%;
     }
 
     .mobile-img {
         display: block;
         width: 100%;
-        /* Ensure it fits the screen */
-        height: auto;
-        /* Maintain aspect ratio */
-        margin-top: -50px;
-    }
-
-    .bookinfo {
-        height: 350px;
+        margin-top: -10%;
     }
 }
