@@ -18,14 +18,14 @@ body {
     width: 30%;
     padding: 0.3%;
     border-radius: 30px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 18%;
 }
 
 .dog {
     position: absolute;
-    top: 28.5%;
-    left: 14%;
+    top: 30.5%;
+    left: 18%;
 }
 
 .t {
@@ -49,22 +49,12 @@ body {
     text-align: center;
 }
 
-.b3 {
-    background-image: url('../imgs/images-nutrinhealth/box3.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 1%;
-    position: relative;
-    left: 12%;
-    margin-top: 2%;
-}
-
 .box2 {
     background-color: #FEF7E7;
     width: 30%;
     padding: 0.3%;
     border-radius: 30px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 18%;
 }
 
@@ -89,14 +79,15 @@ body {
     text-align: center;
 }
 
-.box1 {
+.box3 {
     position: relative;
-    background-color: #E4F0D0;
+    background-color: #F3AFA7;
     width: 30%;
     padding: 0.3%;
     border-radius: 30px;
-    margin-left: 10%;
-    margin-top: 18%;
+    margin-right: 10%;
+    margin-top: -26.7%;
+    margin-left: 55%;
 }
 
 .t2 {
@@ -115,6 +106,232 @@ body {
 
 .dog2 {
     position: absolute;
-    top: 46.2%;
+    top: 56.3%;
+    right: 21%;
+}
+
+.box4 {
+    background-color: #A1B5D8;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-right: 10%;
+    margin-top: 18%;
+    margin-left: 55%;
+}
+
+.t4 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.p6 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.p7 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.dogs {
+    margin-bottom: -0.3%;
+}
+
+.bg1 {
+    position: absolute;
+    top: 15%;
+}
+
+.bg2 {
+    position: absolute;
+    top: 58%;
+    right: -10%;
+}
+
+.bg3 {
+    position: absolute;
+    top: 124%;
     right: 20%;
+}
+
+.bg4 {
+    position: absolute;
+    top: 97%;
+    left: 3%;
+}
+
+.bg5 {
+    position: absolute;
+    top: 155%;
+    left: 15%;
+}
+
+.mbg1 {
+    display: none;
+}
+
+.mbg2 {
+    display: none;
+}
+
+.mbg3 {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    body {
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    .box1 {
+        width: 50%;
+        margin-top: 26.7%;
+        margin-left: 25%;
+    }
+
+    .dog {
+        position: absolute;
+        top: 30.5%;
+        left: 35%;
+        width: 33%;
+    }
+
+    .box2 {
+        width: 50%;
+        margin-top: 30%;
+        margin-left: 25%;
+    }
+
+    .box3 {
+        width: 50%;
+        margin-top: -45%;
+        margin-left: 25%;
+    }
+
+    .box4 {
+        width: 50%;
+        margin-top: 30%;
+        margin-left: 25%;
+    }
+
+    .dog2 {
+        display: none;
+    }
+
+    .bg1 {
+        width: 20%;
+        top: 32%;
+    }
+
+    .bg2 {
+        margin-top: -10%;
+        width: 25%;
+    }
+
+    .bg3 {
+        margin-right: -25%;
+    }
+
+    .bg4 {
+        margin-top: -13%;
+        width: 23%;
+    }
+
+    .bg5 {
+        margin-left: -5%;
+        margin-top: -5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    .dog {
+        width: 60%;
+        margin-top: 10%;
+        margin-left: -13%;
+    }
+
+    .box1 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 43.9%;
+    }
+
+    .box2 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .box3 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .box4 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .dogs {
+        margin-bottom: -0.8%;
+        margin-top: 5%;
+    }
+
+    .bg1 {
+        width: 25%;
+        margin-top: 10%;
+    }
+
+    .bg2 {
+        display: none;
+    }
+
+    .bg3 {
+        display: none;
+    }
+
+    .bg4 {
+        display: none;
+    }
+
+    .bg5 {
+        display: none;
+    }
+
+    .mbg1 {
+        display: block;
+        position: absolute;
+        right: -6.7%;
+        top: 105%;
+    }
+
+    .mbg2 {
+        display: block;
+        position: absolute;
+        top: 153%;
+    }
+
+    .mbg3 {
+        display: none;
+    }
 }
