@@ -15,7 +15,7 @@ body {
 }
 
 .findpals {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 128px;
     display: flex;
     color: #1C1C42;
@@ -43,13 +43,13 @@ body {
 }
 
 .adoption h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
 
 .adoption h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 28px;
     color: #5C4F66;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .adoption p {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 28px;
     color: #1C1C42;
     margin-left: -20%;
@@ -105,7 +105,7 @@ body {
 }
 
 .infor h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
@@ -162,13 +162,13 @@ body {
 }
 
 .act h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
 
 .act h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 28px;
     color: #5C4F66;
 }
@@ -189,7 +189,7 @@ body {
 }
 
 .join {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 20px;
     color: #5C4F66;
 }
@@ -207,13 +207,13 @@ body {
 }
 
 .process h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
 
 .process h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 28px;
     color: #5C4F66;
 }
@@ -281,7 +281,7 @@ body {
 }
 
 .abtdog h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
@@ -296,13 +296,13 @@ body {
 }
 
 .buttonwhy h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 28px;
     color: #5C4F66;
 }
 
 .buttonmission h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     font-size: 28px;
     color: #5C4F66;
 }
@@ -332,13 +332,13 @@ body {
 }
 
 .book h1 {
-    font-family: legwork demo;
+    font-family: Legwork Demo;
     font-size: 38px;
     color: #1C1C42;
 }
 
 .bookinfo h2 {
-    font-family: oliver;
+    font-family: Oliver Regular;
     color: #5C4F66;
 }
 
