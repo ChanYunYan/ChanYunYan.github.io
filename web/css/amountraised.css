@@ -52,11 +52,18 @@ body {
     gap: 10px;
 }
 
-.greenshape p {
-    font-size: 18px;
+.greenshape a {
+    font-size: 17px;
     display: flex;
     justify-content: left;
     align-items: center;
+    font-family: "Nunito Sans", sans-serif;
+    color: #4A4A4A;
+    text-decoration: none;
+}
+
+.greenshape a:hover {
+    text-decoration: underline;
 }
 
 .greenshape img {
