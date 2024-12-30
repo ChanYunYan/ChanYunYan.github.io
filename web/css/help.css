@@ -9,32 +9,27 @@
     margin-top: 40px;
 }
 
-.address-contact-number.large-container {
-    flex-direction: row;
-    /* Stack the containers vertically */
-    align-items: center;
+.contact-us.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px 80px;
     justify-content: center;
-    display: flex;
-    margin-top: 70px;
-    gap: 140px;
-}
-
-
-.social-email.large-container {
-    flex-direction: row;
-    /* Stack the containers vertically */
     align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-top: 70px;
-    gap: 140px;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 800px;
+
 }
 
 .socials.container {
-    margin-left: -280px;
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
+    /* Align content to the left */
+    justify-content: flex-start;
+    /* Ensure consistent top alignment */
+    gap: 10px;
 }
 
 .socials.icon-text {
@@ -43,18 +38,35 @@
     gap: 2px;
 }
 
-.information.container {
-    margin-top: 30px;
-    flex-direction: column;
+.address.container {
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align content to the left */
+    justify-content: flex-start;
+    /* Ensure consistent top alignment */
+    gap: 10px;
+
+}
+
+.phoneno.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align content to the left */
+    justify-content: flex-start;
+    /* Ensure consistent top alignment */
+    gap: 10px;
 
 }
 
 .email.container {
-    margin-top: 30px;
-    flex-direction: column;
     display: flex;
-
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    /* Ensure consistent top alignment */
+    gap: 10px;
 }
 
 .information.icon-title {
@@ -214,16 +226,7 @@ th {
         margin-bottom: 5px;
     }
 
-    .address-contact-number.large-container {
-        flex-direction: column;
-        gap: 20px;
-        margin-bottom: 20px;
-    }
 
-    .social-email.large-container {
-        flex-direction: column;
-        gap: 20px;
-    }
 
     .information.container {
         align-items: center;
@@ -243,9 +246,42 @@ th {
         text-align: center;
     }
 
+    .contact-us.container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .address.container {
+        align-items: center;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .phoneno.container {
+        align-items: center;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 8px;
+    }
+
     .socials.container {
         align-items: center;
         margin-left: 0;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .email.container {
+        align-items: center;
+        margin-left: 0;
+        flex-direction: column;
+        gap: 8px;
     }
 
     .green-dog.container {
