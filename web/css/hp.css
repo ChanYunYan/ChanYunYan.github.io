@@ -380,12 +380,11 @@ body {
 }
 
 .booking {
-    width: 50%;
+    width: 100%;
 }
 
 .desktop-img {
     display: block;
-    width: 60%;
 }
 
 .mobile-img {
@@ -396,7 +395,7 @@ body {
     text-align: center;
 }
 
-/*mobile*/
+/*tablet*/
 @media screen and (max-width: 768px) {
 
     .adoption h1,
@@ -434,14 +433,11 @@ body {
         background-repeat: no-repeat;
         background-position: center center;
         background-size: 70%;
-        margin-top: -20%;
     }
 
-    .findpals {
-        justify-content: center;
-        gap: 10%;
-        font-size: 85px;
-        margin-top: 60%;
+
+    .mobilefindpals {
+        display: block;
     }
 
     .quote {
@@ -458,6 +454,7 @@ body {
         gap: 150px;
         flex-direction: column;
         align-items: center;
+        margin-left: 18%;
     }
 
     .ctgr {
@@ -494,6 +491,10 @@ body {
 
     .gap {
         margin-bottom: 20%;
+    }
+
+    .top-shape {
+        margin-bottom: -25px;
     }
 
     .activities {

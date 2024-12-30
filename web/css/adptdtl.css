@@ -90,6 +90,10 @@ body {
     width: 25%;
 }
 
+.namemobile {
+    display: none;
+}
+
 .text {
     position: relative;
     margin-bottom: -20%;
@@ -114,37 +118,6 @@ body {
     color: #4A4A4A;
 }
 
-/*page*/
-.page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3%;
-    margin-top: 20px;
-}
-
-/* Dots */
-.dot {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    background-color: #d3d3d3;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-/* Active Dot */
-.dot.active {
-    background-color: #567899;
-    transform: scale(1.2);
-    /* Slightly larger */
-}
-
-/* Hover Effect */
-.dot:hover {
-    background-color: #b0c4de;
-}
-
 /*button*/
 .button {
     display: flex;
@@ -163,6 +136,37 @@ body {
     background: url('../imgs/detail/right.png') no-repeat center center;
     background-size: contain;
     padding: 3%;
+}
+
+/*tablet*/
+@media screen and (max-width: 768px) {
+    .name {
+        left: 3%;
+        width: 25%;
+    }
+
+    .text {
+        right: 10%;
+        width: 40%;
+    }
+
+    .inform h1 {
+        font-size: 60px;
+    }
+
+    .inform h2{
+        font-size: 20px;
+    }
+
+    .inform p {
+        font-size: 16px;
+        
+    }
+
+    .inform{
+        margin-bottom: 5%;
+    }
+
 }
 
 /*mobile*/
@@ -195,9 +199,10 @@ body {
         padding: 5%;
     }
 
-    .image img {
-        position: static;
+    .image {
         width: 100%;
+        margin-left: 5%;
+        margin-bottom: -10%;
     }
 
     .inform {
@@ -206,6 +211,11 @@ body {
     }
 
     .name {
+        display: none;
+    }
+
+    .namemobile {
+        display: block;
         margin-top: 0;
         left: 0%;
         text-align: center;
@@ -219,14 +229,21 @@ body {
         width: 100%;
     }
 
+    .text p {
+        text-align: justify;
+    }
+
     .menutext {
         justify-content: center;
         align-items: center;
     }
 
-    .page {
-        gap: 10%;
-        padding: 5%;
+    .word{
+        margin-bottom: 10%;
+    }
+
+    .menutext{
+        align-items: left;
     }
 
     .button {

@@ -17,23 +17,25 @@
 <body>
     <!--nav-->
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
-            </a>
-        </div>
-
-        <div id="nav">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
+                </a>
+            </div>
+    
+            <!-- Checkbox to toggle menu on mobile -->
+            <input type="checkbox" id="menu-checkbox" style="display: none;">
+            <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
             <div class="menu">
+                <!-- Close button for mobile view -->
+                <label for="menu-checkbox" class="close-btn">&times;</label>
                 <a href="adoption.html">Adopt</a>
                 <a href="donationamount.html">Donate</a>
                 <a href="learningcentre.html">Learning Centre</a>
                 <a href="productlisting.html">Shop</a>
                 <a href="help.html">Help</a>
             </div>
-        </div>
-
-        <div class="search">
             <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
     </header>
@@ -50,6 +52,11 @@
 
                 <div class="image">
                     <img src="imgs/detail/dog.png" alt="dog1" width="100%" class="dog">
+                </div>
+
+                <div class="namemobile">
+                    <h1>HELLO, I’M</h1>
+                    <h1>holiday</h1>
                 </div>
 
                 <div class="text">
@@ -71,15 +78,6 @@
                     <span class="line2"></span>
                     <a href="#" class="quote2">Photo</a>
                 </div>
-            </div>
-
-            <div class="page">
-                <span class="dot active" onclick="goToPage(1)"></span>
-                <span class="dot" onclick="goToPage(2)"></span>
-                <span class="dot" onclick="goToPage(3)"></span>
-                <span class="dot" onclick="goToPage(4)"></span>
-                <span class="dot" onclick="goToPage(5)"></span>
-                <span class="dot" onclick="goToPage(6)"></span>
             </div>
 
             <!--button-->
