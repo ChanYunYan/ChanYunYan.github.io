@@ -216,7 +216,6 @@ header {
     .line1,
     .line2 {
         flex-direction: column;
-        margin-top: -20px;
     }
 
     .dog {
