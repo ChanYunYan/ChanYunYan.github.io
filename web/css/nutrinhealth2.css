@@ -1,0 +1,120 @@
+body {
+    color: #FFFCF7;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.head {
+    color: #1C1C42;
+    font-family: "Legwork DEMO";
+    font-size: 48px;
+    text-align: center;
+}
+
+.box1 {
+    position: relative;
+    background-color: #E4F0D0;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.dog {
+    position: absolute;
+    top: 28.5%;
+    left: 14%;
+}
+
+.t {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.p {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.p2 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.b3 {
+    background-image: url('../imgs/images-nutrinhealth/box3.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-bottom: 1%;
+    position: relative;
+    left: 12%;
+    margin-top: 2%;
+}
+
+.box2 {
+    background-color: #FEF7E7;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.t3 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.p4 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.p5 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.box1 {
+    position: relative;
+    background-color: #E4F0D0;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.t2 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.p3 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.dog2 {
+    position: absolute;
+    top: 46.2%;
+    right: 20%;
+}
