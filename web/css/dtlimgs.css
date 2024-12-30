@@ -231,6 +231,14 @@ body {
         width: 30px;
         height: 2.4px;
     }
+
+    .button a{
+        font-size:18px;
+    }
+
+    .buttonadoption,.buttondonate{
+        padding:4%
+    }
 }
 
 /*mobile*/
