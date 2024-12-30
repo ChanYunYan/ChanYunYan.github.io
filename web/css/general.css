@@ -8,6 +8,14 @@
     src: url(../fonts/oliver.ttf);
 }
 
+h1 {
+    font-family: "Legwork Demo";
+}
+
+h2 {
+    font-family: "Oliver Regular";
+}
+
 .navbar {
     position: sticky;
     top: 0px;
@@ -128,12 +136,12 @@ footer {
 
     @font-face {
         font-family: "Legwork Demo";
-        src: url(fonts/legworkDEMO.otf);
+        src: url(../fonts/legworkDEMO.otf);
     }
 
     @font-face {
         font-family: "Oliver Regular";
-        src: url(fonts/oliver.woff);
+        src: url(../fonts/oliver.ttf);
     }
 
     .navbar {
