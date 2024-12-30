@@ -2,9 +2,15 @@ body {
     background-color: #FEF7E7;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
+}
+
+.bg1 {
     background-image: url('../imgs/images-learningcentre/topbg1.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    width: 100%;
+    padding: 5%;
 }
 
 .learningcentre {
