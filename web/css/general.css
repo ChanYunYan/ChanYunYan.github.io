@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Legwork Demo";
-    src: url(fonts/legworkDEMO.otf);
+    src: url(../fonts/legworkDEMO.otf);
 }
 
 @font-face {
     font-family: "Oliver Regular";
-    src: url(fonts/oliver_regular.woff);
+    src: url(../fonts/oliver.ttf);
 }
 
 .navbar {
