@@ -44,6 +44,7 @@ body {
 .adoption {
     text-align: center;
     padding-bottom: 8%;
+    margin-top: 5%;
 }
 
 .adoption h1 {
@@ -139,6 +140,7 @@ body {
     background: url('../imgs/imageshp/acthover.png');
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 25px 25px;
 }
 
 .act {
