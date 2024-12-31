@@ -94,7 +94,7 @@ h3 {
     align-items: center;
     display: flex;
     gap: 10px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .form input {
@@ -173,8 +173,8 @@ h3 {
     }
 
     .dfp {
-        font-size: 48px;
-        margin-left: 70px;
+        font-size: 40px;
+        margin-left: 23px;
     }
 
     .donation-container {
@@ -184,7 +184,7 @@ h3 {
     }
 
     .da {
-        font-size: 38px;
+        font-size: 33px;
     }
 
     .donationamount {
@@ -210,13 +210,12 @@ h3 {
 
     .doggie {
         display: block;
-        margin-left: 55%;
-        width: 180px;
+        margin-left: 52%;
+        width: 175px;
     }
 
     .cat {
-        width: 200px;
-        margin-left: 5%;
+        width: 190px;
     }
 
     .greenshape {
@@ -236,17 +235,11 @@ h3 {
         display: none;
     }
 
-    .mobileshape1 {
-        display: block;
-        position: absolute;
-        bottom: -40%;
-    }
-
     .mobileshape2 {
         display: block;
         position: absolute;
         right: 0%;
-        bottom: -28%;
+        bottom: -10%;
     }
 
     .mobileshape3 {
