@@ -26,8 +26,6 @@ h2 {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     gap: 30px;
     z-index: 500;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .menu {
@@ -104,6 +102,14 @@ footer {
     margin-bottom: 20pt;
 }
 
+.underline {
+    border-bottom: 3px solid white;
+    margin-top: 12px;
+    margin-left: 10px;
+    flex-grow: 1;
+    height: 3px;
+    width: 1220px
+}
 
 .footer.info p {
     margin: 10px;
@@ -154,18 +160,18 @@ footer {
         display: none;
         position: fixed;
         top: 0;
-        right: 0;
-        width: 100%;
+        left: 0;
+        width: 80%;
         height: 50%;
         background-color: #FEF7E7;
         justify-content: center;
-        align-items: flex-end;
+        align-items: flex-start;
         z-index: 1000;
         gap: 5px;
     }
 
     .menu a {
-        text-align: right;
+        text-align: left;
         padding: 20px;
         font-size: 18px;
         color: #5C4F66;
@@ -203,7 +209,7 @@ footer {
         position: absolute;
         /* Position it relative to the menu */
         top: 10px;
-        left: 10px;
+        right: 10px;
     }
 
     .footer {
@@ -226,6 +232,10 @@ footer {
         font-size: 40px;
         margin-bottom: -50px;
         align-items: left;
+    }
+
+    .underline {
+        width: 220%;
     }
 
     .footer-right {
