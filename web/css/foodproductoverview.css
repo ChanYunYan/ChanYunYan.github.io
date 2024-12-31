@@ -501,7 +501,9 @@
 }
 
 @media screen and (max-width: 600px) {
-    body {
+
+    body,
+    html {
         flex-direction: column;
         background-size: contain;
         background-repeat: repeat;
