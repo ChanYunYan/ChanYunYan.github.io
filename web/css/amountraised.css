@@ -183,8 +183,8 @@ body {
 
 .cat {
     position: absolute;
-    top: -48.2%;
-    right: 3%;
+    bottom: 82%;
+    right: 6%;
 }
 
 
@@ -263,7 +263,7 @@ body {
 
     .cat {
         width: 63%;
-        top: -18%;
+        top: 20%;
     }
 
     .greenshape a {
