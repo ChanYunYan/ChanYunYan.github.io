@@ -7,7 +7,7 @@ body {
 
 .dfp {
     color: #1C1C42;
-    font-family: Legwork DEMO;
+    font-family: "Legwork DEMO";
     margin-left: 31%;
     font-size: 80px;
 }
@@ -118,7 +118,7 @@ h3 {
 
 .dog {
     position: absolute;
-    top: 34.2%;
+    top: 38.8%;
     left: 67%;
 }
 

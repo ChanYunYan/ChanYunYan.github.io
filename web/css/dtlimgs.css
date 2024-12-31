@@ -102,17 +102,14 @@ body {
 
 .text1,
 .text2,
-.text5 {
-    margin-top: -2%;
-}
-
+.text5,
 .text6 {
-    margin-top: -4%;
+    margin-top: -6%;
 }
 
 .text3,
 .text4 {
-    margin-top: -8%;
+    margin-top: -10%;
 }
 
 /* Menu Container */
@@ -201,7 +198,7 @@ body {
 @media screen and (max-width: 800px) {
     .detaildog1 {
         position: relative;
-        top: -50px;
+        top: -40px;
         left: -50px;
     }
 
@@ -232,30 +229,17 @@ body {
         height: 2.4px;
     }
 
-    .button a {
-        font-size: 18px;
+    .button a{
+        font-size:18px;
     }
 
-    .buttonadoption,
-    .buttondonate {
-        padding: 4%
+    .buttonadoption,.buttondonate{
+        padding:4%
     }
 }
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    #nav {
-        flex-direction: column;
-        justify-content: space-between;
-        display: none;
-    }
-
-    header {
-        background-size: cover;
-        align-items: center;
-        justify-content: space-between;
-    }
-
     body,
     html {
         margin: 0;
@@ -273,6 +257,7 @@ body {
         background: url("../imgs/imagesdogdetail/mobileline.png") no-repeat;
         background-size: 58%;
         background-position: center 80px;
+        margin-bottom: 60%;
     }
 
     .row1,
