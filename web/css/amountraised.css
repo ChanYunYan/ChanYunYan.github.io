@@ -191,6 +191,7 @@ body {
 @media screen and (max-width: 600px) {
     #nav {
         flex-direction: column;
+        overflow-x: hidden;
     }
 
     .section1 {
