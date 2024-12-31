@@ -16,6 +16,18 @@ h2 {
     font-family: "Oliver Regular";
 }
 
+p {
+    font-family: "Nunito Sans";
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* 禁止横向滚动 */
+}
+
 .navbar {
     position: sticky;
     top: 0px;
@@ -118,6 +130,17 @@ footer {
     width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+}
+
 /*mobile*/
 @media screen and (max-width: 600px) {
 
@@ -129,6 +152,14 @@ footer {
     @font-face {
         font-family: "Oliver Regular";
         src: url(../fonts/oliver.ttf);
+    }
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
     }
 
     .navbar {

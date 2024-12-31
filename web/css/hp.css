@@ -1,9 +1,4 @@
 body {
-
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    /* 禁止横向滚动 */
     background-color: #fffcf7;
 }
 
@@ -406,14 +401,6 @@ body {
 /*tablet*/
 @media screen and (max-width: 768px) {
 
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
-
     .adoption h1,
     .act h1,
     .process h1,
@@ -484,19 +471,10 @@ body {
 /*mobile*/
 @media screen and (max-width: 600px) {
 
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
-
     .banner {
         background-image: url('../imgs/imageshp/mobilepaw.png');
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: 70%;
     }
 
     .findpals {
@@ -505,7 +483,7 @@ body {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        min-height: 570px;
+        min-height: 550px;
     }
 
     .find,
@@ -518,12 +496,11 @@ body {
     }
 
     .hpimage {
-        width: 60%;
+        width: 65%;
     }
 
     .quote {
         font-size: 16px;
-        margin-top: 0%;
     }
 
     .p2 {
