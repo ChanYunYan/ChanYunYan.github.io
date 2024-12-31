@@ -2,44 +2,40 @@
 <html>
 
 <head>
-    <title>Nutirions & Health/PetPals</title>
+    <title>Nutirions & Health - PetPals</title>
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/nutrinhealth.css" />
-    <style>
-        @font-face {
-            font-family: 'Legwork DEMO';
-            src: url('LegworkDEMO.otf') format('opentype');
-        }
-
-        @font-face {
-            font-family: Oliver Regular;
-            src: url(oliver_regular.woff);
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <a href="index.html">
-                <img src="imgs/images-learningcentre/logo.png" alt="logo" width="60px">
-            </a>
-        </div>
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
+                </a>
+            </div>
 
-        <div id="nav">
+            <!-- Checkbox to toggle menu on mobile -->
+            <input type="checkbox" id="menu-checkbox" style="display: none;">
+            <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
             <div class="menu">
+                <!-- Close button for mobile view -->
+                <label for="menu-checkbox" class="close-btn">&times;</label>
                 <a href="adoption.html">Adopt</a>
-                <a href="donationamount.html">Donate</a>
+                <a href="amountraised.html">Donate</a>
                 <a href="learningcentre.html">Learning Centre</a>
                 <a href="productlisting.html">Shop</a>
-                <a href="#">Help</a>
+                <a href="help.html">Help</a>
             </div>
-        </div>
-
-        <div class="search">
-            <img src="imgs/images-learningcentre/searchicon.png" alt="search" width="23px">
+            <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
     </header>
 
@@ -54,35 +50,41 @@
     <div class="mbg3"><img src="imgs/images-nutrinhealth/mbg3.png" alt="bg" width="50%"></div>
 
     <div class="head">
-        <p>Nutritions & Health of Dogs</p>
+        <h3>Nutritions & Health of Dogs</h3>
     </div>
 
-    <img class="dog" src="imgs/images-nutrinhealth/dog1.png" alt="dog" width="21%">
+    <div class="bigbox">
+        <div class="column1">
+            <img class="dog" src="imgs/images-nutrinhealth/dog1.png" alt="dog" width="23%">
 
-    <div class="b1">
-        <p class="t">Balanced Diet:</p>
-        <p class="p">Dogs require a mix of proteins, carbohydrates, fats,</p>
-        <p class="p2">vitamins, and minerals.</p>
-    </div>
+            <div class="box1">
+                <p class="t">Balanced Diet:</p>
+                <p class="p">Dogs require a mix of proteins, carbohydrates, fats,</p>
+                <p class="p2">vitamins, and minerals.</p>
+            </div>
 
-    <img class="dog2" src="imgs/images-nutrinhealth/dog2.png" alt="dog" width="17%">
+            <div class="box2">
+                <p class="t3">FATS:</p>
+                <p class="p4">Important for energy and skin health. Omega fatty</p>
+                <p class="p5">acids are particularly beneficial.</p>
+            </div>
+        </div>
 
-    <div class="b2">
-        <p class="t2">Carbohydrates:</p>
-        <p class="p">Provide energy and should come from whole grains</p>
-        <p class="p3">and vegetables.</p>
-    </div>
+        <div class="column2">
+            <img class="dog2" src="imgs/images-nutrinhealth/dog2.png" alt="dog" width="17%">
 
-    <div class="b3">
-        <p class="t3">FATS:</p>
-        <p class="p4">Important for energy and skin health. Omega fatty acids</p>
-        <p class="p5">are particularly beneficial.</p>
-    </div>
+            <div class="box3">
+                <p class="t2">Carbohydrates:</p>
+                <p class="p">Provide energy and should come from whole grains</p>
+                <p class="p3">and vegetables.</p>
+            </div>
 
-    <div class="b4">
-        <p class="t4">Proteins:</p>
-        <p class="p6">Essential for growth, maintenance, and repair of tissues.</p>
-        <p class="p7">Sources include meat, fish, and eggs.</p>
+            <div class="box4">
+                <p class="t4">Proteins:</p>
+                <p class="p6">For growth, maintenance, and repair of tissues.</p>
+                <p class="p7">Sources include meat, fish, and eggs.</p>
+            </div>
+        </div>
     </div>
 
     <img class="dogs" src="imgs/images-nutrinhealth/dog3.png" alt="dog" width="100%">

@@ -1,17 +1,21 @@
 body {
-    margin: 0%;
     padding: 0%;
     background-color: #fffcf7;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /*banner*/
 .banner {
-    background: url('../imgs/imageshp/hp.png');
+    background: url('../imgs/imageshp/hppaw.png');
     background-color: #FEF7E7;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 0.1%;
+}
+
+.hpimage {
+    background-size: contain;
 }
 
 .findpals {
@@ -20,7 +24,7 @@ body {
     display: flex;
     color: #1C1C42;
     justify-content: space-around;
-    min-height: 600px;
+    min-height: 605px;
     align-items: center;
 }
 
@@ -30,7 +34,7 @@ body {
 
 .quote {
     font-family: "Nunito Sans", sans-serif;
-    line-height: 10%;
+    line-height: 18%;
     font-size: 18px;
     text-align: center;
     color: #4A4A4A;
@@ -40,6 +44,7 @@ body {
 .adoption {
     text-align: center;
     padding-bottom: 8%;
+    margin-top: 5%;
 }
 
 .adoption h1 {
@@ -243,7 +248,7 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-bottom: -20px;
+    margin-bottom: -2px;
 }
 
 .about {
@@ -353,7 +358,7 @@ body {
     padding: 30px;
     border-radius: 20px;
     text-align: left;
-    width: 50%；
+    width: 20%;
 }
 
 .appoint {
@@ -399,6 +404,14 @@ body {
 /*tablet*/
 @media screen and (max-width: 768px) {
 
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+
     .adoption h1,
     .act h1,
     .process h1,
@@ -416,115 +429,22 @@ body {
         font-size: 28px;
     }
 
-}
-
-/*mobile*/
-@media screen and (max-width: 600px) {
-
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
-
-    .banner {
-        background-image: url('../imgs/imageshp/bannermobile.png');
-        background-repeat: no-repeat;
-        background-position: center center;
-        background-size: 70%;
-    }
-
-
-    .mobilefindpals {
-        display: block;
-    }
-
-    .quote {
-        font-size: 16px;
-        margin-top: -50%;
-        padding: 5px 30px;
-    }
-
-    .p2 {
-        line-height: 1;
-    }
-
-    .categories {
-        gap: 150px;
-        flex-direction: column;
-        align-items: center;
-        margin-left: 18%;
-    }
-
-    .ctgr {
-        max-width: 300px;
-        /* Resize images smaller for mobile */
-    }
-
-    .adoption p {
-        display: block;
-    }
-
-    .adoption h1,
-    .act h1,
-    .process h1,
-    .abtdog h1,
-    .book h1 {
-        font-size: 30px;
-    }
-
-    .adoption h2,
-    .act h2,
-    .process h2,
-    .buttonwhy h2,
-    .buttonmission h2,
-    .bookinfo h2 {
-        font-size: 25px;
-    }
-
-    .infor {
-        flex-direction: column;
-        margin: 20%;
-        margin-bottom: 5%;
-    }
-
-    .gap {
-        margin-bottom: 20%;
-    }
-
-    .top-shape {
-        margin-bottom: -25px;
-    }
-
-    .activities {
-        flex-direction: column;
-        justify-content: center;
+    .findpals {
+        font-family: Legwork Demo;
+        font-size: 80px;
+        display: flex;
+        color: #1C1C42;
+        justify-content: space-around;
+        min-height: 590px;
         align-items: center;
     }
 
-    .act p,
-    .abtdog p,
-    .abtcat p,
-    .prcs {
-        font-size: 16px;
+    .hpimage {
+        width: 50%;
     }
 
-    .prcs {
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-        margin-top: -30px;
-        line-height: 0px;
-    }
-
-    .prcs img {
-        width: 75%;
-    }
-
-    .line {
-        display: none;
+    .bookinfo {
+        width: 35%;
     }
 
     .abtdog {
@@ -544,45 +464,207 @@ body {
         width: 80%;
     }
 
-    .abtimage {
-        display: block;
+    .abtbg {
+        margin-bottom: -28px;
     }
 
-    .about {
-        padding-bottom: 75px;
-        /* Add extra space if needed */
-    }
-
-    .buttonmission {
-        flex-direction: column;
-        margin: 20px auto;
-    }
-
-
-    .book {
-        padding-top: 5%;
-    }
-
-    .booknow {
+    .activities {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    .desktop-img {
-        display: none;
-    }
-
-    .mobile-img {
-        display: block;
-        width: 100%;
-        /* Ensure it fits the screen */
-        height: auto;
-        /* Maintain aspect ratio */
-        margin-top: -50px;
-    }
-
-    .bookinfo {
-        height: 350px;
+    .book {
+        margin-top: 5%;
     }
 }
+
+    /*mobile*/
+    @media screen and (max-width: 600px) {
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            /* 禁止横向滚动 */
+        }
+
+        .banner {
+            background-image: url('../imgs/imageshp/mobilepaw.png');
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 70%;
+        }
+
+        .findpals {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            min-height: 570px;
+        }
+
+        .find,
+        .pals {
+            display: none;
+        }
+
+        .mobilefindpals {
+            display: block;
+        }
+
+        .hpimage {
+            width: 60%;
+        }
+
+        .quote {
+            font-size: 16px;
+            margin-top: 0%;
+        }
+
+        .p2 {
+            line-height: 1;
+        }
+
+        .categories {
+            gap: 150px;
+            flex-direction: column;
+            align-items: center;
+            margin-left: 18%;
+        }
+
+        .ctgr {
+            max-width: 300px;
+            /* Resize images smaller for mobile */
+        }
+
+        .adoption p {
+            display: block;
+        }
+
+        .adoption h1,
+        .act h1,
+        .process h1,
+        .abtdog h1,
+        .book h1 {
+            font-size: 30px;
+        }
+
+        .adoption h2,
+        .act h2,
+        .process h2,
+        .buttonwhy h2,
+        .buttonmission h2,
+        .bookinfo h2 {
+            font-size: 25px;
+        }
+
+        .infor {
+            flex-direction: column;
+            margin: 20%;
+            margin-bottom: 5%;
+        }
+
+        .gap {
+            margin-bottom: 20%;
+        }
+
+        .top-shape {
+            margin-bottom: -25px;
+        }
+
+        .activities {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .act p,
+        .abtdog p,
+        .abtcat p,
+        .prcs {
+            font-size: 16px;
+        }
+
+        .prcs {
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            margin-top: -30px;
+            line-height: 0px;
+        }
+
+        .prcs img {
+            width: 75%;
+        }
+
+        .line {
+            display: none;
+        }
+
+        .abtbg {
+            margin-bottom: -19px;
+        }
+
+        .abtdog {
+            flex-direction: column;
+            align-items: center;
+            margin-top: 7%;
+            margin-left: 10px;
+        }
+
+        .aboutcat {
+            margin-bottom: -10%;
+            align-items: center;
+        }
+
+        .abtcat {
+            flex-direction: column-reverse;
+            width: 80%;
+        }
+
+        .abtimage {
+            display: block;
+        }
+
+        .about {
+            padding-bottom: 75px;
+            /* Add extra space if needed */
+        }
+
+        .buttonmission {
+            flex-direction: column;
+            margin: 20px auto;
+        }
+
+
+        .book {
+            padding-top: 5%;
+        }
+
+        .booknow {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bookinfo {
+            width: 50%;
+        }
+
+        .desktop-img {
+            display: none;
+        }
+
+        .booking {
+            width: 100%;
+        }
+
+        .mobile-img {
+            display: block;
+            width: 100%;
+            margin-top: -10%;
+        }
+    }

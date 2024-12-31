@@ -21,6 +21,7 @@ body {
 /* Menu Container */
 .word {
     font-family: Oliver Regular;
+    font-size: 25px;
 }
 
 /* Menu Item */
@@ -50,8 +51,6 @@ body {
 
 /* Text Style */
 .menutext .quote1 {
-    font-family: Oliver Regular;
-    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     color: #5C4F66;
@@ -59,8 +58,6 @@ body {
 }
 
 .menutext .quote2 {
-    font-family: Oliver Regular;
-    font-size: 25px;
     font-weight: bold;
     letter-spacing: 2px;
     color: rgb(92, 79, 102, 0.5);
@@ -68,8 +65,7 @@ body {
 }
 
 /* Hover Effects */
-.menutext:hover .quote1,
-.quote2 {
+.menutext:hover .quote1, .quote2 {
     color: #1c1c42;
 }
 

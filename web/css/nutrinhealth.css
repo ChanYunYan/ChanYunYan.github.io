@@ -7,24 +7,24 @@ body {
 
 .head {
     color: #1C1C42;
-    font-family: Legwork DEMO;
+    font-family: "Legwork DEMO";
     font-size: 48px;
     text-align: center;
 }
 
-.b1 {
+.box1 {
     position: relative;
-    background-image: url('../imgs/images-nutrinhealth/box1.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 1%;
-    left: 12%;
-    margin-top: 15%;
+    background-color: #E4F0D0;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 18%;
 }
 
 .dog {
     position: absolute;
-    top: 25.5%;
+    top: 30.5%;
     left: 18%;
 }
 
@@ -32,117 +32,113 @@ body {
     color: #5C4F66;
     font-family: Oliver Regular;
     font-size: 28px;
-    padding-left: 10%;
-    padding-top: 2%;
+    text-align: center;
 }
 
 .p {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 3.8%;
+    text-align: center;
 }
 
 .p2 {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 10.6%;
+    text-align: center;
 }
 
-.b2 {
-    background-image: url('../imgs/images-nutrinhealth/box2.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: relative;
-    right: -55%;
-    padding-bottom: 1%;
-}
-
-.t2 {
-    color: #5C4F66;
-    font-family: Oliver Regular;
-    font-size: 28px;
-    padding-left: 9.4%;
-    padding-top: 2%;
-}
-
-.p3 {
-    color: #4A4A4A;
-    font-family: "Nunito Sans", sans-serif;
-    font-size: 17px;
-    padding-left: 12.5%;
-}
-
-.dog2 {
-    position: absolute;
-    top: 46.2%;
-    right: 20%;
-}
-
-.b3 {
-    background-image: url('../imgs/images-nutrinhealth/box3.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 1%;
-    position: relative;
-    left: 12%;
-    margin-top: 2%;
+.box2 {
+    background-color: #FEF7E7;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-left: 15%;
+    margin-top: 18%;
 }
 
 .t3 {
     color: #5C4F66;
     font-family: Oliver Regular;
     font-size: 28px;
-    padding-left: 14.3%;
-    padding-top: 2%;
+    text-align: center;
 }
 
 .p4 {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 2.6%;
+    text-align: center;
 }
 
 .p5 {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 10%;
+    text-align: center;
 }
 
-.b4 {
-    background-image: url('../imgs/images-nutrinhealth/box4.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    padding-bottom: 1%;
+.box3 {
     position: relative;
-    right: -55%;
-    margin-top: 2%;
-    margin-bottom: 3%;
+    background-color: #F3AFA7;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-right: 10%;
+    margin-top: -26.7%;
+    margin-left: 55%;
+}
+
+.t2 {
+    color: #5C4F66;
+    font-family: Oliver Regular;
+    font-size: 28px;
+    text-align: center;
+}
+
+.p3 {
+    color: #4A4A4A;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 17px;
+    text-align: center;
+}
+
+.dog2 {
+    position: absolute;
+    top: 56.3%;
+    right: 21%;
+}
+
+.box4 {
+    background-color: #A1B5D8;
+    width: 30%;
+    padding: 0.3%;
+    border-radius: 30px;
+    margin-right: 10%;
+    margin-top: 18%;
+    margin-left: 55%;
 }
 
 .t4 {
     color: #5C4F66;
     font-family: Oliver Regular;
     font-size: 28px;
-    padding-left: 12.2%;
-    padding-top: 2%;
+    text-align: center;
 }
 
 .p6 {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 2.5%;
+    text-align: center;
 }
 
 .p7 {
     color: #4A4A4A;
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
-    padding-left: 7.3%;
+    text-align: center;
 }
 
 .dogs {
@@ -174,7 +170,7 @@ body {
 
 .bg5 {
     position: absolute;
-    top: 148%;
+    top: 155%;
     left: 15%;
 }
 
@@ -190,59 +186,43 @@ body {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     body {
         flex-direction: column;
         padding: 0%;
         margin: 0%;
+        overflow-x: hidden;
     }
 
-    #nav {
-        flex-direction: column;
-        justify-content: space-between;
-        display: none;
-    }
-
-    header {
-        background-size: cover;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .head {
-        font-size: 45px;
-        padding: 5%;
-    }
-
-    .b1 {
-        position: relative;
-        background-image: url('../imgs/images-nutrinhealth/mbox1.png');
-        padding-bottom: 1%;
-        left: 8.9%;
-        margin-top: 25%;
+    .box1 {
+        width: 50%;
+        margin-top: 26.7%;
+        margin-left: 25%;
     }
 
     .dog {
         position: absolute;
-        top: 33.1%;
-        left: 22.5%;
-        width: 55%;
+        top: 30.5%;
+        left: 35%;
+        width: 33%;
     }
 
-    .t {
-        font-size: 30px;
-        padding-left: 20%;
-        padding-top: 2%;
+    .box2 {
+        width: 50%;
+        margin-top: 30%;
+        margin-left: 25%;
     }
 
-    .p {
-        font-size: 15px;
-        padding-left: 6%;
+    .box3 {
+        width: 50%;
+        margin-top: -45%;
+        margin-left: 25%;
     }
 
-    .p2 {
-        font-size: 15px;
-        padding-left: 25%;
+    .box4 {
+        width: 50%;
+        margin-top: 30%;
+        margin-left: 25%;
     }
 
     .dog2 {
@@ -250,8 +230,80 @@ body {
     }
 
     .bg1 {
-        width: 30%;
+        width: 20%;
         top: 32%;
+    }
+
+    .bg2 {
+        margin-top: -10%;
+        width: 25%;
+    }
+
+    .bg3 {
+        margin-right: -25%;
+    }
+
+    .bg4 {
+        margin-top: -13%;
+        width: 23%;
+    }
+
+    .bg5 {
+        margin-left: -5%;
+        margin-top: -5%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+        padding: 0%;
+        margin: 0%;
+        overflow-x: hidden;
+    }
+
+    .head {
+        font-size: 35px;
+    }
+
+    .dog {
+        width: 60%;
+        margin-top: 10%;
+        margin-left: -13%;
+    }
+
+    .box1 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 43.9%;
+    }
+
+    .box2 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .box3 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .box4 {
+        width: 85%;
+        margin-left: 7%;
+        margin-top: 10%;
+    }
+
+    .dogs {
+        margin-bottom: -0.8%;
+        margin-top: 5%;
+    }
+
+    .bg1 {
+        width: 25%;
+        margin-top: 10%;
     }
 
     .bg2 {
@@ -270,77 +322,6 @@ body {
         display: none;
     }
 
-    .b2 {
-        position: relative;
-        background-image: url('../imgs/images-nutrinhealth/mbox2.png');
-        left: 8.9%;
-    }
-
-    .t2 {
-        font-size: 30px;
-        padding-left: 18%;
-        padding-top: 2%;
-    }
-
-    .p {
-        font-size: 15px;
-        padding-left: 6%;
-    }
-
-    .p3 {
-        font-size: 15px;
-        padding-left: 30%;
-    }
-
-    .b3 {
-        position: relative;
-        background-image: url('../imgs/images-nutrinhealth/mbox3.png');
-        left: 8.9%;
-    }
-
-    .t3 {
-        font-size: 30px;
-        padding-left: 33.9%;
-        padding-top: 2%;
-    }
-
-    .p4 {
-        font-size: 15px;
-        padding-left: 3%;
-    }
-
-    .p5 {
-        font-size: 15px;
-        padding-left: 24%;
-    }
-
-    .b4 {
-        position: relative;
-        background-image: url('../imgs/images-nutrinhealth/mbox4.png');
-        left: 8.9%;
-    }
-
-    .t4 {
-        font-size: 30px;
-        padding-left: 27%;
-        padding-top: 2%;
-    }
-
-    .p6 {
-        font-size: 15px;
-        padding-left: 3%;
-    }
-
-    .p7 {
-        font-size: 15px;
-        padding-left: 16%;
-    }
-
-    .dogs {
-        margin-bottom: -0.8%;
-        margin-top: 5%;
-    }
-
     .mbg1 {
         display: block;
         position: absolute;
@@ -351,22 +332,10 @@ body {
     .mbg2 {
         display: block;
         position: absolute;
-        top: 127%;
+        top: 153%;
     }
 
     .mbg3 {
-        display: block;
-        position: absolute;
-        top: 30%;
-        right: -2%;
-        width: 20%;
-    }
-
-    .mbg4 {
-        display: block;
-        position: absolute;
-        top: 74%;
-        left: 1%;
-        width: 20%;
+        display: none;
     }
 }
