@@ -496,7 +496,6 @@ body {
         background-image: url('../imgs/imageshp/mobilepaw.png');
         background-repeat: no-repeat;
         background-position: center center;
-        background-size: 70%;
     }
 
     .findpals {
@@ -505,7 +504,7 @@ body {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        min-height: 570px;
+        min-height: 550px;
     }
 
     .find,
@@ -518,12 +517,11 @@ body {
     }
 
     .hpimage {
-        width: 60%;
+        width: 65%;
     }
 
     .quote {
         font-size: 16px;
-        margin-top: 0%;
     }
 
     .p2 {
