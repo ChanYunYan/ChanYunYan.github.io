@@ -1,7 +1,7 @@
 .top-bar.food {
     background-image: url('../imgs/images/foodproductoverviewdogimage.png');
-    background-position: right 5px;
-    background-size: 350px 190px;
+    background-position: right 47px;
+    background-size: 380px 200px;
     background-repeat: no-repeat;
     background-color: #FEF7E7;
     border-radius: 15px;
@@ -19,7 +19,7 @@
 }
 
 .title {
-    font-size: 28pt;
+    font-size: 23px;
     font-family: Legwork Demo;
     color: #1C1C42;
 }
@@ -524,9 +524,13 @@
     }
 
     .top-bar.food {
-        padding: 50px;
-        background-position: right 10px;
+        padding: 40px;
+        background-position: right 47px;
         background-size: 280px 140px;
+    }
+
+    .title {
+        margin-left: -25px;
     }
 
     .categories {
