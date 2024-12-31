@@ -232,12 +232,13 @@ body {
         height: 2.4px;
     }
 
-    .button a{
-        font-size:18px;
+    .button a {
+        font-size: 18px;
     }
 
-    .buttonadoption,.buttondonate{
-        padding:4%
+    .buttonadoption,
+    .buttondonate {
+        padding: 4%
     }
 }
 
@@ -272,7 +273,7 @@ body {
         background: url("../imgs/imagesdogdetail/mobileline.png") no-repeat;
         background-size: 58%;
         background-position: center 80px;
-        margin-bottom: 60%;
+        margin-bottom: 70%;
     }
 
     .row1,
