@@ -180,13 +180,11 @@ table {
 
 th {
     font-family: Oliver Regular;
-    font-size: 18pt;
-    letter-spacing: 3px;
+    font-size: 20pt;
     padding: 15px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
     color: #5C4F66;
+    font-weight: normal;
 }
 
 td {
@@ -242,7 +240,7 @@ th {
     }
 
     .description {
-        font-size: 13pt;
+        font-size: 12pt;
         text-align: center;
     }
 
