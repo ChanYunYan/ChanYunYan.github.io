@@ -130,6 +130,17 @@ footer {
     width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
+    }
+}
+
 /*mobile*/
 @media screen and (max-width: 600px) {
 

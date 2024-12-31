@@ -1,9 +1,4 @@
 body {
-
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    /* 禁止横向滚动 */
     background-color: #fffcf7;
 }
 
@@ -406,14 +401,6 @@ body {
 /*tablet*/
 @media screen and (max-width: 768px) {
 
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
-
     .adoption h1,
     .act h1,
     .process h1,
@@ -483,14 +470,6 @@ body {
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
 
     .banner {
         background-image: url('../imgs/imageshp/mobilepaw.png');

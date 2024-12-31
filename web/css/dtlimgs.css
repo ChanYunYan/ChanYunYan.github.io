@@ -1,6 +1,4 @@
 body {
-    margin: 0%;
-    padding: 0%;
     background-color: #FBDEDB;
 }
 
@@ -240,13 +238,6 @@ body {
 
 /*mobile*/
 @media screen and (max-width: 600px) {
-    body,
-    html {
-        margin: 0;
-        padding: 0;
-        overflow-x: hidden;
-        /* 禁止横向滚动 */
-    }
 
     .arrow {
         width: 8%;
