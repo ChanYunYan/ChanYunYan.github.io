@@ -136,7 +136,7 @@ body {
 }
 
 .row2 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
@@ -263,6 +263,10 @@ body {
 
     .cat {
         width: 63%;
-        top: -18.5%;
+        top: -18%;
+    }
+
+    .greenshape a {
+        font-size: 15px;
     }
 }
