@@ -163,6 +163,7 @@ h3 {
         flex-direction: column;
         justify-content: space-between;
         display: none;
+        overflow-x: hidden;
     }
 
     header {
