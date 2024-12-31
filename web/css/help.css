@@ -209,7 +209,7 @@ th {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body {
         background-size: cover;
         margin: 0;
