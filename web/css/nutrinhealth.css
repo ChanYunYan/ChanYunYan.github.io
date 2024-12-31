@@ -262,6 +262,10 @@ body {
         overflow-x: hidden;
     }
 
+    .head {
+        font-size: 35px;
+    }
+
     .dog {
         width: 60%;
         margin-top: 10%;

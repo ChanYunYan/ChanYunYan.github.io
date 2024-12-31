@@ -198,7 +198,7 @@ body {
     }
 
     .amountraised h1 {
-        font-size: 55px;
+        font-size: 40px;
     }
 
     .amountraised p {
@@ -207,26 +207,45 @@ body {
     }
 
     .whatfor h3 {
-        font-size: 33px;
+        font-size: 25px;
     }
 
     .row1 {
         flex-direction: column;
+
     }
 
     .row1 p {
-        font-size: 15px;
+        font-size: 12px;
+    }
+
+    .row1 h5 {
+        font-size: 25px;
+    }
+
+    .foodnsupplies {
+        margin-top: -10%;
     }
 
     .row2 {
         flex-direction: column;
     }
 
+    .row2 h5 {
+        font-size: 25px;
+    }
 
+    .medicalcare {
+        margin-top: -10%;
+    }
 
     .row3 {
         flex-direction: column;
         margin-bottom: 32%;
+    }
+
+    .row3 h5 {
+        font-size: 25px;
     }
 
     .icon {
@@ -235,6 +254,7 @@ body {
 
     .column {
         display: flex;
+        margin-top: 5%;
     }
 
     .cat {
