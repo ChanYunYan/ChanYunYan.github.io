@@ -16,6 +16,10 @@ h2 {
     font-family: "Oliver Regular";
 }
 
+p{
+    font-family: "Nunito Sans";
+}
+
 .navbar {
     position: sticky;
     top: 0px;
