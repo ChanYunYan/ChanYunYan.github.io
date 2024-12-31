@@ -1,11 +1,11 @@
 .top-bar.supplies {
     background-image: url('../imgs/images/suppliesproductoverviewdogimage.png');
-    background-position: right 10px;
+    background-position: right 55px;
     background-size: 400px 240px;
     background-repeat: no-repeat;
     background-color: #FEF7E7;
     border-radius: 15px;
-    padding: 20px;
+    padding: 18px;
     display: flex;
     margin-top: 20px;
     margin-left: 5px;
@@ -21,7 +21,7 @@
 }
 
 .title {
-    font-size: 28pt;
+    font-size: 23px;
     font-family: Legwork Demo;
     color: #1C1C42;
 }
@@ -529,9 +529,13 @@
     }
 
     .top-bar.supplies {
-        padding: 50px;
-        background-position: right 2px;
-        background-size: 240px 150px;
+        padding: 40px;
+        background-position: right 26px;
+        background-size: 280px 180px;
+    }
+
+    .title {
+        margin-left: -48px;
     }
 
     .categories {
