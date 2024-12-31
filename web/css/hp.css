@@ -44,6 +44,7 @@ body {
 .adoption {
     text-align: center;
     padding-bottom: 8%;
+    margin-top: 5%;
 }
 
 .adoption h1 {
@@ -139,6 +140,7 @@ body {
     background: url('../imgs/imageshp/acthover.png');
     background-size: contain;
     background-repeat: no-repeat;
+    padding: 25px 25px;
 }
 
 .act {
@@ -475,6 +477,7 @@ body {
     .book {
         margin-top: 5%;
     }
+}
 
     /*mobile*/
     @media screen and (max-width: 600px) {
@@ -499,6 +502,8 @@ body {
             align-items: center;
             justify-content: center;
             display: flex;
+            flex-direction: column;
+            min-height: 570px;
         }
 
         .find,
@@ -508,11 +513,6 @@ body {
 
         .mobilefindpals {
             display: block;
-        }
-
-        .findpals {
-            flex-direction: column;
-            min-height: 570px;
         }
 
         .hpimage {
