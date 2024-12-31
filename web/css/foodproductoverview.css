@@ -531,9 +531,7 @@
         background-size: 280px 140px;
     }
 
-    .title {
-        margin-left: -25px;
-    }
+
 
     .categories {
         display: none;
@@ -565,7 +563,6 @@
     }
 
     .productoverview {
-        display: flex;
         justify-content: center;
         margin-left: 30px;
     }
