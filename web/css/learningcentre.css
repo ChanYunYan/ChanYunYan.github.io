@@ -15,7 +15,7 @@ body {
 
 .learningcentre {
     color: #1C1C42;
-    font-family: Legwork DEMO;
+    font-family: "Legwork DEMO";
     font-size: 48px;
     text-align: center;
     margin-top: 90px;
@@ -24,7 +24,7 @@ body {
 .nutri {
     color: #5C4F66;
     font-size: 30px;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     text-align: center;
     margin-top: 50px;
 }
@@ -68,7 +68,7 @@ body {
 
 .text a {
     text-decoration: none;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     color: #4A4A4A;
     font-size: 25px;
     margin-top: 5%;
@@ -79,7 +79,7 @@ body {
 }
 
 .text p {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #4A4A4A;
 }
@@ -96,7 +96,7 @@ body {
 .behavior {
     color: #5C4F66;
     font-size: 30px;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     margin-left: 40%;
     margin-top: 10px;
 }
@@ -127,7 +127,7 @@ body {
 }
 
 .text2 p {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #4A4A4A;
 }
@@ -142,7 +142,7 @@ body {
 }
 
 .text4 p {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #4A4A4A;
 }
@@ -150,7 +150,7 @@ body {
 .groom {
     color: #5C4F66;
     font-size: 30px;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     margin-left: 720px;
     margin-top: -35px;
 }
@@ -187,7 +187,7 @@ body {
 }
 
 .text3 p {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #4A4A4A;
 }
@@ -202,7 +202,7 @@ body {
 }
 
 .text5 p {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #4A4A4A;
 }
@@ -230,7 +230,7 @@ body {
     }
 
     .learningcentre {
-        font-size: 48px;
+        font-size: 43px;
         margin-top: 70px;
     }
 
@@ -250,7 +250,7 @@ body {
     .text {
         margin-top: -90px;
         margin-left: -20%;
-        font-family: Oliver Regular;
+        font-family: "Oliver Regular";
         font-size: 24px;
     }
 

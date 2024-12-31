@@ -84,7 +84,7 @@ body {
 }
 
 .whatfor h3 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 45px;
     display: flex;
@@ -104,7 +104,7 @@ body {
 }
 
 .row1 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
@@ -136,7 +136,7 @@ body {
 }
 
 .row2 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
@@ -164,7 +164,7 @@ body {
 }
 
 .row3 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
@@ -213,15 +213,14 @@ body {
 
     .row1 {
         flex-direction: column;
-
     }
 
     .row1 p {
-        font-size: 12px;
+        font-size: 10px;
     }
 
     .row1 h5 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .foodnsupplies {
@@ -232,12 +231,12 @@ body {
         flex-direction: column;
     }
 
-    .row2 h5 {
-        font-size: 25px;
+    .row2 p {
+        font-size: 10px;
     }
 
-    .medicalcare {
-        margin-top: -10%;
+    .row2 h5 {
+        font-size: 23px;
     }
 
     .row3 {
@@ -245,8 +244,12 @@ body {
         margin-bottom: 32%;
     }
 
+    .row3 p {
+        font-size: 10px;
+    }
+
     .row3 h5 {
-        font-size: 25px;
+        font-size: 23px;
     }
 
     .icon {
@@ -260,6 +263,10 @@ body {
 
     .cat {
         width: 63%;
-        top: -24.9%;
+        top: -18%;
+    }
+
+    .greenshape a {
+        font-size: 15px;
     }
 }
