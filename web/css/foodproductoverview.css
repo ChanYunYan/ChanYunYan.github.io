@@ -565,6 +565,7 @@
     }
 
     .productoverview {
+        display: flex;
         justify-content: center;
         margin-left: 30px;
     }
