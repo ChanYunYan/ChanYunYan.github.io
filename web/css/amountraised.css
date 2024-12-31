@@ -84,7 +84,7 @@ body {
 }
 
 .whatfor h3 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 45px;
     display: flex;
@@ -104,7 +104,7 @@ body {
 }
 
 .row1 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
@@ -164,7 +164,7 @@ body {
 }
 
 .row3 h5 {
-    font-family: 'Oliver';
+    font-family: 'Oliver Regular';
     color: #5C4F66;
     font-size: 28px;
     text-align: left;
