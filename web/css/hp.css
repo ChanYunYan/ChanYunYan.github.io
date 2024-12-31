@@ -477,196 +477,195 @@ body {
     .book {
         margin-top: 5%;
     }
+}
 
-    /*mobile*/
-    @media screen and (max-width: 600px) {
+/*mobile*/
+@media screen and (max-width: 600px) {
 
-        body,
-        html {
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            /* 禁止横向滚动 */
-        }
-
-        .banner {
-            background-image: url('../imgs/imageshp/mobilepaw.png');
-            background-repeat: no-repeat;
-            background-position: center center;
-            background-size: 70%;
-        }
-
-        .findpals {
-            display: none;
-            align-items: center;
-            justify-content: center;
-            display: flex;
-        }
-
-        .find,
-        .pals {
-            display: none;
-        }
-
-        .mobilefindpals {
-            display: block;
-        }
-
-        .findpals {
-            flex-direction: column;
-            min-height: 570px;
-        }
-
-        .hpimage {
-            width: 60%;
-        }
-
-        .quote {
-            font-size: 16px;
-            margin-top: 0%;
-        }
-
-        .p2 {
-            line-height: 1;
-        }
-
-        .categories {
-            gap: 150px;
-            flex-direction: column;
-            align-items: center;
-            margin-left: 18%;
-        }
-
-        .ctgr {
-            max-width: 300px;
-            /* Resize images smaller for mobile */
-        }
-
-        .adoption p {
-            display: block;
-        }
-
-        .adoption h1,
-        .act h1,
-        .process h1,
-        .abtdog h1,
-        .book h1 {
-            font-size: 30px;
-        }
-
-        .adoption h2,
-        .act h2,
-        .process h2,
-        .buttonwhy h2,
-        .buttonmission h2,
-        .bookinfo h2 {
-            font-size: 25px;
-        }
-
-        .infor {
-            flex-direction: column;
-            margin: 20%;
-            margin-bottom: 5%;
-        }
-
-        .gap {
-            margin-bottom: 20%;
-        }
-
-        .top-shape {
-            margin-bottom: -25px;
-        }
-
-        .activities {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .act p,
-        .abtdog p,
-        .abtcat p,
-        .prcs {
-            font-size: 16px;
-        }
-
-        .prcs {
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-            margin-top: -30px;
-            line-height: 0px;
-        }
-
-        .prcs img {
-            width: 75%;
-        }
-
-        .line {
-            display: none;
-        }
-
-        .abtbg {
-            margin-bottom: -19px;
-        }
-
-        .abtdog {
-            flex-direction: column;
-            align-items: center;
-            margin-top: 7%;
-            margin-left: 10px;
-        }
-
-        .aboutcat {
-            margin-bottom: -10%;
-            align-items: center;
-        }
-
-        .abtcat {
-            flex-direction: column-reverse;
-            width: 80%;
-        }
-
-        .abtimage {
-            display: block;
-        }
-
-        .about {
-            padding-bottom: 75px;
-            /* Add extra space if needed */
-        }
-
-        .buttonmission {
-            flex-direction: column;
-            margin: 20px auto;
-        }
-
-
-        .book {
-            padding-top: 5%;
-        }
-
-        .booknow {
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .bookinfo {
-            width: 50%;
-        }
-
-        .desktop-img {
-            display: none;
-        }
-
-        .booking {
-            width: 100%;
-        }
-
-        .mobile-img {
-            display: block;
-            width: 100%;
-            margin-top: -10%;
-        }
+    body,
+    html {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        /* 禁止横向滚动 */
     }
+
+    .banner {
+        background-image: url('../imgs/imageshp/mobilepaw.png');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 70%;
+    }
+
+    .findpals {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        min-height: 570px;
+    }
+
+    .find,
+    .pals {
+        display: none;
+    }
+
+    .mobilefindpals {
+        display: block;
+        margin-bottom: -5%;
+    }
+
+    .hpimage {
+        width: 60%;
+    }
+
+    .quote {
+        font-size: 16px;
+        margin-top: -3%;
+    }
+
+    .p2 {
+        line-height: 1;
+    }
+
+    .categories {
+        gap: 150px;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 18%;
+    }
+
+    .ctgr {
+        max-width: 300px;
+        /* Resize images smaller for mobile */
+    }
+
+    .adoption p {
+        display: block;
+    }
+
+    .adoption h1,
+    .act h1,
+    .process h1,
+    .abtdog h1,
+    .book h1 {
+        font-size: 30px;
+    }
+
+    .adoption h2,
+    .act h2,
+    .process h2,
+    .buttonwhy h2,
+    .buttonmission h2,
+    .bookinfo h2 {
+        font-size: 25px;
+    }
+
+    .infor {
+        flex-direction: column;
+        margin: 20%;
+        margin-bottom: 5%;
+    }
+
+    .gap {
+        margin-bottom: 20%;
+    }
+
+    .top-shape {
+        margin-bottom: -25px;
+    }
+
+    .activities {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .act p,
+    .abtdog p,
+    .abtcat p,
+    .prcs {
+        font-size: 16px;
+    }
+
+    .prcs {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: -30px;
+        line-height: 0px;
+    }
+
+    .prcs img {
+        width: 75%;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .abtbg {
+        margin-bottom: -19px;
+    }
+
+    .abtdog {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7%;
+        margin-left: 10px;
+    }
+
+    .aboutcat {
+        margin-bottom: -10%;
+        align-items: center;
+    }
+
+    .abtcat {
+        flex-direction: column-reverse;
+        width: 80%;
+    }
+
+    .abtimage {
+        display: block;
+    }
+
+    .about {
+        padding-bottom: 75px;
+        /* Add extra space if needed */
+    }
+
+    .buttonmission {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+
+    .book {
+        padding-top: 5%;
+    }
+
+    .booknow {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bookinfo {
+        width: 50%;
+    }
+
+    .desktop-img {
+        display: none;
+    }
+
+    .booking {
+        width: 100%;
+    }
+
+    .mobile-img {
+        display: block;
+        width: 100%;
+        margin-top: -10%;
+    }
+}
