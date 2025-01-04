@@ -418,7 +418,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
 }
 
 .irregularshapesphotogallery .image-and-description-container1 .image {
@@ -447,7 +447,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 70px;
-    gap: 20px;
+    gap: 60px;
 
 }
 
@@ -476,7 +476,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 60px;
 }
 
 .irregularshapesphotogallery .image-and-description-container3 .image {
@@ -593,7 +593,7 @@
 
     .irregularshapesphotogallery .image-and-description-container1 .description {
         text-align: right;
-        font-size: 16px;
+        font-size: 18px;
         width: 80%;
     }
 
@@ -611,7 +611,7 @@
 
     .irregularshapesphotogallery .image-and-description-container2-4 .description {
         text-align: left;
-        font-size: 16px;
+        font-size: 18px;
         width: 80%;
     }
 
@@ -629,7 +629,7 @@
 
     .irregularshapesphotogallery .image-and-description-container3 .description {
         text-align: right;
-        font-size: 16px;
+        font-size: 18px;
         width: 80%;
     }
 }
