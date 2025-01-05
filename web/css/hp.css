@@ -21,7 +21,7 @@ body {
     display: flex;
     color: #1C1C42;
     justify-content: space-around;
-    min-height: 605px;
+    min-height: 480px;
     align-items: center;
 }
 
