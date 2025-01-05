@@ -445,7 +445,7 @@ body {
 }
 
 /*tablet*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
 
     .adoption h1,
     .act h1,
@@ -480,6 +480,10 @@ body {
 
     .bookinfo {
         width: 35%;
+    }
+
+    .joinbutton {
+        margin-left: 8%;
     }
 
     .abtdog {
@@ -665,6 +669,9 @@ body {
         margin: 20px auto;
     }
 
+    .joinbutton {
+        margin-left: 15%;
+    }
 
     .book {
         padding-top: 5%;
