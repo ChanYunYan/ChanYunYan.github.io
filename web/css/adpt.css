@@ -97,15 +97,6 @@ header {
     text-decoration: none;
 }
 
-.dog {
-    transition: transform 0.3s ease-in-out;
-}
-
-.dog:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 .dg {
     margin-bottom: -20%;
 }
