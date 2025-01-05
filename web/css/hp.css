@@ -82,11 +82,6 @@ body {
     align-items: center;
 }
 
-.align:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 /*information*/
 .infor {
     display: flex;
@@ -245,7 +240,7 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-    margin-bottom: -2px;
+    margin-bottom: -0.2%;
 }
 
 .about {
@@ -444,7 +439,7 @@ body {
     }
 
     .aboutcat {
-        margin-bottom: -10%;
+        margin-bottom: -5%;
         align-items: center;
     }
 
@@ -466,6 +461,7 @@ body {
     .book {
         margin-top: 5%;
     }
+
 }
 
 /*mobile*/
@@ -584,7 +580,7 @@ body {
     }
 
     .abtbg {
-        margin-bottom: -19px;
+        margin-bottom: -17px;
     }
 
     .abtdog {
