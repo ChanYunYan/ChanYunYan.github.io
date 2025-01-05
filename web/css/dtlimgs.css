@@ -2,11 +2,14 @@ body {
     background-color: #FBDEDB;
 }
 
+.content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 /*img*/
 .information {
     padding: 2% 5%;
-    max-width: 1440px;
-    margin: 0 auto;
 }
 
 .timeline {
@@ -114,6 +117,7 @@ body {
 .word {
     font-family: oliver;
     font-size: 25px;
+    width: 20%;
 }
 
 /* Menu Item */
@@ -158,7 +162,7 @@ body {
 
 /* Hover Effects */
 .menutext:hover .quote1,
-.quote2 {
+.menutext:hover .quote2 {
     color: #1c1c42;
 }
 
@@ -227,12 +231,13 @@ body {
         height: 2.4px;
     }
 
-    .button a{
-        font-size:18px;
+    .button a {
+        font-size: 18px;
     }
 
-    .buttonadoption,.buttondonate{
-        padding:4%
+    .buttonadoption,
+    .buttondonate {
+        padding: 4%
     }
 }
 
@@ -248,7 +253,7 @@ body {
         background: url("../imgs/imagesdogdetail/mobileline.png") no-repeat;
         background-size: 58%;
         background-position: center 80px;
-        margin-bottom: 60%;
+        margin-bottom: 30%;
     }
 
     .row1,
@@ -265,30 +270,30 @@ body {
     .detaildog2 {
         position: relative;
         left: 50px;
-        top: 0px;
     }
 
     .detaildog3 {
         position: relative;
         left: -80px;
-        top: 50px;
+        top: 30px;
     }
 
     .detaildog4 {
         position: relative;
-        top: 100px;
+        top: 70px;
         right: -100px;
     }
 
     .detaildog5 {
         position: relative;
-        top: 150px;
-        left: -60px;
+        top: 100px;
+        left: -100px;
     }
 
     .detaildog6 {
         position: relative;
-        top: 190px;
+        top: 100px;
+        right: -100px;
     }
 
     .dog1,

@@ -14,6 +14,41 @@ alignElements.forEach(element => {
     });
   });
 
+/*moodal join*/
+const joinbuttons = document.querySelectorAll('.joinbutton'); 
+const joinmodals = document.querySelectorAll('.form'); 
+
+// Add event listeners to each join button
+joinbuttons.forEach((button, index) => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault(); 
+        joinmodals[index].style.display = 'block'; 
+    });
+});
+
+const closebuttons = document.querySelectorAll('.close-modal'); 
+closebuttons.forEach((closebutton, index) => {
+    closebutton.addEventListener('click', (event) => {
+        event.preventDefault(); 
+        joinmodals[index].style.display = 'none'; 
+    });
+});
+
+  
+/*modal booking*/
+const openmodal = document.getElementById ('openModal');
+const modal = document.getElementById('successmodal');
+const closemodal = document.getElementById('closemodal');
+
+openmodal.addEventListener('click', (event) => {
+    event.preventDefault();
+    modal.style.display = 'block'; // Show modal
+  });
+
+  closeModal.addEventListener('click', (event) => {
+    modal.style.display = 'none'; // Close modal
+  });
+
 /*adoptionpage*/
 /*hover dog*/
 const dogElements = document.querySelectorAll ('.dog');
