@@ -97,6 +97,18 @@ h3 {
     font-size: 18px;
 }
 
+.greenshape a {
+    text-decoration: none;
+}
+
+.greenshape a:hover {
+    text-decoration: underline;
+}
+
+.popuppg {
+    display: none;
+}
+
 .form input {
     position: relative;
     width: 100%;

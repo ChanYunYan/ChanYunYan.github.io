@@ -72,3 +72,21 @@ othersElements.forEach(element => {
         element.style.transform = 'scale(1)';
     });
 });
+
+const joinbuttons = document.querySelectorAll('.popup');
+const joinmodals = document.querySelectorAll('.popuppg');
+const closebuttons = document.querySelectorAll('.close');
+
+joinbuttons.forEach((button, index) => {
+    button.addEventListener('click', (event) => {
+        event.preventDefault();
+        joinmodals[index].style.display = 'block';
+    });
+});
+
+closebuttons.forEach((closebutton, index) => {
+    closebutton.addEventListener('click', (event) => {
+        event.preventDefault();
+        joinmodals[index].style.display = 'none';
+    });
+});
