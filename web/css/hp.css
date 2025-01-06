@@ -448,6 +448,21 @@ body {
     text-align: center;
 }
 
+.modal a.closemodal {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../imgs/imageshp/cancel.png");
+    cursor: pointer;
+}
+
 /*tablet*/
 @media screen and (max-width: 768px) {
 
