@@ -40,7 +40,7 @@ body {
 
 .top-bar.blue {
     background-image: url('../imgs/images/topbarbluecats.png');
-    background-position: right 70px;
+    background-position: right 30px;
     background-size: 400px 220px;
     background-repeat: no-repeat;
     background-color: #A1B5D8;
@@ -70,35 +70,14 @@ body {
     display: flex;
     margin-top: 16pt;
     color: #5C4F66;
-    font-size: 18pt;
+    font-size: 20pt;
     font-family: Oliver Regular;
-    gap: 90px;
 }
 
 .categories a:hover {
     text-decoration: underline;
 }
 
-.supplies-categories {
-    display: flex;
-    flex-direction: column;
-    color: #5C4F66;
-    font-size: 18pt;
-    font-family: "Oliver Regular";
-    gap: 100px;
-}
-
-.supplies-categories a:hover {
-    text-decoration: underline;
-}
-
-.supplies-categories .row {
-    display: flex;
-    margin-top: 16pt;
-    gap: 60px;
-    flex-wrap: nowrap;
-    white-space: nowrap;
-}
 
 .filterbuttons-container {
     display: flex;
@@ -161,8 +140,9 @@ body {
     padding: 40px;
     justify-content: center;
     align-items: center;
-    gap: 16%;
-    margin-top: -25px;
+    gap: 18%;
+    max-width: 1440px;
+
 }
 
 
@@ -174,8 +154,7 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
-    /* Prevent cards from shrinking */
+
 }
 
 .product-card .background {
@@ -278,25 +257,26 @@ body {
     display: inline-block;
 }
 
-@media (max-width: 764px) {
+@media (max-width: 768px) {
+    .categories {
+        font-size: 16pt;
+    }
+
     .firstrowcolumn {
-        width: 50%;
+        gap: 20px;
+        /* Adjust gap for better spacing */
+        justify-content: space-between;
     }
 
     .product-card {
-        width: 25%;
-    }
-
-    .categories {
-        flex-direction: column;
-        gap: 16px;
-    }
-
-    .supplies-categories .row {
-        flex-direction: column;
-        gap: 10px;
+        margin-top: 15px;
+        /* Adjust top margin */
+        margin-bottom: 20px;
+        /* Adjust bottom margin */
     }
 }
+
+
 
 @media (max-width: 600px) {
 
@@ -351,6 +331,6 @@ body {
 
     .product-card {
         flex-direction: column;
-        margin-bottom: 20px;
+        margin-bottom: 16px;
     }
 }
