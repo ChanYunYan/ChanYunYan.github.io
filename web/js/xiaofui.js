@@ -61,7 +61,7 @@ dogElements.forEach(element => {
     element.style.transition = '0.3s ease-in-out';
   });
 
-  //mouse out 
+  // mouse out 
   element.addEventListener('mouseout', () => {
     element.style.transform = 'scale(1)';
   });
