@@ -2,11 +2,6 @@ body {
     background-color: #FFFCF7;
 }
 
-.content{
-    max-width: 1440px;
-    margin: 0 auto;
-}
-
 /*banner*/
 header {
     z-index: 10000;
@@ -21,6 +16,8 @@ header {
     align-items: center;
     display: flex;
     min-height: 100px;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .text {
@@ -45,6 +42,8 @@ header {
 .information {
     padding: 5% 5%;
     text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 .title {
