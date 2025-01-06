@@ -21,7 +21,7 @@ body {
 
 /* Menu Container */
 .word {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
 }
 
@@ -107,7 +107,7 @@ body {
 
 .inform h2,
 .button h2 {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #5C4F66;
 }
@@ -122,7 +122,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
 }
 
 .button a {

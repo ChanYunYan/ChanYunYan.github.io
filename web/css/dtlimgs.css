@@ -119,7 +119,7 @@ body {
 
 /* Menu Container */
 .word {
-    font-family: oliver;
+    font-family: "Oliver Regular";
     font-size: 25px;
 }
 
@@ -224,7 +224,7 @@ body {
     }
 
     .word {
-        font-family: oliver;
+        font-family: "Oliver Regular";
         font-size: 20px;
     }
 
