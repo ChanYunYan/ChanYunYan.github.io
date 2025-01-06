@@ -2,12 +2,15 @@ body {
     background-color: #FBDEDB;
 }
 
+.content{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
 .information {
     padding: 2% 5%;
     background: url('../imgs/detail/bg.png') no-repeat;
     background-size: contain;
-    max-width: 1440px;
-    margin:0 auto;
 }
 
 .inform {
@@ -63,7 +66,8 @@ body {
 }
 
 /* Hover Effects */
-.menutext:hover .quote1, .quote2 {
+.menutext:hover .quote1,
+.menutext:hover .quote2 {
     color: #1c1c42;
 }
 
@@ -140,7 +144,7 @@ body {
 }
 
 /*tablet*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .name {
         width: 25%;
         right: 20px;
@@ -183,12 +187,13 @@ body {
         height: 2.4px;
     }
 
-    .button a{
-        font-size:18px;
+    .button a {
+        font-size: 18px;
     }
 
-    .buttonadoption,.buttondonate{
-        padding:4%
+    .buttonadoption,
+    .buttondonate {
+        padding: 4%
     }
 
 }
@@ -265,7 +270,7 @@ body {
     }
 
     .menutext {
-        align-items: left;
+        display: flex;
     }
 
     .button {

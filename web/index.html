@@ -17,23 +17,25 @@
 <body>
     <!--nav-->
     <div class="navbar">
-        <div class="logo">
-            <a href="index.html">
-                <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
-            </a>
-        </div>
+        <div class="navcontent">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
+                </a>
+            </div>
 
-        <!-- Checkbox to toggle menu on mobile -->
-        <input type="checkbox" id="menu-checkbox" style="display: none;">
-        <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
-        <div class="menu">
-            <!-- Close button for mobile view -->
-            <label for="menu-checkbox" class="close-btn">&times;</label>
-            <a href="adoption.html">Adopt</a>
-            <a href="donationamount.html">Donate</a>
-            <a href="learningcentre.html">Learning Centre</a>
-            <a href="productlisting.html">Shop</a>
-            <a href="help.html">Help</a>
+            <!-- Checkbox to toggle menu on mobile -->
+            <input type="checkbox" id="menu-checkbox" style="display: none;">
+            <label for="menu-checkbox" class="menu-toggle">&#9776;</label>
+            <div class="menu">
+                <!-- Close button for mobile view -->
+                <label for="menu-checkbox" class="close-btn">&times;</label>
+                <a href="adoption.html">Adopt</a>
+                <a href="donationamount.html">Donate</a>
+                <a href="learningcentre.html">Learning Centre</a>
+                <a href="productlisting.html">Shop</a>
+                <a href="help.html">Help</a>
+            </div>
         </div>
     </div>
 
@@ -61,10 +63,12 @@
             <h2>Waiting For You</h2>
 
             <div class="categories">
-                <div class="align">
-                    <img src="imgs/imageshp/dog.png" alt="dog" width="75%" class="ctgr">
-                    <p>DOG</p>
-                </div>
+                <a href="adoption.html">
+                    <div class="align">
+                        <img src="imgs/imageshp/dog.png" alt="dog" width="75%" class="ctgr">
+                        <p>DOG</p>
+                    </div>
+                </a>
 
                 <div class="align">
                     <img src="imgs/imageshp/cat.png" alt="cat" width="75%" class="ctgr">
@@ -139,7 +143,21 @@
                             or just exploring, it’s the perfect event for pet lovers to connect, learn, and make a
                             difference. Don’t miss the chance to meet your future furry friend! </p>
                         <div class="actbutton">
-                            <div class="join">join now</div>
+                            <h2><a href="#" class="joinbutton">Join Now</a></h2>
+                        </div>
+
+                        <div class="form">
+                            <form>
+                                <h2>Join Pet Exhibition</h2>
+                                <p for="name">Your Name:</p>
+                                <input type="text" placeholder="Enter your name">
+                                <p for="email">Your Email:</p>
+                                <input type="email" placeholder="Enter your email">
+                                <div class="buttonbook">
+                                    <h2><a href="index.html" class="submit">Submit</a></h2>
+                                </div>
+                            </form>
+                            <a href="#" class="close-modal">Close</a>
                         </div>
                     </div>
                 </div>
@@ -157,7 +175,21 @@
                             you
                             to this cheerful and heartwarming place! </p>
                         <div class="actbutton">
-                            <div class="join">join now</div>
+                            <h2><a href="form" class="joinbutton">Join Now</a></h2>
+                        </div>
+
+                        <div class="form">
+                            <form>
+                                <h2>Join Pet Exhibition</h2>
+                                <p for="name">Your Name:</p>
+                                <input type="text" placeholder="Enter your name">
+                                <p for="email">Your Email:</p>
+                                <input type="email" placeholder="Enter your email">
+                                <div class="buttonbook">
+                                    <h2><a href="index.html" class="submit">Submit</a></h2>
+                                </div>
+                            </form>
+                            <a href="#" class="close-modal">Close</a>
                         </div>
                     </div>
                     <div>
@@ -288,8 +320,16 @@
                     <input type="text" placeholder="mm / dd / yy" class="type">
                     <h2 class="date">Your name</h2>
                     <input type="text" placeholder="Daniel" class="name">
+                    <!-- Link to open the modal -->
                     <div class="buttonbook">
-                        <h2 class="submit">submit</h2>
+                        <h2><a href="#successmodal" id="openModal" class="submit">submit</a></h2>
+                    </div>
+
+                    <!--modal-->
+                    <div id="successmodal" class="modal">
+                        <h2>Booking Confirmed!</h2>
+                        <p>Thank you for your booking. We'll get in touch with you soon.</p>
+                        <a href="#index.html" id="closeModal">Close</a>
                     </div>
                 </div>
             </div>
@@ -303,26 +343,33 @@
 
     <!--footer-->
     <footer class="footer">
-        <div class="footer left">
-            <div class="footer-logo-row">
-                <p class="footer logo">PETPAL</p>
+        <div class="footercontent">
+            <div class="footer left">
+                <div class="footer-logo-row">
+                    <p class="footer logo">PETPAL</p>
+                </div>
+                <div class="footer info">
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox"> petpal@gmail.com</a></p>
+                    <p><a
+                            href="https://www.google.com/maps/search/No.+12,+Jalan+Pawfect+Taman+Furry+Friends+47500+Subang+Jaya,+Selangor,+Malaysia/@3.0828674,101.5181628,11z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                            <span>No. 12, Jalan Pawfect</span><br>
+                            <span>Taman Furry Friends</span><br>
+                            <span>47500 Subang Jaya, Selangor, </span><br>
+                            <span>Malaysia</span>
+                        </a>
+                    </p>
+                    <p> <a href="https://web.whatsapp.com/">+60 12-345 6789</a></p>
+                </div>
             </div>
-            <div class="footer info">
-                <p>petpal@gmail.com</p>
-                <p>
-                    <span>No. 12, Jalan Pawfect</span><br>
-                    <span>Taman Furry Friends</span><br>
-                    <span>47500 Subang Jaya, Selangor, </span><br>
-                    <span>Malaysia</span>
-                </p>
-                <p>+60 12-345 6789</p>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/furryfriendsfarmmalaysia/" class="social-icon"><img
+                        src="imgs/instagramicon.png"></a>
+                <a href="https://www.facebook.com/furryfriendsfarmmalaysia/" class="social-icon"><img
+                        src="imgs/facebookicon.png"></a>
             </div>
-        </div>
-        <div class="footer-right">
-            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
-            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
         </div>
     </footer>
+
 
     <!-- Scripts below must be located by the end of /body -->
     <script src="js/xiaofui.js"></script>
