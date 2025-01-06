@@ -329,7 +329,7 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     padding: 20px 10px;
-    margin-left: -220px
+    margin-left: -80%;
 }
 
 .buttonwhy h2 {
@@ -410,6 +410,13 @@ body {
     text-align: center;
 }
 
+.buttonbook:hover {
+    background: url('../imgs/imageshp/acthover.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 .type,
 .name {
     width: 100%;
@@ -446,6 +453,21 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+.modal a.closemodal {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url("../imgs/imageshp/cancel.png");
+    cursor: pointer;
 }
 
 /*tablet*/
