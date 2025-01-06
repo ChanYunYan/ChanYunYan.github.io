@@ -41,7 +41,7 @@ body {
 .greenshape {
     background: url('../imgs/images-donationamount/proceed.png');
     background-size: contain;
-    width: 35%;
+    width: 40%;
     background-repeat: no-repeat;
     background-position: left center;
     padding: 55px;
@@ -267,6 +267,6 @@ body {
     }
 
     .greenshape a {
-        font-size: 15px;
+        font-size: 13px;
     }
 }
