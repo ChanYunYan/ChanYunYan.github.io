@@ -164,8 +164,8 @@ h3 {
 }
 
 .shape2 {
-    position: absolute;
-    right: 0%;
+    position: relative;
+    left: 95%;
     top: 45%;
 }
 
@@ -188,7 +188,9 @@ h3 {
 }
 
 @media screen and (max-width:1000px) {
-    .formdog {}
+    .footercat {
+        width: 20%;
+    }
 }
 
 @media screen and (max-width: 600px) {
