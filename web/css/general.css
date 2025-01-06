@@ -24,16 +24,19 @@ html {
 h1 {
     font-family: "Legwork Demo";
     color: #1C1C42;
+    font-size: 38px;
 }
 
 h2 {
     font-family: "Oliver Regular";
     color: #5C4F66;
+    font-size: 28px;
 }
 
 p {
     font-family: "Nunito Sans";
     color: #4A4A4A;
+    font-size: 18px;
 }
 
 .navbar {
@@ -44,7 +47,7 @@ p {
     z-index: 10000;
 }
 
-.navcontent{
+.navcontent {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -100,7 +103,7 @@ footer {
     font-size: 15px;
 }
 
-.footercontent{
+.footercontent {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
@@ -109,11 +112,11 @@ footer {
 
 footer a {
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
-footer a:hover{
-    color:#5C4F66;
+footer a:hover {
+    color: #5C4F66;
 }
 
 .footer.left {
@@ -163,6 +166,10 @@ footer a:hover{
         overflow-x: hidden;
         /* 禁止横向滚动 */
     }
+
+    h1 {
+        font-size: 32px;
+    }
 }
 
 /*mobile*/
@@ -186,11 +193,23 @@ footer a:hover{
         /* 禁止横向滚动 */
     }
 
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
     .navbar {
         padding: 18px 10px;
     }
 
-    .navcontent{
+    .navcontent {
         justify-content: space-between;
     }
 
@@ -253,7 +272,7 @@ footer a:hover{
         position: relative;
     }
 
-    .footercontent{
+    .footercontent {
         flex-direction: column;
     }
 
