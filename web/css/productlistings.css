@@ -256,7 +256,7 @@ body {
     .firstrowcolumn {
         flex-direction: row;
         justify-content: center;
-        gap: 15%;
+        gap: 8%;
     }
 
     .product-card {
