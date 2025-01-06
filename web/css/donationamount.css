@@ -8,8 +8,8 @@ body {
 .dfp {
     color: #1C1C42;
     font-family: "Legwork DEMO";
-    margin-left: 31%;
-    font-size: 80px;
+    font-size: 55px;
+    text-align: center;
 }
 
 .donation-container {
@@ -77,10 +77,10 @@ body {
     position: relative;
 }
 
-.cat {
+.footercat {
     position: absolute;
     bottom: 100%;
-    left: 3%;
+    right: 6%;
 }
 
 h3 {
@@ -174,7 +174,6 @@ h3 {
 
     .dfp {
         font-size: 40px;
-        margin-left: 46px;
     }
 
     .donation-container {
@@ -193,8 +192,10 @@ h3 {
         border-radius: 0%;
     }
 
+    .button1 {}
+
     #custom button {
-        width: 82%;
+        width: 100%;
     }
 
     .form input {
