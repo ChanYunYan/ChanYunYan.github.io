@@ -2,7 +2,7 @@ body {
     background-color: #fffcf7;
 }
 
-.content{
+.content {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -87,7 +87,7 @@ body {
     align-items: center;
 }
 
-.adoption a{
+.adoption a {
     text-decoration: none;
 }
 
@@ -551,7 +551,8 @@ body {
     .banner {
         background-image: url('../imgs/imageshp/mobilepaw.png');
         background-repeat: no-repeat;
-        background-position: center center;
+        background-size: 100%;
+        background-position: top left;
     }
 
     .findpals {
