@@ -295,8 +295,9 @@
 .productoverview {
     align-items: center;
     justify-content: center;
-    margin-left: 70px;
-    margin-top: 90pz;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 90px;
 }
 
 .productoverview .title {
