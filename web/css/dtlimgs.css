@@ -183,6 +183,10 @@ body {
     font-size: 22px;
 }
 
+.button a:hover {
+    color: #1c1c42;
+}
+
 .buttondonate {
     background: url('../imgs/detail/left.png') no-repeat center center;
     background-size: contain;
