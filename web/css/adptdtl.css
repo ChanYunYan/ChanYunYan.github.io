@@ -31,6 +31,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: color 0.3s ease;
+    font-family: "Oliver Regular";
 }
 
 /* Line Before Text */
