@@ -19,6 +19,10 @@ body {
     padding: 3%;
 }
 
+.arrow{
+    z-index: 10000;
+}
+
 .row1,
 .row2 {
     display: flex;
@@ -174,7 +178,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
 }
 
 .button a {
@@ -289,14 +293,14 @@ body {
 
     .detaildog5 {
         position: relative;
-        top: 100px;
+        top: 90px;
         left: -100px;
     }
 
     .detaildog6 {
         position: relative;
-        top: 100px;
-        right: -100px;
+        top: 50px;
+        right: -80px;
     }
 
     .dog1,
