@@ -124,9 +124,6 @@ body {
     display: flex;
     gap: 40%;
     width: 100%;
-    gap: 40%;
-    margin-top: 10px;
-    margin-bottom: 20px;
     justify-content: center;
     padding: 20px;
 }
@@ -259,13 +256,11 @@ body {
     .firstrowcolumn {
         flex-direction: row;
         justify-content: center;
-        gap: 8%;
+        gap: 16%;
     }
 
     .product-card {
-        width: 200px;
-        margin-bottom: 20px;
-        padding: 20px;
+        width: 260px;
     }
 
     .product-card .background {
