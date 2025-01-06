@@ -118,20 +118,12 @@ h3 {
 
 .dog {
     position: absolute;
-    top: 11.3%;
+    top: 15.6%;
     left: 67%;
 }
 
-.doggie {
+.footerdog {
     display: none;
-    position: absolute;
-    bottom: 100%;
-    left: 3%;
-}
-
-.shape1 {
-    position: absolute;
-    top: 25%;
 }
 
 .shape2 {
@@ -158,6 +150,10 @@ h3 {
     display: none;
 }
 
+@media screen and (max-width:1000px) {
+    .dog {}
+}
+
 @media screen and (max-width: 600px) {
     #nav {
         flex-direction: column;
@@ -174,6 +170,7 @@ h3 {
 
     .dfp {
         font-size: 40px;
+        margin-top: -51%;
     }
 
     .donation-container {
@@ -192,8 +189,6 @@ h3 {
         border-radius: 0%;
     }
 
-    .button1 {}
-
     #custom button {
         width: 100%;
     }
@@ -209,23 +204,20 @@ h3 {
         display: none;
     }
 
-    .doggie {
-        display: block;
-        margin-left: 52%;
-        width: 175px;
+    .footercat {
+        width: 43%;
     }
 
-    .cat {
-        width: 190px;
+    .footerdog {
+        display: block;
+        position: absolute;
+        bottom: 100%;
+        left: 6%;
+        width: 43%;
     }
 
     .greenshape {
         margin-bottom: 10%;
-    }
-
-    .shape1 {
-        width: 20%;
-        top: 22%;
     }
 
     .shape2 {
@@ -236,17 +228,23 @@ h3 {
         display: none;
     }
 
+    .mobileshape1 {
+        display: block;
+        position: relative;
+        bottom: -121%;
+    }
+
     .mobileshape2 {
         display: block;
-        position: absolute;
-        right: 0%;
-        bottom: -10%;
+        position: relative;
+        left: 89%;
+        bottom: -100%;
     }
 
     .mobileshape3 {
         display: block;
-        position: absolute;
+        position: relative;
         left: 43%;
-        bottom: -45%;
+        bottom: -108%;
     }
 }
