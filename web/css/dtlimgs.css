@@ -197,7 +197,7 @@ body {
 }
 
 /*tablet*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .detaildog1 {
         position: relative;
         top: -40px;

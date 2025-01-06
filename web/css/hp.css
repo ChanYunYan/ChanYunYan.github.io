@@ -87,6 +87,10 @@ body {
     align-items: center;
 }
 
+.adoption a{
+    text-decoration: none;
+}
+
 /*information*/
 .infor {
     display: flex;
@@ -445,7 +449,7 @@ body {
 }
 
 /*tablet*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
 
     .adoption h1,
     .act h1,

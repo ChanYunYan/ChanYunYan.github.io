@@ -145,7 +145,7 @@ body {
 }
 
 /*tablet*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
     .name {
         width: 25%;
         right: 20px;
