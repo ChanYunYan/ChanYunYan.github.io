@@ -209,7 +209,7 @@ h3 {
 
     .dfp {
         font-size: 40px;
-        margin-top: -51%;
+        margin-top: -50%;
     }
 
     .donation-container {
@@ -251,7 +251,7 @@ h3 {
         display: block;
         position: absolute;
         bottom: 100%;
-        left: 6%;
+        right: 6%;
         width: 43%;
     }
 
