@@ -159,12 +159,9 @@ body {
     /* Aligns items in a row */
     border-radius: 30px;
     padding: 40px;
-    justify-content: flex-start;
-    /* Align items to the start */
+    justify-content: center;
     align-items: center;
-    /* Align vertically */
-    gap: 140px;
-    /* Space between product cards */
+    gap: 16%;
     margin-top: -25px;
 }
 
@@ -281,6 +278,19 @@ body {
     display: inline-block;
 }
 
+@media (max-width: 1024px) {
+    .firstrowcolumn {
+        gap: 12%;
+
+    }
+
+
+    .product-card {}
+}
+
+
+
+
 @media (max-width: 600px) {
 
     body {
@@ -329,10 +339,11 @@ body {
 
     .firstrowcolumn {
         flex-direction: column;
+        gap: 20px;
     }
 
     .product-card {
         flex-direction: column;
-        gap: 12px;
+        margin-bottom: 20px;
     }
 }

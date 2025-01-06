@@ -430,6 +430,12 @@
 .irregularshapesphotogallery .image-and-description-container1 .image img {
     width: auto;
     height: 330px;
+    transition: transform 0.3s ease;
+}
+
+.irregularshapesphotogallery .image-and-description-container1 .image img:hover {
+    transform: scale(1.1);
+    /* Zoom in the image */
 }
 
 .irregularshapesphotogallery .image-and-description-container1 .description {
@@ -459,6 +465,12 @@
 
 .irregularshapesphotogallery .image-and-description-container2-4 .image img {
     height: 330px;
+    transition: transform 0.3s ease;
+}
+
+.irregularshapesphotogallery .image-and-description-container2-4 .image img:hover {
+    transform: scale(1.1);
+    /* Zoom in the image */
 }
 
 .irregularshapesphotogallery .image-and-description-container2-4 .description {
@@ -488,6 +500,12 @@
 .irregularshapesphotogallery .image-and-description-container3 .image img {
     width: auto;
     height: 330px;
+    transition: transform 0.3s ease;
+}
+
+.irregularshapesphotogallery .image-and-description-container3 .image img:hover {
+    transform: scale(1.1);
+    /* Zoom in the image */
 }
 
 .irregularshapesphotogallery .image-and-description-container3 .description {
