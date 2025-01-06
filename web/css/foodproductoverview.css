@@ -551,6 +551,10 @@
         background-size: 280px 140px;
     }
 
+    .left-section {
+        margin-left: 5px;
+    }
+
     .title {
         font-size: 20px;
     }
