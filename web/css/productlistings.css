@@ -278,18 +278,25 @@ body {
     display: inline-block;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 764px) {
     .firstrowcolumn {
-        gap: 12%;
-
+        width: 50%;
     }
 
+    .product-card {
+        width: 25%;
+    }
 
-    .product-card {}
+    .categories {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .supplies-categories .row {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
-
-
-
 
 @media (max-width: 600px) {
 
