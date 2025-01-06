@@ -10,6 +10,7 @@ body {
     font-family: "Legwork DEMO";
     font-size: 55px;
     text-align: center;
+    margin-top: 3%;
 }
 
 .donation-container {
@@ -99,14 +100,38 @@ h3 {
 
 .greenshape a {
     text-decoration: none;
+    color: #4A4A4A;
 }
 
 .greenshape a:hover {
     text-decoration: underline;
 }
 
-.popuppg {
+.modal {
     display: none;
+    box-shadow: 0 2px 4px rgb(179, 179, 179);
+    background: #FFFCF7;
+    position: fixed;
+    top: 35%;
+    right: 37%;
+    z-index: 100;
+    padding: 3%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 10%;
+}
+
+.modal a {
+    text-decoration: none;
+    color: #5C4F66;
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 5%;
+}
+
+.modal a:hover {
+    text-decoration: #4A4A4A;
+    text-decoration: underline
 }
 
 .form input {

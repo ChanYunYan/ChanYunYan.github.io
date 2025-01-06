@@ -73,20 +73,17 @@ othersElements.forEach(element => {
     });
 });
 
-const joinbuttons = document.querySelectorAll('.popup');
-const joinmodals = document.querySelectorAll('.popuppg');
-const closebuttons = document.querySelectorAll('.close');
+// modal
+const popupButton = document.querySelector('.popup');
+const modal = document.querySelector('.modal');
+const closeButton = document.querySelector('.close');
 
-joinbuttons.forEach((button, index) => {
-    button.addEventListener('click', (event) => {
-        event.preventDefault();
-        joinmodals[index].style.display = 'block';
-    });
+popupButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    modal.style.display = 'block';
 });
 
-closebuttons.forEach((closebutton, index) => {
-    closebutton.addEventListener('click', (event) => {
-        event.preventDefault();
-        joinmodals[index].style.display = 'none';
-    });
+closeButton.addEventListener('click', (event) => {
+    event.preventDefault();
+    modal.style.display = 'none';
 });
