@@ -10,6 +10,7 @@ body {
     font-family: "Legwork DEMO";
     font-size: 48px;
     text-align: center;
+    margin-top: -30%;
 }
 
 .box1 {
@@ -19,12 +20,11 @@ body {
     padding: 0.3%;
     border-radius: 30px;
     margin-left: 15%;
-    margin-top: 18%;
+    margin-top: -0.3%;
 }
 
 .dog {
-    position: absolute;
-    top: 30.5%;
+    position: relative;
     left: 18%;
 }
 
@@ -146,32 +146,32 @@ body {
 }
 
 .bg1 {
-    position: absolute;
-    top: 15%;
+    position: relative;
+    top: 5%;
 }
 
 .bg2 {
-    position: absolute;
-    top: 58%;
-    right: -10%;
+    position: relative;
+    top: 120%;
+    left: 90%;
 }
 
 .bg3 {
-    position: absolute;
-    top: 124%;
-    right: 20%;
+    position: relative;
+    top: 40%;
+    left: 67%;
 }
 
 .bg4 {
-    position: absolute;
-    top: 97%;
-    left: 3%;
+    position: relative;
+    top: 5%;
+    left: 7%;
 }
 
 .bg5 {
-    position: absolute;
-    top: 155%;
-    left: 15%;
+    position: relative;
+    top: 35%;
+    left: 14%;
 }
 
 .mbg1 {
@@ -194,14 +194,18 @@ body {
         overflow-x: hidden;
     }
 
+    .head {
+        margin-top: 15%;
+    }
+
     .box1 {
         width: 50%;
-        margin-top: 26.7%;
+        margin-top: -0.5%;
         margin-left: 25%;
     }
 
     .dog {
-        position: absolute;
+        position: relative;
         top: 30.5%;
         left: 35%;
         width: 33%;
@@ -236,7 +240,7 @@ body {
 
     .bg2 {
         margin-top: -10%;
-        width: 25%;
+        width: 100%;
     }
 
     .bg3 {
@@ -251,6 +255,7 @@ body {
     .bg5 {
         margin-left: -5%;
         margin-top: -5%;
+        top: 70%;
     }
 }
 
@@ -264,6 +269,7 @@ body {
 
     .head {
         font-size: 35px;
+        margin-top: -50%;
     }
 
     .dog {
@@ -275,7 +281,7 @@ body {
     .box1 {
         width: 85%;
         margin-left: 7%;
-        margin-top: 43.9%;
+        margin-top: -1%;
     }
 
     .box2 {
@@ -302,8 +308,7 @@ body {
     }
 
     .bg1 {
-        width: 25%;
-        margin-top: 10%;
+        width: 170%;
     }
 
     .bg2 {
@@ -324,15 +329,17 @@ body {
 
     .mbg1 {
         display: block;
-        position: absolute;
-        right: -10%;
-        top: 105%;
+        position: relative;
+        left: 90%;
+        top: 117%;
+        width: 20%;
     }
 
     .mbg2 {
         display: block;
-        position: absolute;
-        top: 153%;
+        position: relative;
+        top: 135%;
+        width: 20%;
     }
 
     .mbg3 {

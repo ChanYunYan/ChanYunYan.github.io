@@ -338,14 +338,17 @@ body {
     }
 
     .top-bar.pink {
+        margin-top: 40px;
         background-position: right -10px;
         background-size: 280px 180px;
     }
 
     .top-bar.blue {
+        margin-top: 40px;
         background-position: right 30px;
         background-size: 260px 140px;
     }
+
 
     .firstrowcolumn {
         justify-content: center;
@@ -353,6 +356,7 @@ body {
         display: flex;
         flex-direction: column;
         gap: 20px;
+
     }
 
     .product-card {
