@@ -695,7 +695,9 @@ body {
         flex-direction: column;
         margin: 20px auto;
     }
-
+.buttonwhy{
+    margin-left: -60%;
+}
     .joinbutton {
         margin-left: 15%;
     }

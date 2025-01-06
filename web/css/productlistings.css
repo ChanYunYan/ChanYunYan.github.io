@@ -130,9 +130,6 @@ body {
 
 .firstrowcolumn {
     display: flex;
-    flex-direction: row;
-    flex-grow: 0;
-    flex-shrink: 0;
     border-radius: 30px;
     padding: 30px;
     justify-content: center;
@@ -144,7 +141,6 @@ body {
 
 .product-card {
     width: 240px;
-    height: auto;
     margin-top: 30px;
     margin-bottom: -70px;
     padding: 20px;
@@ -155,13 +151,10 @@ body {
 .product-card .background {
     display: flex;
     justify-content: center;
-    width: 220px;
-    height: 200px;
+    height:5%;
     background-color: #FEF7E7;
     border-radius: 10px;
     /* Optional: match the card's border radius */
-    padding: 10px;
-    /* Optional: Add space between the image and the background */
     align-items: center;
 }
 

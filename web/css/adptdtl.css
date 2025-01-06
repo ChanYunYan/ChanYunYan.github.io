@@ -21,7 +21,7 @@ body {
 
 /* Menu Container */
 .word {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
 }
 
@@ -31,6 +31,7 @@ body {
     align-items: center;
     cursor: pointer;
     transition: color 0.3s ease;
+    font-family: "Oliver Regular";
 }
 
 /* Line Before Text */
@@ -56,6 +57,7 @@ body {
     letter-spacing: 2px;
     color: #5C4F66;
     text-decoration: none;
+    font-family: "Oliver Regular";
 }
 
 .menutext .quote2 {
@@ -63,6 +65,7 @@ body {
     letter-spacing: 2px;
     color: rgb(92, 79, 102, 0.5);
     text-decoration: none;
+    font-family: "Oliver Regular";
 }
 
 /* Hover Effects */
@@ -107,7 +110,7 @@ body {
 
 .inform h2,
 .button h2 {
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
     font-size: 25px;
     color: #5C4F66;
 }
@@ -122,7 +125,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
 }
 
 .button a {

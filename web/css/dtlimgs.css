@@ -19,6 +19,10 @@ body {
     padding: 3%;
 }
 
+.arrow{
+    z-index: 10000;
+}
+
 .row1,
 .row2 {
     display: flex;
@@ -115,7 +119,7 @@ body {
 
 /* Menu Container */
 .word {
-    font-family: oliver;
+    font-family: "Oliver Regular";
     font-size: 25px;
 }
 
@@ -174,13 +178,14 @@ body {
     display: flex;
     justify-content: center;
     gap: 10%;
-    font-family: Oliver Regular;
+    font-family: "Oliver Regular";
 }
 
 .button a {
     text-decoration: none;
     color: #5B4F64;
     font-size: 22px;
+    font-family: "Oliver Regular";
 }
 
 .button a:hover {
@@ -220,7 +225,7 @@ body {
     }
 
     .word {
-        font-family: oliver;
+        font-family: "Oliver Regular";
         font-size: 20px;
     }
 
@@ -289,14 +294,14 @@ body {
 
     .detaildog5 {
         position: relative;
-        top: 100px;
+        top: 90px;
         left: -100px;
     }
 
     .detaildog6 {
         position: relative;
-        top: 100px;
-        right: -100px;
+        top: 50px;
+        right: -80px;
     }
 
     .dog1,
