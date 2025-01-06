@@ -326,6 +326,7 @@ body {
     }
 
     .product-card {
+        justify-content: center;
         flex-direction: column;
         margin-bottom: 16px;
     }
