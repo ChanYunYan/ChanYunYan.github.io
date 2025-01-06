@@ -145,18 +145,18 @@ h3 {
     line-height: 50%;
 }
 
+.formdog {
+    position: absolute;
+    top: 18.3%;
+    left: 65.5%;
+}
+
 .form {
     margin-top: 2%;
     font-size: 20px;
     line-height: 43%;
     font-family: 'Nunito Sans', sans-serif;
     color: #4A4A4A;
-}
-
-.dog {
-    position: absolute;
-    top: 15.6%;
-    left: 67%;
 }
 
 .footerdog {
@@ -188,7 +188,7 @@ h3 {
 }
 
 @media screen and (max-width:1000px) {
-    .dog {}
+    .formdog {}
 }
 
 @media screen and (max-width: 600px) {
@@ -237,7 +237,7 @@ h3 {
         margin-top: -10px;
     }
 
-    .dog {
+    .formdog {
         display: none;
     }
 
