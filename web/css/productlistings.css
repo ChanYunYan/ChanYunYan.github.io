@@ -256,16 +256,16 @@ body {
     .firstrowcolumn {
         flex-direction: row;
         justify-content: center;
-        gap: 16%;
+        align-items: center;
+        gap: 6%;
     }
 
     .product-card {
-        width: 260px;
+        width: 50%;
     }
 
     .product-card .background {
         justify-content: center;
-        width: 160px;
     }
 
     .product-card .img {
@@ -319,6 +319,7 @@ body {
     }
 
     .firstrowcolumn {
+        justify-content: center;
         display: flex;
         flex-direction: column;
         gap: 20px;
