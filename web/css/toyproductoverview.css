@@ -296,7 +296,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 70px;
-    margin-top: 90pz;
+    margin-right: 70px;
+    margin-top: 90px;
 }
 
 .productoverview .title {
@@ -543,11 +544,17 @@
 
     .top-bar.toy {
         padding: 40px;
-        background-position: right 52px;
+        background-position: right 40px;
         background-size: 280px 140px;
     }
 
+    .left-section {
+        margin-left: 5px;
+    }
 
+    .title {
+        font-size: 20px;
+    }
 
     .categories {
         display: none;

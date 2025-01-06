@@ -1,6 +1,6 @@
 .top-bar.supplies {
     background-image: url('../imgs/images/suppliesproductoverviewdogimage.png');
-    background-position: right 55px;
+    background-position: right 20px;
     background-size: 400px 240px;
     background-repeat: no-repeat;
     background-color: #FEF7E7;
@@ -298,6 +298,7 @@
     align-items: center;
     justify-content: center;
     margin-left: 70px;
+    margin-right: 70px;
     margin-top: 90px;
 }
 
@@ -547,8 +548,16 @@
 
     .top-bar.supplies {
         padding: 40px;
-        background-position: right 26px;
+        background-position: right 2px;
         background-size: 280px 180px;
+    }
+
+    .left-section {
+        margin-left: 5px;
+    }
+
+    .title {
+        font-size: 20px;
     }
 
     .categories {
