@@ -56,6 +56,7 @@ body {
     letter-spacing: 2px;
     color: #5C4F66;
     text-decoration: none;
+    font-family: "Oliver Regular";
 }
 
 .menutext .quote2 {
@@ -63,6 +64,7 @@ body {
     letter-spacing: 2px;
     color: rgb(92, 79, 102, 0.5);
     text-decoration: none;
+    font-family: "Oliver Regular";
 }
 
 /* Hover Effects */
@@ -129,7 +131,6 @@ body {
     text-decoration: none;
     color: #5B4F64;
     font-size: 22px;
-    font-family: "Oliver Regular";
 }
 
 .button a:hover {
