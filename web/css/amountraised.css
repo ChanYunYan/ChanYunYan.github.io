@@ -193,6 +193,26 @@ body {
 }
 
 
+@media screen and (max-width: 1000px) {
+    .amountraised h1 {
+        font-size: 50px;
+        margin-left: 9%
+    }
+
+    .greenshape {
+        width: 60%;
+    }
+
+    .p {
+        font-size: 15px;
+    }
+
+    .row1 {
+        margin-left: 10%;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
     #nav {
         flex-direction: column;
@@ -218,6 +238,7 @@ body {
 
     .row1 {
         flex-direction: column;
+        margin-left: 0%;
     }
 
     .row1 p {
