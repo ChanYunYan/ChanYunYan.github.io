@@ -410,8 +410,7 @@
     text-decoration: underline;
 }
 
-.irregularshapesphotogallery .container {
-    padding: 20px;
+.irregularshapesphotogallery.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -521,12 +520,50 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .irregularshapesphotogallery .container {
-        padding: 20px;
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .top-bar.food {
+        background-size: 300px 150px;
+        padding: 40px;
+        background-position: right 30px;
+    }
+
+    .filterbuttons-container {
+        display: none;
+    }
+
+
+    .product {
+        flex-direction: column;
+    }
+
+    .product-info .name {
+        font-size: 27px;
+    }
+
+    .irregularshapesphotogallery.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .irregularshapesphotogallery .image-and-description-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container2-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container3 {
+        display: flex;
+        flex-direction: column;
     }
 }
-
 
 
 @media screen and (max-width: 600px) {
@@ -593,6 +630,10 @@
         height: 400px;
     }
 
+    .product-info.name {
+        font-size: 20px;
+    }
+
     .product-info .stars {
         font-size: 40px;
     }
@@ -620,7 +661,7 @@
         flex-direction: column;
         /* Stack image and description vertically */
         gap: 10px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .irregularshapesphotogallery .image-and-description-container1 .image img {
@@ -637,7 +678,7 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .irregularshapesphotogallery .image-and-description-container2-4 .image img {
@@ -655,7 +696,8 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin-bottom: 70px;
+        margin-top: 16px;
+        margin-bottom: 50px;
     }
 
     .irregularshapesphotogallery .image-and-description-container3 .image img {
