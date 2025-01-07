@@ -2,7 +2,7 @@ body {
     background-color: #FBDEDB;
 }
 
-.content{
+.content {
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -17,10 +17,6 @@ body {
     background-size: 90%;
     background-position: center center;
     padding: 3%;
-}
-
-.arrow{
-    z-index: 10000;
 }
 
 .row1,
@@ -44,6 +40,7 @@ body {
     /* Stack content vertically */
     align-items: center;
     /* Horizontally center items */
+    z-index: -100;
 }
 
 .detaildog1 {
