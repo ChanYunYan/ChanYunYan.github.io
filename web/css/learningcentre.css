@@ -204,6 +204,28 @@ body {
     color: #4A4A4A;
 }
 
+@media screen and (max-width: 1000px) {
+    .text {
+        margin-top: -16%;
+    }
+
+    .text2 {
+        margin-top: -22%;
+    }
+
+    .text4 {
+        margin-top: -20%;
+    }
+
+    .text3 {
+        margin-top: -22%;
+    }
+
+    .text5 {
+        margin-top: -24%;
+    }
+}
+
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
@@ -269,8 +291,7 @@ body {
     }
 
     .mobiledog2 {
-        width: 320px;
-        margin-left: 18%;
+        margin-left: 20%;
         margin-top: 20px;
     }
 
@@ -285,7 +306,6 @@ body {
     }
 
     .mobiledog3 {
-        width: 300px;
         margin-left: 21%;
     }
 

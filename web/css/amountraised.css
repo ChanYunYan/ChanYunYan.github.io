@@ -186,10 +186,14 @@ body {
     position: relative;
 }
 
-.cat {
+.footercat {
     position: absolute;
-    bottom: 82%;
+    bottom: 83.5%;
     right: 6%;
+}
+
+.pets {
+    font-size: 15px;
 }
 
 
@@ -203,12 +207,10 @@ body {
         width: 60%;
     }
 
-    .p {
-        font-size: 15px;
-    }
-
-    .row1 {
-        margin-left: 10%;
+    .footercat {
+        position: absolute;
+        bottom: 89.2%;
+        right: 6%;
     }
 }
 
@@ -287,12 +289,18 @@ body {
         margin-top: 5%;
     }
 
-    .cat {
-        width: 63%;
-        top: 20%;
+    .footercat {
+        position: absolute;
+        bottom: 93.9%;
+        right: 6%;
+        width: 50%
     }
 
     .greenshape a {
         font-size: 13px;
+    }
+
+    .greenshape {
+        margin-left: 5%;
     }
 }

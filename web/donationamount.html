@@ -15,8 +15,8 @@
 </head>
 
 <body>
-    <header>
-        <div class="navbar">
+    <div class="navbar">
+        <div class="navcontent">
             <div class="logo">
                 <a href="index.html">
                     <img src="imgs/images-donationamount/logo.png" alt="logo" width="60px">
@@ -35,18 +35,16 @@
                 <a href="productlisting.html">Shop</a>
                 <a href="help.html">Help</a>
             </div>
-            <img src="imgs/images-donationamount/searchicon.png" alt="search" width="23px">
         </div>
-    </header>
+    </div>
 
-    <div class="shape1"><img src="imgs/images-donationamount/shape1.png" alt="bg" width="50px"></div>
     <div class="shape2"><img src="imgs/images-donationamount/shape2.png" alt="bg" width="90px"></div>
     <div class="mobileshape1"><img src="imgs/images-donationamount/mobileshape1.png" alt="bg" width="45px"></div>
     <div class="mobileshape2"><img src="imgs/images-donationamount/mobileshape2.png" alt="bg" width="40px"></div>
     <div class="mobileshape3"><img src="imgs/images-donationamount/mobileshape3.png" alt="bg" width="60px"></div>
 
     <div class="dfp">
-        <p>Donate For Pets</p>
+        <h1>Donate For Pets</h1>
     </div>
 
     <div class="donation-container">
@@ -62,7 +60,7 @@
             <div class="button1">
                 <button>RM40</button>
                 <button>RM50</button>
-                <button>RM100</button>
+                <button>RM80</button>
             </div>
             <br>
             <div id="custom">
@@ -79,38 +77,56 @@
                 <input type="email">
                 <p>Phone</p>
                 <input type="tel">
-                <img class="dog" src="imgs/images-donationamount/dog.png" alt="dog" width="150px">
+                <img class="formdog" src="imgs/images-donationamount/dog.png" alt="dog" width="150px">
             </div>
 
             <div class="greenshape"
                 style="background: url('imgs/images-donationamount/proceed.png'); background-size: contain; background-repeat: no-repeat; background-position: center center; padding: 55px;">
-                <p>Proceed to Payment</p>
+                <a class="popup" href="popuppg">Proceed to Payment</a>
                 <img src="imgs/images-donationamount/payarrow.png" alt="arrow" width="20px">
             </div>
         </div>
     </div>
 
+    <div class="modal">
+        <h2 class="success">Payment Success!</h2>
+        <p class="thanks">Thank you for the donation!</p>
+
+        <a href="#" class="close">Close</a>
+    </div>
+
     <footer class="footer">
-        <div class="footer left">
-            <div class="footer-logo-row">
-                <p class="footer logo">PETPAL</p>
+        <img class="footercat" src="imgs/images-donationamount/cat.png" alt="cat" width="15%">
+        <img class="footerdog" src="imgs/images-donationamount/dog.png" alt="dog">
+
+        <div class=" footercontent">
+            <div class="footer left">
+                <div class="footer-logo-row">
+                    <p class="footer logo">PETPAL</p>
+                </div>
+                <div class="footer info">
+                    <p><a href="https://mail.google.com/mail/u/0/#inbox"> petpal@gmail.com</a></p>
+                    <p><a
+                            href="https://www.google.com/maps/search/No.+12,+Jalan+Pawfect+Taman+Furry+Friends+47500+Subang+Jaya,+Selangor,+Malaysia/@3.0828674,101.5181628,11z?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D">
+                            <span>No. 12, Jalan Pawfect</span><br>
+                            <span>Taman Furry Friends</span><br>
+                            <span>47500 Subang Jaya, Selangor, </span><br>
+                            <span>Malaysia</span>
+                        </a>
+                    </p>
+                    <p> <a href="https://web.whatsapp.com/">+60 12-345 6789</a></p>
+                </div>
             </div>
-            <div class="footer info">
-                <p>petpal@gmail.com</p>
-                <p>
-                    <span>No. 12, Jalan Pawfect</span><br>
-                    <span>Taman Furry Friends</span><br>
-                    <span>47500 Subang Jaya, Selangor, </span><br>
-                    <span>Malaysia</span>
-                </p>
-                <p>+60 12-345 6789</p>
+            <div class="footer-right">
+                <a href="https://www.instagram.com/furryfriendsfarmmalaysia/" class="social-icon"><img
+                        src="imgs/instagramicon.png"></a>
+                <a href="https://www.facebook.com/furryfriendsfarmmalaysia/" class="social-icon"><img
+                        src="imgs/facebookicon.png"></a>
             </div>
-        </div>
-        <div class="footer-right">
-            <a href="#" class="social-icon"><img src="imgs/instagramicon.png"></a>
-            <a href="#" class="social-icon"><img src="imgs/facebookicon.png"></a>
         </div>
     </footer>
+
+    <script src="js/rebecca.js"></script>
 </body>
 
 </html>
