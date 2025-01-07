@@ -251,6 +251,7 @@ body {
     gap: 100px;
     padding-top: 80px;
     margin-left: 12%;
+    align-items: end;
 }
 
 .column {
