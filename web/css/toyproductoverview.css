@@ -519,6 +519,56 @@
     margin-left: 100px;
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .top-bar.toy {
+        background-size: 300px 160px;
+        padding: 40px;
+        background-position: right 20px;
+    }
+
+    .filterbuttons-container {
+        display: none;
+    }
+
+
+    .product {
+        flex-direction: column;
+    }
+
+    .product-info .name {
+        font-size: 27px;
+    }
+
+    .irregularshapesphotogallery.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .irregularshapesphotogallery .image-and-description-container1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 80px;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container2-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container3 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+}
+
+
+
+
 @media screen and (max-width: 600px) {
     body {
         flex-direction: column;
