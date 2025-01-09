@@ -198,12 +198,16 @@ h3 {
 }
 
 @media screen and (max-width:1000px) {
+    .greenshape a {
+        font-size: 15px;
+    }
+
     .footercat {
         width: 20%;
     }
 
     .modal {
-        right: 34%;
+        right: 30%;
     }
 }
 
@@ -309,6 +313,6 @@ h3 {
     }
 
     .modal {
-        right: 18%;
+        right: 15%;
     }
 }
