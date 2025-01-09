@@ -13,6 +13,10 @@ body {
     margin-top: -30%;
 }
 
+.bigbox {
+    margin-top: 18%;
+}
+
 .box1 {
     position: relative;
     background-color: #E4F0D0;
@@ -24,8 +28,9 @@ body {
 }
 
 .dog {
-    position: relative;
-    left: 18%;
+    position: absolute;
+    bottom: 100%;
+    left: 15%;
 }
 
 .t {
@@ -47,6 +52,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
     text-align: center;
+    margin-top: -3%;
 }
 
 .box2 {
@@ -77,10 +83,10 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
     text-align: center;
+    margin-top: -3%;
 }
 
 .box3 {
-    position: relative;
     background-color: #F3AFA7;
     width: 30%;
     padding: 0.3%;
@@ -88,6 +94,13 @@ body {
     margin-right: 10%;
     margin-top: -26.7%;
     margin-left: 55%;
+    position: relative;
+}
+
+.dog2 {
+    position: absolute;
+    bottom: 100%;
+    right: 21%;
 }
 
 .t2 {
@@ -102,12 +115,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
     text-align: center;
-}
-
-.dog2 {
-    position: absolute;
-    top: 56.3%;
-    right: 21%;
+    margin-top: -3%;
 }
 
 .box4 {
@@ -139,6 +147,7 @@ body {
     font-family: "Nunito Sans", sans-serif;
     font-size: 17px;
     text-align: center;
+    margin-top: -3%;
 }
 
 .dogs {
@@ -170,8 +179,8 @@ body {
 
 .bg5 {
     position: relative;
-    top: 35%;
-    left: 14%;
+    top: 50%;
+    left: 19%;
 }
 
 .mbg1 {
@@ -198,39 +207,8 @@ body {
         margin-top: 15%;
     }
 
-    .box1 {
-        width: 50%;
-        margin-top: -0.5%;
-        margin-left: 25%;
-    }
-
-    .dog {
-        position: relative;
-        top: 30.5%;
-        left: 35%;
-        width: 33%;
-    }
-
-    .box2 {
-        width: 50%;
-        margin-top: 30%;
-        margin-left: 25%;
-    }
-
     .box3 {
-        width: 50%;
-        margin-top: -45%;
-        margin-left: 25%;
-    }
-
-    .box4 {
-        width: 50%;
-        margin-top: 30%;
-        margin-left: 25%;
-    }
-
-    .dog2 {
-        display: none;
+        margin-top: -40%;
     }
 
     .bg1 {
@@ -255,11 +233,27 @@ body {
     .bg5 {
         margin-left: -5%;
         margin-top: -5%;
-        top: 70%;
+        top: 99%;
+    }
+
+    .p2 {
+        margin-top: -6%;
+    }
+
+    .p3 {
+        margin-top: -6%;
+    }
+
+    .p5 {
+        margin-top: -6%;
+    }
+
+    .p7 {
+        margin-top: -6%;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     body {
         flex-direction: column;
         padding: 0%;
@@ -272,10 +266,18 @@ body {
         margin-top: -50%;
     }
 
+    .bigbox {
+        margin-top: 35%;
+    }
+
     .dog {
-        width: 60%;
+        width: 55%;
         margin-top: 6.4%;
-        margin-left: -13%;
+        margin-left: 11%;
+    }
+
+    .dog2 {
+        display: none;
     }
 
     .box1 {
@@ -344,5 +346,21 @@ body {
 
     .mbg3 {
         display: none;
+    }
+
+    .p2 {
+        margin-top: -3%;
+    }
+
+    .p3 {
+        margin-top: -3%;
+    }
+
+    .p5 {
+        margin-top: -3%;
+    }
+
+    .p7 {
+        margin-top: -3%;
     }
 }

@@ -36,6 +36,7 @@ body {
     font-size: 18px;
     margin-left: 14%;
     margin-top: 3%;
+    width: 100%;
 }
 
 .greenshape {
@@ -79,10 +80,12 @@ body {
     background-repeat: no-repeat;
     padding: 5%;
     margin-top: -4.9%;
+    margin-bottom: -5%;
 }
 
 .column {
     display: flex;
+    width: 30%;
 }
 
 .whatfor h3 {
@@ -117,7 +120,7 @@ body {
 .row1 p {
     font-family: "Nunito Sans", sans-serif;
     color: #4A4A4A;
-    line-height: 18%;
+    line-height: 120%;
 }
 
 .medicalcare {
@@ -150,7 +153,7 @@ body {
 .row2 p {
     font-family: "Nunito Sans", sans-serif;
     color: #4A4A4A;
-    line-height: 18%;
+    line-height: 120%;
 }
 
 
@@ -179,7 +182,7 @@ body {
 .row3 p {
     font-family: "Nunito Sans", sans-serif;
     color: #4A4A4A;
-    line-height: 18%;
+    line-height: 120%;
 }
 
 .footer {
@@ -188,7 +191,7 @@ body {
 
 .footercat {
     position: absolute;
-    bottom: 83.5%;
+    top: -35.1%;
     right: 6%;
 }
 
@@ -209,8 +212,29 @@ body {
 
     .footercat {
         position: absolute;
-        bottom: 89.2%;
-        right: 6%;
+        top: -31.1%;
+        right: 2%;
+        width: 250px;
+    }
+
+    .row1 p {
+        font-size: 15px;
+    }
+
+    .row2 p {
+        font-size: 15px;
+    }
+
+    .row3 p {
+        font-size: 15px;
+    }
+
+    .icon {
+        width: 250px;
+    }
+
+    .column {
+        width: 40%;
     }
 }
 
@@ -226,29 +250,25 @@ body {
     }
 
     .amountraised h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .amountraised p {
         text-align: center;
         margin-left: 0%;
+        font-size: 14px;
     }
 
     .whatfor h3 {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .row1 {
         flex-direction: column;
-        margin-left: 0%;
-    }
-
-    .row1 p {
-        font-size: 10px;
     }
 
     .row1 h5 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .foodnsupplies {
@@ -259,12 +279,8 @@ body {
         flex-direction: column;
     }
 
-    .row2 p {
-        font-size: 10px;
-    }
-
     .row2 h5 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .row3 {
@@ -272,28 +288,25 @@ body {
         margin-bottom: 32%;
     }
 
-    .row3 p {
-        font-size: 10px;
-    }
-
     .row3 h5 {
-        font-size: 23px;
+        font-size: 21px;
     }
 
     .icon {
-        width: 45%;
+        width: 140px;
     }
 
     .column {
         display: flex;
         margin-top: 5%;
+        width: 100%;
     }
 
     .footercat {
         position: absolute;
-        bottom: 93.9%;
+        top: -24.1%;
         right: 6%;
-        width: 50%
+        width: 250px;
     }
 
     .greenshape a {
