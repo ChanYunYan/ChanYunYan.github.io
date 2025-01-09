@@ -174,7 +174,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     text-align: center;
-    position: relative;
+    position: absolute;
 }
 
 .form a.close-modal {
@@ -251,6 +251,7 @@ body {
     gap: 100px;
     padding-top: 80px;
     margin-left: 12%;
+    align-items: end;
 }
 
 .column {

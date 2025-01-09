@@ -302,7 +302,17 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .firstrowcolumn {
+        flex-direction: column;
+    }
 
+    .product-card {
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
+}
 
 
 @media (max-width: 600px) {

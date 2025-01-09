@@ -293,11 +293,59 @@
     object-fit: contain;
 }
 
+.modal {
+    display: none;
+    /* Initially hidden */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent background */
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background-color: #fffcf7;
+    padding: 20px;
+    /* Increase padding for more space inside the modal */
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    width: 50%;
+    /* Adjust the width to make the modal bigger */
+    max-width: 600px;
+    /* Set a max-width to avoid it getting too large */
+    margin: 0 auto;
+    font-family: "Olivia Regular";
+    font-size: 20px;
+}
+
+.close {
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-image: url(../imgs/imageshp/cancel.png);
+    cursor: pointer;
+}
+
+
 .productoverview {
     align-items: center;
     justify-content: center;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin-right: 90px;
+    margin-left: 90px;
     margin-top: 90px;
 }
 
@@ -410,7 +458,7 @@
     text-decoration: underline;
 }
 
-.irregularshapesphotogallery .container {
+.irregularshapesphotogallery.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -520,6 +568,66 @@
 
 }
 
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .top-bar.food {
+        background-size: 300px 150px;
+        padding: 40px;
+        background-position: right 30px;
+    }
+
+
+    .filterbuttons-container {
+        display: none;
+    }
+
+
+    .product {
+        flex-direction: column;
+    }
+
+    .product-info {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        /* Center the blocks horizontally within their parent */
+        width: 100%;
+        max-width: 80%;
+    }
+
+    .productoverview {
+        margin-top: 50px;
+    }
+
+    .product-info .name {
+        font-size: 27px;
+    }
+
+    .irregularshapesphotogallery.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .irregularshapesphotogallery .image-and-description-container1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container2-4 {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-bottom: 30px;
+    }
+
+    .irregularshapesphotogallery .image-and-description-container3 {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
 @media screen and (max-width: 600px) {
 
     body,
@@ -584,6 +692,10 @@
         height: 400px;
     }
 
+    .product-info.name {
+        font-size: 20px;
+    }
+
     .product-info .stars {
         font-size: 40px;
     }
@@ -601,6 +713,7 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        padding: 20px;
 
 
     }
@@ -610,7 +723,7 @@
         flex-direction: column;
         /* Stack image and description vertically */
         gap: 10px;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
     .irregularshapesphotogallery .image-and-description-container1 .image img {
@@ -627,7 +740,7 @@
         display: flex;
         flex-direction: column-reverse;
         gap: 10px;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
 
     .irregularshapesphotogallery .image-and-description-container2-4 .image img {
@@ -645,7 +758,8 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin-bottom: 70px;
+        margin-top: 16px;
+        margin-bottom: 50px;
     }
 
     .irregularshapesphotogallery .image-and-description-container3 .image img {

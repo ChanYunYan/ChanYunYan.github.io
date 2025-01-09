@@ -54,15 +54,11 @@ header {
 }
 
 .information h1 {
-    font-family: Legwork Demo;
     font-size: 32px;
-    color: #1C1C42;
 }
 
 .information h2 {
-    font-family: Oliver Regular;
     font-size: 25px;
-    color: #5C4F66;
 }
 
 .line1,
@@ -92,9 +88,9 @@ header {
 }
 
 .dog:hover {
-    transform:scale(1.1);
-    cursor:pointer;
-    transition:0.3s ease-in-out;
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
 }
 
 .dog a {
@@ -111,16 +107,9 @@ header {
 
 .line1 h1,
 .line2 h1 {
-    font-family: Legwork Demo;
     font-size: 25px;
-    color: #1C1C42;
 }
 
-.line1 p,
-.line2 p {
-    font-family: "Nunito Sans", sans-serif;
-    color: #4A4A4A;
-}
 
 .gap {
     display: flex;
@@ -144,10 +133,27 @@ header {
 }
 
 /*tablet*/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width:1024px) {
     .text {
         margin-top: 8%;
         font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width:760px) {
+    .text {
+        margin-top: 10%;
+        font-size: 28px;
+    }
+
+    .dginfo {
+        padding: 10px 8%;
+        margin: 0px 2%;
+    }
+
+    .line1 p,
+    .line2 p {
+        font-size: 16px;
     }
 }
 
@@ -156,7 +162,7 @@ header {
 
     .bnr {
         background-color: #E4F0D0;
-        height: 92vh;
+        height: 120vh;
         flex-direction: column-reverse;
         justify-content: center;
         /* Center content vertically */
@@ -178,6 +184,7 @@ header {
     .text {
         text-align: center;
         margin-left: 0px;
+        margin-top: -5%;
     }
 
     .information h1 {
@@ -192,10 +199,37 @@ header {
     .line1,
     .line2 {
         flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+
+    .line1 p,
+    .line2 p {
+        font-size: 18px;
     }
 
     .dog {
-        margin: 20px;
+        margin: 10%;
     }
 
+    .doginfo{
+        margin:0px 20%;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .bnr {
+        height: 92vh;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .bnr {
+        height: 85vh;
+    }
+
+    .text {
+        margin-top: 5%;
+    }
 }
