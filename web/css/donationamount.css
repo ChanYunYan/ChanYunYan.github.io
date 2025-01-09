@@ -209,6 +209,11 @@ h3 {
     .modal {
         right: 30%;
     }
+
+    .form p {
+        font-size: 15px;
+        line-height: 1;
+    }
 }
 
 @media screen and (max-width: 600px) {
