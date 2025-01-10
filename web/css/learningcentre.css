@@ -232,6 +232,10 @@ body {
         overflow-x: hidden;
     }
 
+    .learningcentre h1 {
+        margin-right: 5%;
+    }
+
     #nav {
         flex-direction: column;
         justify-content: space-between;
@@ -257,6 +261,10 @@ body {
 
     .nutri {
         font-size: 28px;
+    }
+
+    .nutri h2 {
+        margin-right: 7%;
     }
 
     .mobiledog {
